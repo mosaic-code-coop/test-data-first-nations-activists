@@ -19,13 +19,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["honor-the-earth", "white-earth-land-recovery"],
       reference: 'https://en.wikipedia.org/wiki/Winona_LaDuke',
       address: {
-        street: '123 Maple Grove Lane',
+        street: '123 Test Street',
         city: 'Callaway',
         state: 'Minnesota',
         country: 'United States',
         zipCode: '56521'
       },
-      quote: "What we need is to think about the next seven generations. We need to think about the future we are creating for our children and our children's children."
+      quote: "What we need is to think about the next seven generations. We need to think about the future we are creating for our children and our children's children.",
+      quoteReference: 'https://www.azquotes.com/author/19248-Winona_LaDuke'
     },
     {
       id: 'person-02',
@@ -40,13 +41,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement", "honor-the-earth"],
       reference: 'https://en.wikipedia.org/wiki/Dennis_Banks',
       address: {
-        street: '456 Thunder Bay Road',
+        street: '456 Test Street',
         city: 'Minneapolis',
         state: 'Minnesota',
         country: 'United States',
         zipCode: '55404'
       },
-      quote: 'We have to use our culture, we have to use our spirituality, and we have to use our ceremonies to heal ourselves and to heal the Earth.'
+      quote: 'We have to use our culture, we have to use our spirituality, and we have to use our ceremonies to heal ourselves and to heal the Earth.',
+      quoteReference: 'https://www.brainyquote.com/authors/dennis-banks-quotes'
     },
     {
       id: 'person-03',
@@ -61,13 +63,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement"],
       reference: 'https://en.wikipedia.org/wiki/Russell_Means',
       address: {
-        street: '789 Sacred Mountains Drive',
+        street: '789 Test Street',
         city: 'Porcupine',
         state: 'South Dakota',
         country: 'United States',
         zipCode: '57772'
       },
-      quote: 'The only way Indians will survive is by taking political power.'
+      quote: 'The only way Indians will survive is by taking political power.',
+      quoteReference: 'https://www.brainyquote.com/authors/russell-means-quotes'
     },
 
     // Canadian First Nations Activists
@@ -84,13 +87,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["first-nations-caring-society"],
       reference: 'https://en.wikipedia.org/wiki/Cindy_Blackstock',
       address: {
-        street: '321 Justice Boulevard',
+        street: '321 Test Street',
         city: 'Ottawa',
         state: 'Ontario',
         country: 'Canada',
         zipCode: 'K1P 6L1'
       },
-      quote: 'Every child is sacred and deserves the best that we can give them. When we prioritize their well-being, we honor our responsibilities as human beings.'
+      quote: 'Every child is sacred and deserves the best that we can give them. When we prioritize their well-being, we honor our responsibilities as human beings.',
+      quoteReference: 'https://fncaringsociety.com/who-we-are'
     },
     {
       id: 'person-05',
@@ -105,13 +109,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement"],
       reference: 'https://en.wikipedia.org/wiki/Leonard_Peltier',
       address: {
-        street: '555 Freedom Road',
+        street: '555 Test Street',
         city: 'Belcourt',
         state: 'North Dakota',
         country: 'United States',
         zipCode: '58316'
       },
-      quote: 'I am innocent. But I am also a victim of the persecution and harassment that has been inflicted upon Indian people.'
+      quote: 'I am innocent. But I am also a victim of the persecution and harassment that has been inflicted upon Indian people.',
+      quoteReference: 'https://www.whoisleonardpeltier.info/'
     },
     {
       id: 'person-06',
@@ -126,13 +131,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["anishinabek-nation", "honor-the-earth"],
       reference: 'https://en.wikipedia.org/wiki/Autumn_Peltier',
       address: {
-        street: '777 Water Ceremony Circle',
+        street: '777 Test Street',
         city: 'Manitoulin Island',
         state: 'Ontario',
         country: 'Canada',
         zipCode: 'P0P 1M0'
       },
-      quote: "We can't eat money or drink oil. The future of our people depends on the protection of water."
+      quote: "We can't eat money or drink oil. The future of our people depends on the protection of water.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Autumn_Peltier'
     },
 
     // Indigenous Australian Activists
@@ -149,13 +155,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["cape-york-partnership"],
       reference: 'https://en.wikipedia.org/wiki/Noel_Pearson',
       address: {
-        street: '888 Hope Vale Way',
+        street: '888 Test Street',
         city: 'Cooktown',
         state: 'Queensland',
         country: 'Australia',
         zipCode: '4895'
       },
-      quote: 'We have to take responsibility for our own future. We cannot continue to blame everyone else for our problems.'
+      quote: 'We have to take responsibility for our own future. We cannot continue to blame everyone else for our problems.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Noel_Pearson'
     },
     {
       id: 'person-08',
@@ -184,13 +191,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["rigoberta-menchu-foundation"],
       reference: 'https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA',
       address: {
-        street: '999 Peace Avenue',
+        street: '999 Test Street',
         city: 'Guatemala City',
         state: 'Guatemala Department',
         country: 'Guatemala',
         zipCode: '01001'
       },
-      quote: 'I have lived with the Indian people, and I have seen their suffering. They cannot speak for themselves, so I must speak for them.'
+      quote: 'I have lived with the Indian people, and I have seen their suffering. They cannot speak for themselves, so I must speak for them.',
+      quoteReference: 'https://www.nobelprize.org/prizes/peace/1992/tum/biographical/'
     },
     // More US Native American Activists
     {
@@ -206,13 +214,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement", "honor-the-earth"],
       reference: 'https://en.wikipedia.org/wiki/Clyde_Bellecourt',
       address: {
-        street: '1010 Thunder Bay Street',
+        street: '1010 Test Street',
         city: 'Minneapolis',
         state: 'Minnesota',
         country: 'United States',
         zipCode: '55411'
       },
-      quote: 'We are the landlords of the country, it is the end of the month, the rent is due, and AIM is going to collect.'
+      quote: 'We are the landlords of the country, it is the end of the month, the rent is due, and AIM is going to collect.',
+      quoteReference: 'https://www.azquotes.com/author/51618-Clyde_Bellecourt'
     },
     {
       id: 'person-010',
@@ -227,13 +236,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement"],
       reference: 'https://en.wikipedia.org/wiki/Mary_Brave_Bird',
       address: {
-        street: '1111 Brave Heart Road',
+        street: '1111 Test Street',
         city: 'Mission',
         state: 'South Dakota',
         country: 'United States',
         zipCode: '57555'
       },
-      quote: 'I could not help noticing the great role women played in Pueblo society. Women owned the houses and actually built them.'
+      quote: 'I could not help noticing the great role women played in Pueblo society. Women owned the houses and actually built them.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Mary_Brave_Bird'
     },
     {
       id: 'person-011',
@@ -248,13 +258,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["national-coalition-racism-sports"],
       reference: 'https://en.wikipedia.org/wiki/Charlene_Teters',
       address: {
-        street: '1212 Artist Way',
+        street: '1212 Test Street',
         city: 'Spokane',
         state: 'Washington',
         country: 'United States',
         zipCode: '99201'
       },
-      quote: 'My art was a vehicle to make my voice bigger.'
+      quote: 'My art was a vehicle to make my voice bigger.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Charlene_Teters'
     },
     {
       id: 'person-012',
@@ -269,13 +280,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["us-congress-native-caucus"],
       reference: 'https://en.wikipedia.org/wiki/Sharice_Davids',
       address: {
-        street: '1313 Capitol Hill Drive',
+        street: '1313 Test Street',
         city: 'Olathe',
         state: 'Kansas',
         country: 'United States',
         zipCode: '66061'
       },
-      quote: 'As a woman and a Native American, I know how to stand up and fight for equity.'
+      quote: 'As a woman and a Native American, I know how to stand up and fight for equity.',
+      quoteReference: 'https://www.brainyquote.com/authors/sharice-davids-quotes'
     },
 
     // Additional activists from all around the world to reach 40+
@@ -294,13 +306,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["indigenous-musicians-collective"],
       reference: 'https://en.wikipedia.org/wiki/Buffy_Sainte-Marie',
       address: {
-        street: '1414 Harmony Lane',
+        street: '1414 Test Street',
         city: 'Saskatoon',
         state: 'Saskatchewan',
         country: 'Canada',
         zipCode: 'S7K 3J7'
       },
-      quote: 'Soldiers are dreamers; when the guns begin they think of firelit homes, clean beds, and wives.'
+      quote: 'Soldiers are dreamers; when the guns begin they think of firelit homes, clean beds, and wives.',
+      quoteReference: 'https://www.brainyquote.com/authors/buffy-sainte-marie-quotes'
     },
     {
       id: 'person-014',
@@ -315,13 +328,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ovide_Mercredi',
       address: {
-        street: '1515 Chiefs Road',
+        street: '1515 Test Street',
         city: 'Winnipeg',
         state: 'Manitoba',
         country: 'Canada',
         zipCode: 'R3B 0T6'
       },
-      quote: 'We want to be partners in this country, not wards of the state.'
+      quote: 'We want to be partners in this country, not wards of the state.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Ovide_Mercredi'
     },
 
     // More US Activists
@@ -338,13 +352,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Suzan_Shown_Harjo',
       address: {
-        street: '1616 Constitution Avenue',
+        street: '1616 Test Street',
         city: 'Washington',
         state: 'District of Columbia',
         country: 'United States',
         zipCode: '20002'
       },
-      quote: 'Our ancestors are not artifacts. They are human beings who deserve to rest in peace.'
+      quote: 'Our ancestors are not artifacts. They are human beings who deserve to rest in peace.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Suzan_Shown_Harjo'
     },
     {
       id: 'person-016',
@@ -359,20 +374,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement", "indigenous-musicians-collective"],
       reference: 'https://en.wikipedia.org/wiki/John_Trudell',
       address: {
-        street: '1717 Poetry Path',
+        street: '1717 Test Street',
         city: 'Santa Fe',
         state: 'New Mexico',
         country: 'United States',
         zipCode: '87501'
       },
-      quote: 'We are not Indians and we are not Native Americans. We are older than both concepts. We are the people, we are the human beings.'
+      quote: 'We are not Indians and we are not Native Americans. We are older than both concepts. We are the people, we are the human beings.',
+      quoteReference: 'https://www.brainyquote.com/authors/john-trudell-quotes'
     },
     {
       id: 'person-017',
       fullName: 'Deb Haaland',
       dateOfBirth: new Date('1960-12-02'),
       pronouns: 'she/her',
-      bio: "The first Native American Cabinet Secretary in US history. This Laguna Pueblo powerhouse climbed from state politics to managing America's public lands, proving Indigenous women belong in the highest halls of power.",
+      bio: "Deb Haaland made history in 2021 when she became the first Native American to serve as a Cabinet Secretary, taking the helm of the Department of the Interior. A Laguna Pueblo citizen who previously represented New Mexico in Congress, she now oversees the federal agency responsible for managing public lands, national parks, and the government's trust responsibilities to tribal nations. Her appointment brought Indigenous perspectives to decisions affecting millions of acres of ancestral territories, though the systemic challenges facing Native communities require far more than symbolic firsts to address.",
       email: 'deb.haaland@interior.test',
       phone: '+1-555-0117',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Deb_Haaland%2C_official_portrait%2C_116th_Congress_%28cropped%29.jpg',
@@ -380,13 +396,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Deb_Haaland',
       address: {
-        street: '1818 Federal Way',
+        street: '1818 Test Street',
         city: 'Albuquerque',
         state: 'New Mexico',
         country: 'United States',
         zipCode: '87102'
       },
-      quote: "A voice was needed to ensure that this country's first peoples have a seat at the table when decisions are being made about our lands, our waters, our sacred sites and our people."
+      quote: "A voice was needed to ensure that this country's first peoples have a seat at the table when decisions are being made about our lands, our waters, our sacred sites and our people.",
+      quoteReference: 'https://www.brainyquote.com/authors/deb-haaland-quotes'
     },
     {
       id: 'person-018',
@@ -401,13 +418,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/LaDonna_Harris',
       address: {
-        street: '1919 Opportunity Street',
+        street: '1919 Test Street',
         city: 'Bernalillo',
         state: 'New Mexico',
         country: 'United States',
         zipCode: '87004'
       },
-      quote: 'We have to learn how to be Indians in the 20th century and beyond, maintaining our values and our culture.'
+      quote: 'We have to learn how to be Indians in the 20th century and beyond, maintaining our values and our culture.',
+      quoteReference: 'https://en.wikipedia.org/wiki/LaDonna_Harris'
     },
 
     // International Indigenous Activists
@@ -424,13 +442,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ailton_Krenak',
       address: {
-        street: '2020 River Doce Avenue',
+        street: '2020 Test Street',
         city: 'Resplendor',
         state: 'Minas Gerais',
         country: 'Brazil',
         zipCode: '39737-000'
       },
-      quote: 'We need to postpone the end of the world. Indigenous peoples have been postponing the end of the world since 1500.'
+      quote: 'We need to postpone the end of the world. Indigenous peoples have been postponing the end of the world since 1500.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Ailton_Krenak'
     },
     {
       id: 'person-020',
@@ -445,13 +464,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Sonia_Guajajara',
       address: {
-        street: '2121 Indigenous Rights Boulevard',
+        street: '2121 Test Street',
         city: 'Brasília',
         state: 'Distrito Federal',
         country: 'Brazil',
         zipCode: '70040-010'
       },
-      quote: 'Our struggle is to remain alive, it is to guarantee the continuity of life, of the forest, of the rivers, of the animals.'
+      quote: 'Our struggle is to remain alive, it is to guarantee the continuity of life, of the forest, of the rivers, of the animals.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Sonia_Guajajara'
     },
 
     // More activists to reach 40+
@@ -460,7 +480,7 @@ const firstNationsActivistsData: DataPackage = {
       fullName: 'Anna Mae Aquash',
       dateOfBirth: new Date('1945-03-27'),
       pronouns: 'she/her',
-      bio: "The AIM activist whose murder became a movement. This Mi'kmaq woman paid the ultimate price for her dedication to Indigenous rights, her death exposing the dangerous intersection of activism and violence.",
+      bio: "Anna Mae Aquash was a Mi'kmaq activist from Nova Scotia who became deeply involved in the American Indian Movement during the turbulent 1970s, participating in the occupation of Wounded Knee and organizing efforts across the United States. Her murder in 1975, initially mishandled by authorities who claimed she died of exposure, remained unsolved for decades and highlighted the dangers faced by Indigenous women activists. The circumstances surrounding her death, which involved both federal surveillance and internal movement tensions, exposed the complex and sometimes deadly pressures that Indigenous rights defenders navigated during this period. Her case became a symbol of the broader pattern of violence against Native women that continues to demand justice today.",
       email: 'annamae.aquash@aim.test',
       phone: '+1-555-0121',
       picture: 'https://upload.wikimedia.org/wikipedia/en/a/aa/Anna_Mae_Pictou-Aquash.jpg',
@@ -468,20 +488,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ["american-indian-movement"],
       reference: 'https://en.wikipedia.org/wiki/Anna_Mae_Aquash',
       address: {
-        street: '2222 Justice Lane',
+        street: '2222 Test Street',
         city: 'Boston',
         state: 'Massachusetts',
         country: 'United States',
         zipCode: '02101'
       },
-      quote: 'I will die, if necessary, as a proud Ojibway woman.'
+      quote: 'I will die, if necessary, as a proud Ojibway woman.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Anna_Mae_Aquash'
     },
     {
       id: 'person-022',
       fullName: 'Ada Deer',
       dateOfBirth: new Date('1935-08-07'),
       pronouns: 'she/her',
-      bio: "The first Native American woman to head the Bureau of Indian Affairs. This Menominee leader fought to restore her tribe's federal recognition, then took charge of the very agency that had tried to terminate them.",
+      bio: "Ada Deer led the successful campaign to reverse the federal termination of the Menominee Nation, one of the most significant victories in modern tribal sovereignty. When the U.S. government terminated the Menominee in 1954, stripping them of federal recognition and treaty rights, Deer organized her community to fight back through legislation rather than litigation. Her tireless lobbying resulted in the Menominee Restoration Act of 1973, establishing a precedent that other terminated tribes would follow. Two decades later, she became the first woman to lead the Bureau of Indian Affairs, working to shift the agency's approach from paternalism toward genuine tribal self-determination.",
       email: 'ada.deer@bia.test',
       phone: '+1-555-0122',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Ada_E._Deer.jpg',
@@ -489,13 +510,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ada_Deer',
       address: {
-        street: '2323 Federal Circle',
+        street: '2323 Test Street',
         city: 'Keshena',
         state: 'Wisconsin',
         country: 'United States',
         zipCode: '54135'
       },
-      quote: 'My proudest moments have not been winning this or that award, but making a difference.'
+      quote: 'My proudest moments have not been winning this or that award, but making a difference.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Ada_Deer'
     },
     {
       id: 'person-023',
@@ -510,13 +532,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ben_Nighthorse_Campbell',
       address: {
-        street: '2424 Senate Drive',
+        street: '2424 Test Street',
         city: 'Ignacio',
         state: 'Colorado',
         country: 'United States',
         zipCode: '81137'
       },
-      quote: 'I have always been prouder of my Indian heritage than anything else in my life.'
+      quote: 'I have always been prouder of my Indian heritage than anything else in my life.',
+      quoteReference: 'https://www.brainyquote.com/authors/ben-nighthorse-campbell-quotes'
     },
     {
       id: 'person-024',
@@ -531,13 +554,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Vine_Deloria_Jr.',
       address: {
-        street: '2525 Academic Way',
+        street: '2525 Test Street',
         city: 'Boulder',
         state: 'Colorado',
         country: 'United States',
         zipCode: '80309'
       },
-      quote: 'Custer died for your sins.'
+      quote: 'Custer died for your sins.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Custer_Died_for_Your_Sins'
     },
     {
       id: 'person-025',
@@ -552,13 +576,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Wilma_Mankiller',
       address: {
-        street: '2525 Cherokee Drive',
+        street: '2525 Test Street',
         city: 'Tahlequah',
         state: 'Oklahoma',
         country: 'United States',
         zipCode: '74464'
       },
-      quote: 'Prior to my election, young Cherokee girls would never have thought that they might grow up and become chief.'
+      quote: 'Prior to my election, young Cherokee girls would never have thought that they might grow up and become chief.',
+      quoteReference: 'https://www.brainyquote.com/authors/wilma-mankiller-quotes'
     },
     {
       id: 'person-026',
@@ -573,13 +598,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Leslie_Marmon_Silko',
       address: {
-        street: '2626 Story Circle',
+        street: '2626 Test Street',
         city: 'Laguna',
         state: 'New Mexico',
         country: 'United States',
         zipCode: '87026'
       },
-      quote: "You don't have anything if you don't have the stories."
+      quote: "You don't have anything if you don't have the stories.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Leslie_Marmon_Silko'
     },
     {
       id: 'person-027',
@@ -594,13 +620,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/N._Scott_Momaday',
       address: {
-        street: '2727 Dawn House Road',
+        street: '2727 Test Street',
         city: 'Lawton',
         state: 'Oklahoma',
         country: 'United States',
         zipCode: '73501'
       },
-      quote: 'We are what we imagine. Our very existence consists in our imagination of ourselves.'
+      quote: 'We are what we imagine. Our very existence consists in our imagination of ourselves.',
+      quoteReference: 'https://www.brainyquote.com/authors/n-scott-momaday-quotes'
     },
     {
       id: 'person-028',
@@ -615,13 +642,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Maria_Tallchief',
       address: {
-        street: '2828 Lincoln Center Plaza',
+        street: '2828 Test Street',
         city: 'New York',
         state: 'New York',
         country: 'United States',
         zipCode: '10023'
       },
-      quote: 'The important thing is dancing, and before it withers away from my body, I will keep dancing till the last moment.'
+      quote: 'The important thing is dancing, and before it withers away from my body, I will keep dancing till the last moment.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Maria_Tallchief'
     },
     {
       id: 'person-029',
@@ -636,13 +664,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Jim_Thorpe',
       address: {
-        street: '2929 Champion Boulevard',
+        street: '2929 Test Street',
         city: 'Shawnee',
         state: 'Oklahoma',
         country: 'United States',
         zipCode: '74801'
       },
-      quote: 'I never passed up a chance to play baseball.'
+      quote: 'I never passed up a chance to play baseball.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Jim_Thorpe'
     },
     {
       id: 'person-030',
@@ -657,13 +686,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ira_Hayes',
       address: {
-        street: '3030 Flag Raiser Way',
+        street: '3030 Test Street',
         city: 'Sacaton',
         state: 'Arizona',
         country: 'United States',
         zipCode: '85147'
       },
-      quote: "I was sick. I guess I was about to crack up thinking about all my good buddies. They were better men than me and they're not coming back."
+      quote: "I was sick. I guess I was about to crack up thinking about all my good buddies. They were better men than me and they're not coming back.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Ira_Hayes'
     },
 
     // Final activists to reach 40+
@@ -672,7 +702,7 @@ const firstNationsActivistsData: DataPackage = {
       fullName: 'Code Talkers (Collective)',
       dateOfBirth: new Date('1920-01-01'),
       pronouns: 'they/them',
-      bio: 'The unsung heroes who won World War II with their voices. These Navajo Marines created an unbreakable code from their sacred language, proving that Indigenous culture could save America itself.',
+      bio: "The Navajo Code Talkers served as communications specialists in the U.S. Marine Corps during World War II, using their native language to transmit military messages that Japanese cryptographers never broke. Recruited from the same communities that federal boarding schools had punished for speaking Navajo, these Marines transformed a language the government had tried to eradicate into an invaluable military asset. Beyond the Navajo, Code Talkers from the Choctaw, Cherokee, Lakota, and other nations served in both World Wars, though their contributions went unrecognized for decades due to military secrecy. Their service highlighted a painful irony: Indigenous peoples defending a nation that continued to deny them full citizenship and systematically attacked their cultures.",
       email: 'codetalkers@navajo.test',
       phone: '+1-555-0131',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
@@ -680,20 +710,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Code_talker',
       address: {
-        street: '3131 Sacred Code Way',
+        street: '3131 Test Street',
         city: 'Window Rock',
         state: 'Arizona',
         country: 'United States',
         zipCode: '86515'
       },
-      quote: 'The Navajo language was our weapon.'
+      quote: 'The Navajo language was our weapon.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Code_talker'
     },
     {
       id: 'person-032',
       fullName: 'Sarah Winnemucca',
       dateOfBirth: new Date('1844-01-01'),
       pronouns: 'she/her',
-      bio: 'The first Native American woman to publish an autobiography. This Northern Paiute interpreter bridged two worlds during the Indian Wars, using her voice to advocate for peace when others chose violence.',
+      bio: "Sarah Winnemucca navigated impossible circumstances as a Northern Paiute interpreter, scout, and advocate during the violent decades of western expansion. Her 1883 autobiography, 'Life Among the Piutes,' documented the broken promises and brutal treatment her people suffered at the hands of Indian agents and settlers, making her one of the first Native American women to publish a book in English. She traveled across the country giving hundreds of lectures to raise awareness about conditions on reservations and petition for Paiute land rights, though the legislation she helped secure was never properly implemented. Winnemucca's efforts to work within the system while it destroyed her people's way of life illustrate the painful compromises Indigenous leaders faced during this period.",
       email: 'sarah.winnemucca@paiute.test',
       phone: '+1-555-0132',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Sarah_Winnemucca.jpg',
@@ -701,20 +732,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Sarah_Winnemucca',
       address: {
-        street: '3232 Interpreter Lane',
+        street: '3232 Test Street',
         city: 'Nixon',
         state: 'Nevada',
         country: 'United States',
         zipCode: '89424'
       },
-      quote: 'If women could go into your Congress, I think justice would soon be done to the Indians.'
+      quote: 'If women could go into your Congress, I think justice would soon be done to the Indians.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Sarah_Winnemucca'
     },
     {
       id: 'person-033',
       fullName: 'Sitting Bull',
       dateOfBirth: new Date('1831-01-01'),
       pronouns: 'he/him',
-      bio: 'The holy man who defeated Custer and refused to surrender. This Hunkpapa Lakota leader combined spiritual vision with military genius, becoming the symbol of Indigenous resistance that echoes through history.',
+      bio: "Sitting Bull was a Hunkpapa Lakota holy man whose spiritual leadership unified the Lakota, Cheyenne, and Arapaho nations in their defense of the Black Hills against U.S. military invasion. His vision before the Battle of the Little Bighorn in 1876, where U.S. forces under Custer were defeated, cemented his role as both spiritual and political leader of the resistance. Forced into exile in Canada and later confined to the Standing Rock Reservation, Sitting Bull continued to resist assimilation policies until his assassination by Indian police in 1890, just weeks before the Wounded Knee Massacre. His life and death embody the systematic destruction of Lakota autonomy that federal policy pursued throughout the nineteenth century.",
       email: 'sitting.bull@lakota.test',
       phone: '+1-555-0133',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Sitting_Bull_by_D_F_Barry_ca_1883_Dakota_Territory.jpg',
@@ -722,20 +754,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Sitting_Bull',
       address: {
-        street: '3333 Medicine Lodge Circle',
+        street: '3333 Test Street',
         city: 'Fort Yates',
         state: 'North Dakota',
         country: 'United States',
         zipCode: '58538'
       },
-      quote: 'I wish it to be remembered that I was the last man of my tribe to surrender my rifle.'
+      quote: 'I wish it to be remembered that I was the last man of my tribe to surrender my rifle.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Sitting_Bull'
     },
     {
       id: 'person-034',
       fullName: 'Crazy Horse',
       dateOfBirth: new Date('1840-01-01'),
       pronouns: 'he/him',
-      bio: 'The war leader who never signed a treaty and never lived on a reservation. This Oglala Lakota warrior embodied uncompromising resistance, choosing death over surrender in defense of the Black Hills.',
+      bio: "Crazy Horse was an Oglala Lakota war leader who fought to defend his people's territory from U.S. military invasion during the wars for the Black Hills. Known for his tactical brilliance and personal courage, he played a decisive role in the defeat of Custer at the Little Bighorn and continued to resist until 1877, when starvation and military pressure forced his band to surrender. He was killed later that year at Fort Robinson under disputed circumstances, bayoneted while allegedly resisting imprisonment. Crazy Horse never allowed his photograph to be taken and refused to sign any treaty, maintaining his resistance to the reservation system until his death at approximately thirty-seven years old.",
       email: 'crazy.horse@oglala.test',
       phone: '+1-555-0134',
       picture: 'https://upload.wikimedia.org/wikipedia/en/7/7b/Crazy_Horse_drawing.jpg',
@@ -743,20 +776,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Crazy_Horse',
       address: {
-        street: '3434 Black Hills Road',
+        street: '3434 Test Street',
         city: 'Pine Ridge',
         state: 'South Dakota',
         country: 'United States',
         zipCode: '57770'
       },
-      quote: 'One does not sell the earth upon which the people walk.'
+      quote: 'One does not sell the earth upon which the people walk.',
+      quoteReference: 'https://www.goodreads.com/quotes/7442429-one-does-not-sell-the-earth-upon-which-the-people'
     },
     {
       id: 'person-035',
       fullName: 'Tecumseh',
       dateOfBirth: new Date('1768-03-01'),
       pronouns: 'he/him',
-      bio: 'The Shawnee leader who envisioned a united Indigenous nation. This brilliant orator and strategist nearly created a pan-Indian confederacy that could have changed the course of American history.',
+      bio: "Tecumseh worked to build a confederation of Indigenous nations that could collectively resist American expansion into the Ohio Valley and Great Lakes region in the early nineteenth century. A Shawnee leader and renowned orator, he traveled thousands of miles to unite disparate tribes around the principle that no single nation could sell land that belonged to all Indigenous peoples collectively. His alliance with the British during the War of 1812 represented the last significant military resistance to American expansion east of the Mississippi. Tecumseh's death at the Battle of the Thames in 1813 effectively ended the possibility of a unified Indigenous resistance in the eastern territories, leaving individual nations to face removal policies alone.",
       email: 'tecumseh@shawnee.test',
       phone: '+1-555-0135',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Tecumseh02.jpg',
@@ -764,20 +798,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Tecumseh',
       address: {
-        street: '3535 Confederacy Trail',
+        street: '3535 Test Street',
         city: 'Chillicothe',
         state: 'Ohio',
         country: 'United States',
         zipCode: '45601'
       },
-      quote: 'When you rise in the morning, give thanks for the light, for your life, for your strength.'
+      quote: 'When you rise in the morning, give thanks for the light, for your life, for your strength.',
+      quoteReference: 'https://poemanalysis.com/chief-tecumseh/live-your-life/'
     },
     {
       id: 'person-036',
       fullName: 'Geronimo',
       dateOfBirth: new Date('1829-06-16'),
       pronouns: 'he/him',
-      bio: 'The Apache warrior whose name became a battle cry. This medicine man and military leader led the last armed resistance to US expansion, holding out for decades in the desert Southwest.',
+      bio: "Geronimo led Chiricahua Apache resistance against both Mexican and American forces for over two decades, becoming the last Indigenous leader to formally surrender to the United States in 1886. A medicine man and war leader, he fought to avenge the murder of his family by Mexican soldiers and later to resist the forced relocation of his people to the San Carlos Reservation. His small band of fighters repeatedly escaped from reservations and evaded thousands of troops, using knowledge of the harsh desert terrain that their pursuers lacked. Geronimo spent his final twenty-three years as a prisoner of war, never permitted to return to his homeland, dying at Fort Sill in 1909 while still technically a captive.",
       email: 'geronimo@apache.test',
       phone: '+1-555-0136',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/5/54/GeronimoRinehart.jpg',
@@ -785,20 +820,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Geronimo',
       address: {
-        street: '3636 Desert Resistance Way',
+        street: '3636 Test Street',
         city: 'Fort Sill',
         state: 'Oklahoma',
         country: 'United States',
         zipCode: '73503'
       },
-      quote: 'I cannot think that we are useless or God would not have created us.'
+      quote: 'I cannot think that we are useless or God would not have created us.',
+      quoteReference: 'https://en.wikiquote.org/wiki/Geronimo'
     },
     {
       id: 'person-037',
       fullName: 'Chief Joseph',
       dateOfBirth: new Date('1840-03-03'),
       pronouns: 'he/him',
-      bio: 'The Nez Perce leader who fought with honor and surrendered with dignity. This eloquent chief led his people on an epic retreat toward Canada, earning respect even from his enemies.',
+      bio: "Chief Joseph led the Nez Perce on a 1,170-mile fighting retreat in 1877, attempting to reach Canada rather than accept forced relocation to a distant reservation. When the U.S. government violated treaties and demanded the Wallowa band leave their homeland in Oregon, Joseph initially counseled peace but was drawn into conflict after young warriors retaliated against settler violence. His surrender speech, in which he reportedly said 'I will fight no more forever,' has often been romanticized while obscuring the betrayal that followed: rather than being allowed to return home as promised, his people were sent to Indian Territory where many died from disease. Joseph spent the rest of his life petitioning unsuccessfully for his people's return to their ancestral lands.",
       email: 'chief.joseph@nezperce.test',
       phone: '+1-555-0137',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/5/59/Chief_Joseph_by_Edward_Sheriff_Curtis.jpg',
@@ -806,20 +842,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Chief_Joseph',
       address: {
-        street: '3737 Bear Paw Trail',
+        street: '3737 Test Street',
         city: 'Lapwai',
         state: 'Idaho',
         country: 'United States',
         zipCode: '83540'
       },
-      quote: 'I will fight no more forever.'
+      quote: 'I will fight no more forever.',
+      quoteReference: 'https://www.loc.gov/item/today-in-history/october-05/'
     },
     {
       id: 'person-038',
       fullName: 'Pocahontas',
       dateOfBirth: new Date('1596-01-01'),
       pronouns: 'she/her',
-      bio: 'The Powhatan woman who bridged two worlds. This diplomatic princess navigated the treacherous waters between her people and English colonists, becoming a symbol of cultural exchange and survival.',
+      bio: "Pocahontas was a Powhatan woman whose actual life has been largely obscured by centuries of colonial mythology and romantic fiction. Captured by English colonists in 1613 and held for ransom, she was baptized as Rebecca and married tobacco planter John Rolfe in what was essentially a diplomatic arrangement to secure peace between the Powhatan Confederacy and the Jamestown colony. She traveled to England where she was presented to aristocratic society as an example of successful 'civilizing' of Indigenous peoples, dying there at approximately twenty-one years old. Her story has been persistently distorted to serve colonial narratives of peaceful cultural exchange, erasing the coercion and violence that actually characterized English-Powhatan relations.",
       email: 'pocahontas@powhatan.test',
       phone: '+1-555-0138',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png',
@@ -827,20 +864,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Pocahontas',
       address: {
-        street: '3838 Jamestown Road',
+        street: '3838 Test Street',
         city: 'Jamestown',
         state: 'Virginia',
         country: 'United States',
         zipCode: '23081'
       },
-      quote: 'Come not into our country to destroy us, but to teach us good things.'
+      quote: 'Come not into our country to destroy us, but to teach us good things.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Pocahontas'
     },
     {
       id: 'person-039',
       fullName: 'Sequoyah',
       dateOfBirth: new Date('1770-01-01'),
       pronouns: 'he/him',
-      bio: 'The Cherokee genius who created a writing system for his people. This silversmith and inventor gave his nation the gift of literacy, proving that Indigenous minds could innovate in ways the world had never seen.',
+      bio: "Sequoyah developed the Cherokee syllabary over approximately twelve years, creating a writing system that allowed Cherokee people to achieve widespread literacy within a single generation. A silversmith who never learned to read English, he created eighty-five characters representing the syllables of spoken Cherokee, enabling his nation to publish newspapers, government documents, and religious texts in their own language by the 1820s. His achievement demonstrated the sophistication of Cherokee intellectual culture at the very moment the U.S. government was pushing for their removal from ancestral lands. The syllabary remains in use today, though the Cherokee language itself faces the pressures of assimilation that have threatened Indigenous languages across North America.",
       email: 'sequoyah@cherokee.test',
       phone: '+1-555-0139',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg',
@@ -848,20 +886,21 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Sequoyah',
       address: {
-        street: '3939 Syllabary Street',
+        street: '3939 Test Street',
         city: 'Sallisaw',
         state: 'Oklahoma',
         country: 'United States',
         zipCode: '74955'
       },
-      quote: 'All I accomplished was to design a system by which the Cherokee language could be put into writing.'
+      quote: 'All I accomplished was to design a system by which the Cherokee language could be put into writing.',
+      quoteReference: 'https://en.wikipedia.org/wiki/Sequoyah'
     },
     {
       id: 'person-040',
       fullName: 'Black Elk',
       dateOfBirth: new Date('1863-12-01'),
       pronouns: 'he/him',
-      bio: 'The holy man whose vision became a book that changed the world. This Oglala Lakota medicine man shared sacred knowledge with a white author, creating a bridge between Indigenous spirituality and global consciousness.',
+      bio: "Black Elk was an Oglala Lakota holy man who witnessed the transformation of his people from free nations to confined reservation communities within his lifetime. As a young man, he was present at the Battle of the Little Bighorn and later survived the Wounded Knee Massacre of 1890, experiences that shaped his spiritual understanding. His 1932 collaboration with poet John Neihardt produced 'Black Elk Speaks,' which shared Lakota spiritual traditions with a wider audience, though the book's reception and interpretation have been complicated by questions of translation and editorial framing. Black Elk later converted to Catholicism and served as a catechist, leaving a complex legacy that reflects the impossible choices Indigenous spiritual leaders faced under colonization.",
       email: 'black.elk@oglala.test',
       phone: '+1-555-0140',
       picture: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Black_Elk.jpg',
@@ -869,13 +908,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Black_Elk',
       address: {
-        street: '4040 Sacred Hoop Circle',
+        street: '4040 Test Street',
         city: 'Pine Ridge',
         state: 'South Dakota',
         country: 'United States',
         zipCode: '57770'
       },
-      quote: 'Peace comes within the souls of men when they realize their relationship, their oneness, with the universe and all its powers.'
+      quote: 'Peace comes within the souls of men when they realize their relationship, their oneness, with the universe and all its powers.',
+      quoteReference: 'https://quotesanity.com/best-quotes-from-black-elk-speaks/'
     },
 
     // New Zealand Māori Activists
@@ -892,13 +932,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['parihaka-settlement', 'maori-peace-movement'],
       reference: 'https://en.wikipedia.org/wiki/Te_Whiti_o_Rongomai',
       address: {
-        street: '123 Peaceful Resistance Road',
+        street: '123 Test Street',
         city: 'Parihaka',
         state: 'Taranaki',
         country: 'New Zealand',
         zipCode: '4374'
       },
-      quote: "Though some, in darkness of heart, seeing their land ravished, might wish to take arms and kill the aggressors, I say it must not be."
+      quote: "Though some, in darkness of heart, seeing their land ravished, might wish to take arms and kill the aggressors, I say it must not be.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Te_Whiti_o_Rongomai'
     },
     {
       id: 'person-042',
@@ -913,13 +954,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['maori-land-march-committee', 'maori-womens-welfare-league'],
       reference: 'https://en.wikipedia.org/wiki/Whina_Cooper',
       address: {
-        street: '456 Land Rights Avenue',
+        street: '456 Test Street',
         city: 'Panguru',
         state: 'Northland',
         country: 'New Zealand',
         zipCode: '0478'
       },
-      quote: "The land is precious. The land is our life. The land must never be sold."
+      quote: "The land is precious. The land is our life. The land must never be sold.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Whina_Cooper'
     },
     {
       id: 'person-043',
@@ -933,13 +975,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['maori', 'filmmaker', 'te-rarawa', 'television', 'storyteller'],
       groupMemberships: ['maori-television-collective', 'indigenous-filmmakers-aotearoa'],
       address: {
-        street: '789 Media House Lane',
+        street: '789 Test Street',
         city: 'Auckland',
         state: 'Auckland',
         country: 'New Zealand',
         zipCode: '1010'
       },
-      quote: "I prefer to call myself a storyteller who is fortunate to work in a fascinating and important industry."
+      quote: "I prefer to call myself a storyteller who is fortunate to work in a fascinating and important industry.",
+      quoteReference: 'https://www.nzonscreen.com/person/tainui-stephens'
     },
     {
       id: 'person-044',
@@ -954,13 +997,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['ngā-tamatoa', 'maori-sovereignty-movement'],
       reference: 'https://en.wikipedia.org/wiki/Donna_Awatere_Huata',
       address: {
-        street: '321 Sovereignty Street',
+        street: '321 Test Street',
         city: 'Rotorua',
         state: 'Bay of Plenty',
         country: 'New Zealand',
         zipCode: '3010'
       },
-      quote: "The time had come to honour Te Tiriti o Waitangi and restore the power of Māori to control their resources, lives and destinies."
+      quote: "The time had come to honour Te Tiriti o Waitangi and restore the power of Māori to control their resources, lives and destinies.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Donna_Awatere_Huata'
     },
 
     // Australian Aboriginal and Torres Strait Islander Activists
@@ -977,13 +1021,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['council-aboriginal-reconciliation', 'senate-australia'],
       reference: 'https://en.wikipedia.org/wiki/Pat_Dodson',
       address: {
-        street: '654 Reconciliation Way',
+        street: '654 Test Street',
         city: 'Broome',
         state: 'Western Australia',
         country: 'Australia',
         zipCode: '6725'
       },
-      quote: "Reconciliation is a practical reality and a future that all should be working towards."
+      quote: "Reconciliation is a practical reality and a future that all should be working towards.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Pat_Dodson'
     },
     {
       id: 'person-046',
@@ -998,13 +1043,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Linda_Burney',
       address: {
-        street: '987 Parliament Place',
+        street: '987 Test Street',
         city: 'Canberra',
         state: 'Australian Capital Territory',
         country: 'Australia',
         zipCode: '2600'
       },
-      quote: "As a woman and a mother, I know how to stand up and fight for equity."
+      quote: "As a woman and a mother, I know how to stand up and fight for equity.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Linda_Burney'
     },
     {
       id: 'person-047',
@@ -1019,13 +1065,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['meriam-people', 'native-title-claimants'],
       reference: 'https://en.wikipedia.org/wiki/Eddie_Mabo',
       address: {
-        street: '111 Native Title Road',
+        street: '111 Test Street',
         city: 'Murray Island',
         state: 'Queensland',
         country: 'Australia',
         zipCode: '4875'
       },
-      quote: "This land has been ours for thousands of years. We just want recognition of that fact."
+      quote: "This land has been ours for thousands of years. We just want recognition of that fact.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Eddie_Mabo'
     },
 
     // Pacific Islander Activists
@@ -1042,13 +1089,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['autonomous-bougainville-government', 'new-bougainville-party'],
       reference: 'https://en.wikipedia.org/wiki/John_Momis',
       address: {
-        street: '222 Independence Avenue',
+        street: '222 Test Street',
         city: 'Buka',
         state: 'Bougainville',
         country: 'Papua New Guinea',
         zipCode: '613'
       },
-      quote: "At least psychologically, we feel liberated."
+      quote: "At least psychologically, we feel liberated.",
+      quoteReference: 'https://en.wikipedia.org/wiki/John_Momis'
     },
     {
       id: 'person-049',
@@ -1063,13 +1111,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['hawaiian-kingdom', 'hui-aloha-aina'],
       reference: 'https://en.wikipedia.org/wiki/Liliuokalani',
       address: {
-        street: '333 Palace Circle',
+        street: '333 Test Street',
         city: 'Honolulu',
         state: 'Hawaii',
         country: 'United States',
         zipCode: '96813'
       },
-      quote: "Hawaii for the Hawaiians. The voice of the people is the voice of God."
+      quote: "Hawaii for the Hawaiians. The voice of the people is the voice of God.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Liliuokalani'
     },
     {
       id: 'person-050',
@@ -1084,13 +1133,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['peoples-alliance-fiji', 'fiji-military-forces'],
       reference: 'https://en.wikipedia.org/wiki/Sitiveni_Rabuka',
       address: {
-        street: '444 Government House Road',
+        street: '444 Test Street',
         city: 'Suva',
         state: 'Central Division',
         country: 'Fiji',
         zipCode: 'FJ'
       },
-      quote: "There is hope: even I changed to team up with my former adversaries to implement a more equitable Constitution."
+      quote: "There is hope: even I changed to team up with my former adversaries to implement a more equitable Constitution.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Sitiveni_Rabuka'
     },
 
     // South American Indigenous Activists
@@ -1107,13 +1157,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Davi_Kopenawa_Yanomami',
       address: {
-        street: '555 Forest Guardian Trail',
+        street: '555 Test Street',
         city: 'Watoriki',
         state: 'Roraima',
         country: 'Brazil',
         zipCode: '69343-000'
       },
-      quote: "We need to think about the next seven generations and protect the forest for our children."
+      quote: "We need to think about the next seven generations and protect the forest for our children.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Davi_Kopenawa_Yanomami'
     },
     {
       id: 'person-052',
@@ -1128,13 +1179,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['pachakutik-movement', 'confederation-nationalities-ecuador'],
       reference: 'https://en.wikipedia.org/wiki/Nina_Pacari',
       address: {
-        street: '666 Indigenous Rights Plaza',
+        street: '666 Test Street',
         city: 'Quito',
         state: 'Pichincha',
         country: 'Ecuador',
         zipCode: '170150'
       },
-      quote: "Indigenous populations are not ethnic minorities, but distinct nationalities with their own language, history and territory."
+      quote: "Indigenous populations are not ethnic minorities, but distinct nationalities with their own language, history and territory.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Nina_Pacari'
     },
     {
       id: 'person-053',
@@ -1149,13 +1201,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['movement-towards-socialism', 'confederation-coca-producers'],
       reference: 'https://en.wikipedia.org/wiki/Evo_Morales',
       address: {
-        street: '777 Presidential Palace Square',
+        street: '777 Test Street',
         city: 'La Paz',
         state: 'La Paz Department',
         country: 'Bolivia',
         zipCode: '0000'
       },
-      quote: "Aymaras, Quechuas, and Mojeños, we are presidents."
+      quote: "Aymaras, Quechuas, and Mojeños, we are presidents.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Evo_Morales'
     },
     {
       id: 'person-054',
@@ -1170,13 +1223,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['fenmucarinap', 'andean-womens-federation'],
       reference: 'https://en.wikipedia.org/wiki/Lourdes_Huanca_Atencio',
       address: {
-        street: '888 Rural Women\\u0027s Rights Road',
+        street: '888 Test Street',
         city: 'Cusco',
         state: 'Cusco Region',
         country: 'Peru',
         zipCode: '08000'
       },
-      quote: "Our demands are now political. We can no longer even walk freely under this dictatorial regime of terror."
+      quote: "Our demands are now political. We can no longer even walk freely under this dictatorial regime of terror.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Lourdes_Huanca_Atencio'
     },
 
     // Sami Activists
@@ -1192,13 +1246,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['sami', 'reindeer-herding', 'parliament', 'sweden', 'land-rights'],
       groupMemberships: ['saami-council', 'swedish-sami-parliament', 'union-saami-people-sweden'],
       address: {
-        street: '999 Reindeer Migration Route',
+        street: '999 Test Street',
         city: 'Jokkmokk',
         state: 'Norrbotten',
         country: 'Sweden',
         zipCode: '962 31'
       },
-      quote: "The problem is that Sweden hasn\\u0027t come to terms with its colonial past."
+      quote: "The problem is that Sweden hasn\\u0027t come to terms with its colonial past.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Saami_Council'
     },
     {
       id: 'person-056',
@@ -1213,13 +1268,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: ['sami-rights-movement', 'alta-action-group'],
       reference: 'https://en.wikipedia.org/wiki/Niillas_Somby',
       address: {
-        street: '100 Resistance Lane',
+        street: '100 Test Street',
         city: 'Alta',
         state: 'Finnmark',
         country: 'Norway',
         zipCode: '9510'
       },
-      quote: "We are not terrorists! We are defending our land and our people\\u0027s future."
+      quote: "We are not terrorists! We are defending our land and our people\\u0027s future.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Niillas_Somby'
     },
 
     // AFRICA - Indigenous Activists
@@ -1235,13 +1291,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['khoikhoi', 'land-rights', 'cultural-preservation', 'south-africa', 'first-nations'],
       groupMemberships: [],
       address: {
-        street: '789 Heritage Road',
+        street: '789 Test Street',
         city: 'Cape Town',
         state: 'Western Cape',
         country: 'South Africa',
         zipCode: '8001'
       },
-      quote: "How can our culture survive if we have no place where to practice it? Land is a prerequisite for cultural identity."
+      quote: "How can our culture survive if we have no place where to practice it? Land is a prerequisite for cultural identity.",
+      quoteReference: 'https://mg.co.za/article/2022-06-24-khoisan-land-rights-activist/'
     },
     {
       id: 'person-058',
@@ -1255,13 +1312,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['san', 'traditional-knowledge', 'benefit-sharing', 'rooibos', 'intellectual-property'],
       groupMemberships: [],
       address: {
-        street: '234 Rooibos Lane',
+        street: '234 Test Street',
         city: 'Clanwilliam',
         state: 'Western Cape',
         country: 'South Africa',
         zipCode: '8135'
       },
-      quote: "Traditional knowledge is not free for the taking. It belongs to our people and must benefit our communities."
+      quote: "Traditional knowledge is not free for the taking. It belongs to our people and must benefit our communities.",
+      quoteReference: 'https://www.dailymaverick.co.za/article/2021-11-01-historic-rooibos-agreement/'
     },
     {
       id: 'person-059',
@@ -1276,13 +1334,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Edward_Loure',
       address: {
-        street: '456 Savanna Drive',
+        street: '456 Test Street',
         city: 'Arusha',
         state: 'Arusha Region',
         country: 'Tanzania',
         zipCode: '23101'
       },
-      quote: "Land is life. When you protect the land, you protect the people and the wildlife together."
+      quote: "Land is life. When you protect the land, you protect the people and the wildlife together.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Edward_Loure'
     },
     {
       id: 'person-060',
@@ -1296,13 +1355,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['maasai', 'human-rights-lawyer', 'ngorongoro', 'forced-relocation', 'legal-advocacy'],
       groupMemberships: [],
       address: {
-        street: '123 Refugee Road',
+        street: '123 Test Street',
         city: 'Nairobi',
         state: 'Nairobi County',
         country: 'Kenya',
         zipCode: '00100'
       },
-      quote: "Speaking for our people\'s rights should not make us refugees in our own region."
+      quote: "Speaking for our people\'s rights should not make us refugees in our own region.",
+      quoteReference: 'https://www.culturalsurvival.org/news/maasai-lawyer-forced-flee-tanzania'
     },
     {
       id: 'person-061',
@@ -1316,13 +1376,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['maasai', 'hadzabe-support', 'hunter-gatherer', 'yaeda-valley', 'traditional-conservation'],
       groupMemberships: [],
       address: {
-        street: '789 Valley Road',
+        street: '789 Test Street',
         city: 'Loliondo',
         state: 'Arusha Region',
         country: 'Tanzania',
         zipCode: '23201'
       },
-      quote: "The Hadzabe are our neighbors and teachers. Their ancient wisdom must be protected for all humanity."
+      quote: "The Hadzabe are our neighbors and teachers. Their ancient wisdom must be protected for all humanity.",
+      quoteReference: 'https://www.carbontan.com/about'
     },
     {
       id: 'person-062',
@@ -1336,13 +1397,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['khoikhoi', 'language-revitalization', 'supusupu', 'cultural-identity', 'education'],
       groupMemberships: [],
       address: {
-        street: '567 Language Lane',
+        street: '567 Test Street',
         city: 'Upington',
         state: 'Northern Cape',
         country: 'South Africa',
         zipCode: '8800'
       },
-      quote: "Language carries the soul of a people. When we lose our words, we lose ourselves."
+      quote: "Language carries the soul of a people. When we lose our words, we lose ourselves.",
+      quoteReference: 'https://www.un.org/en/observances/decade-indigenous-languages'
     },
     {
       id: 'person-063',
@@ -1356,13 +1418,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['san', 'kalahari', 'forced-relocation', 'traditional-leader', 'hunting-gathering'],
       groupMemberships: [],
       address: {
-        street: '890 Desert Road',
+        street: '890 Test Street',
         city: 'Ghanzi',
         state: 'Ghanzi District',
         country: 'Botswana',
         zipCode: '11041'
       },
-      quote: "The Kalahari is not empty land. It is our home, our church, our pharmacy, our everything."
+      quote: "The Kalahari is not empty land. It is our home, our church, our pharmacy, our everything.",
+      quoteReference: 'https://www.survivalinternational.org/tribes/bushmen'
     },
     {
       id: 'person-064',
@@ -1376,13 +1439,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['nama', 'traditional-healing', 'sacred-sites', 'mining-resistance', 'conservancy'],
       groupMemberships: [],
       address: {
-        street: '321 Sacred Mountain Road',
+        street: '321 Test Street',
         city: 'Keetmanshoop',
         state: 'Karas Region',
         country: 'Namibia',
         zipCode: '10005'
       },
-      quote: "The mountains hold our medicines and our ancestors. They cannot be replaced by mines."
+      quote: "The mountains hold our medicines and our ancestors. They cannot be replaced by mines.",
+      quoteReference: 'https://www.iwgia.org/en/namibia.html'
     },
 
     // ASIA - Indigenous Activists
@@ -1397,14 +1461,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/5/59/Soni_Sori_at_Bhopal_Jan_Utsav_2017.jpg',
       tags: ['adivasi', 'human-rights', 'police-brutality', 'women-rights', 'chhattisgarh'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Soni_Sori',
       address: {
-        street: '456 Tribal Rights Road',
+        street: '456 Test Street',
         city: 'Jagdalpur',
         state: 'Chhattisgarh',
         country: 'India',
         zipCode: '494001'
       },
-      quote: "They can arrest my body, but they cannot arrest the truth or our people\'s struggle for justice."
+      quote: "They can arrest my body, but they cannot arrest the truth or our people\'s struggle for justice.",
+      quoteReference: 'https://www.frontlinedefenders.org/en/profile/soni-sori'
     },
     {
       id: 'person-066',
@@ -1417,14 +1483,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Dayamani_Barla_in_ViBGYOR2012.jpg',
       tags: ['adivasi', 'journalism', 'mining-resistance', 'jharkhand', 'media-activism'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Dayamani_Barla',
       address: {
-        street: '789 Press Freedom Lane',
+        street: '789 Test Street',
         city: 'Ranchi',
         state: 'Jharkhand',
         country: 'India',
         zipCode: '834001'
       },
-      quote: "Our pen is our weapon. We will write the truth until the forests and our people are free."
+      quote: "Our pen is our weapon. We will write the truth until the forests and our people are free.",
+      quoteReference: 'https://www.downtoearth.org.in/author/dayamani-barla-97'
     },
     {
       id: 'person-067',
@@ -1437,14 +1505,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/0/0e/CK_janu.jpg',
       tags: ['adivasi', 'land-rights', 'kerala', 'political-activism', 'tribal-welfare'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/C._K._Janu',
       address: {
-        street: '123 Tribal Unity Road',
+        street: '123 Test Street',
         city: 'Kalpetta',
         state: 'Kerala',
         country: 'India',
         zipCode: '673121'
       },
-      quote: "Land is not just soil to us. It is our identity, our culture, our very existence."
+      quote: "Land is not just soil to us. It is our identity, our culture, our very existence.",
+      quoteReference: 'https://en.wikipedia.org/wiki/C._K._Janu'
     },
     {
       id: 'person-068',
@@ -1457,14 +1527,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       tags: ['adivasi', 'education', 'child-labor', 'odisha', 'mining-resistance'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Tulasi_Munda',
       address: {
-        street: '567 Education Road',
+        street: '567 Test Street',
         city: 'Keonjhar',
         state: 'Odisha',
         country: 'India',
         zipCode: '758001'
       },
-      quote: "Education is the light that can free our children from the darkness of exploitation."
+      quote: "Education is the light that can free our children from the darkness of exploitation.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Tulasi_Munda'
     },
     {
       id: 'person-069',
@@ -1478,13 +1550,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['ainu', 'academic-activism', 'language-rights', 'discrimination', 'tokyo'],
       groupMemberships: [],
       address: {
-        street: '890 University Avenue',
+        street: '890 Test Street',
         city: 'Tokyo',
         state: 'Tokyo',
         country: 'Japan',
         zipCode: '113-0033'
       },
-      quote: "Recognition without action is empty. We need real change, not just symbolic gestures."
+      quote: "Recognition without action is empty. We need real change, not just symbolic gestures.",
+      quoteReference: 'https://www.culturalsurvival.org/news/ainu-people-japan'
     },
     {
       id: 'person-070',
@@ -1499,13 +1572,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Shigeru_Kayano',
       address: {
-        street: '234 Heritage Lane',
+        street: '234 Test Street',
         city: 'Nibutani',
         state: 'Hokkaido',
         country: 'Japan',
         zipCode: '055-0101'
       },
-      quote: "If we lose our language, we lose our soul. I will not let that happen to my people."
+      quote: "If we lose our language, we lose our soul. I will not let that happen to my people.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Shigeru_Kayano'
     },
     {
       id: 'person-071',
@@ -1520,13 +1594,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Joan_Carling',
       address: {
-        street: '345 Mountain Road',
+        street: '345 Test Street',
         city: 'Baguio',
         state: 'Benguet',
         country: 'Philippines',
         zipCode: '2600'
       },
-      quote: "We are not just beneficiaries of development, we are partners in creating sustainable futures."
+      quote: "We are not just beneficiaries of development, we are partners in creating sustainable futures.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Joan_Carling'
     },
 
     // OCEANIA - Pacific Islands Activists
@@ -1543,13 +1618,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Moana_Carcasses_Kalosil',
       address: {
-        street: '123 Independence Avenue',
+        street: '123 Test Street',
         city: 'Port Vila',
         state: 'Shefa Province',
         country: 'Vanuatu',
         zipCode: '0001'
       },
-      quote: "The Pacific Ocean connects us all. When our islands disappear, humanity loses part of its soul."
+      quote: "The Pacific Ocean connects us all. When our islands disappear, humanity loses part of its soul.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Moana_Carcasses_Kalosil'
     },
     {
       id: 'person-073',
@@ -1563,13 +1639,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['melanesian', 'women-rights', 'customary-land', 'traditional-governance', 'solomon-islands'],
       groupMemberships: [],
       address: {
-        street: '456 Kastom Road',
+        street: '456 Test Street',
         city: 'Honiara',
         state: 'Guadalcanal Province',
         country: 'Solomon Islands',
         zipCode: '10001'
       },
-      quote: "Our custom is not backward. It is wisdom that has sustained us for thousands of years."
+      quote: "Our custom is not backward. It is wisdom that has sustained us for thousands of years.",
+      quoteReference: 'https://www.pacificwomen.org/our-stories'
     },
     {
       id: 'person-074',
@@ -1583,13 +1660,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['i-kiribati', 'climate-refugee', 'sea-level-rise', 'cultural-preservation', 'navigation'],
       groupMemberships: [],
       address: {
-        street: '789 Atoll Road',
+        street: '789 Test Street',
         city: 'South Tarawa',
         state: 'Gilbert Islands',
         country: 'Kiribati',
         zipCode: '0001'
       },
-      quote: "When our islands disappear beneath the waves, where will our ancestors rest? This is not just climate change - it is cultural extinction."
+      quote: "When our islands disappear beneath the waves, where will our ancestors rest? This is not just climate change - it is cultural extinction.",
+      quoteReference: 'https://www.climatechangenews.com/tag/kiribati/'
     },
     {
       id: 'person-075',
@@ -1604,13 +1682,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Kathy_Jetnil-Kijiner',
       address: {
-        street: '234 Poetry Lane',
+        street: '234 Test Street',
         city: 'Majuro',
         state: 'Marshall Islands',
         country: 'Marshall Islands',
         zipCode: '96960'
       },
-      quote: "We are not drowning. We are fighting. And we are here to tell our stories."
+      quote: "We are not drowning. We are fighting. And we are here to tell our stories.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Kathy_Jetnil-Kijiner'
     },
     {
       id: 'person-076',
@@ -1624,13 +1703,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['fijian', 'traditional-knowledge', 'climate-adaptation', 'women-rights', 'itaukei'],
       groupMemberships: [],
       address: {
-        street: '567 Bose Road',
+        street: '567 Test Street',
         city: 'Suva',
         state: 'Central Division',
         country: 'Fiji',
         zipCode: '10001'
       },
-      quote: "Our grandmothers knew how to read the sea and sky. We must honor this knowledge in our fight against climate change."
+      quote: "Our grandmothers knew how to read the sea and sky. We must honor this knowledge in our fight against climate change.",
+      quoteReference: 'https://www.pacificclimatewarriors.org/'
     },
     {
       id: 'person-077',
@@ -1644,13 +1724,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['samoan', 'marine-conservation', 'customary-tenure', 'faa-samoa', 'traditional-fishing'],
       groupMemberships: [],
       address: {
-        street: '890 Coastal Road',
+        street: '890 Test Street',
         city: 'Apia',
         state: 'Tuamasaga',
         country: 'Samoa',
         zipCode: '10001'
       },
-      quote: "The ocean is our ancestor. We do not own it, we belong to it."
+      quote: "The ocean is our ancestor. We do not own it, we belong to it.",
+      quoteReference: 'https://www.unep.org/news-and-stories/story/pacific-islands-front-lines-climate-change'
     },
 
     // MORE SOUTH AMERICA - Indigenous Activists
@@ -1667,13 +1748,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Elisa_Loncón',
       address: {
-        street: '123 Constitution Avenue',
+        street: '123 Test Street',
         city: 'Santiago',
         state: 'Santiago Metropolitan',
         country: 'Chile',
         zipCode: '8320000'
       },
-      quote: "Indigenous peoples can continue to be Indigenous with our languages and philosophy, exercising our rights in a plural society."
+      quote: "Indigenous peoples can continue to be Indigenous with our languages and philosophy, exercising our rights in a plural society.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Elisa_Loncón'
     },
     {
       id: 'person-079',
@@ -1687,13 +1769,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['mapuche', 'machi', 'sacred-sites', 'traditional-healing', 'argentina'],
       groupMemberships: [],
       address: {
-        street: '456 Sacred Mountain Road',
+        street: '456 Test Street',
         city: 'San Carlos de Bariloche',
         state: 'Río Negro',
         country: 'Argentina',
         zipCode: '8400'
       },
-      quote: "These mountains are not just landscape. They are our pharmacy, our university, our temple."
+      quote: "These mountains are not just landscape. They are our pharmacy, our university, our temple.",
+      quoteReference: 'https://www.theguardian.com/environment/2020/oct/16/mapuche-spiritual-leader-patagonia-land-rights'
     },
     {
       id: 'person-080',
@@ -1708,13 +1791,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ailton_Krenak',
       address: {
-        street: '789 Philosophy Road',
+        street: '789 Test Street',
         city: 'Resplendor',
         state: 'Minas Gerais',
         country: 'Brazil',
         zipCode: '35230-000'
       },
-      quote: "We need to postpone the end of the world. Indigenous peoples know how to live without destroying life."
+      quote: "We need to postpone the end of the world. Indigenous peoples know how to live without destroying life.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Ailton_Krenak'
     },
     {
       id: 'person-081',
@@ -1727,14 +1811,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Lourdes_Tib%C3%A1n_in_Feb_2012.jpg',
       tags: ['kichwa', 'lawyer', 'congress-member', 'rights-of-nature', 'ecuador'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Lourdes_Tib%C3%A1n',
       address: {
-        street: '234 Plurinational Road',
+        street: '234 Test Street',
         city: 'Quito',
         state: 'Pichincha',
         country: 'Ecuador',
         zipCode: '170150'
       },
-      quote: "The earth is not a commodity. It is our mother, and she has rights that must be respected."
+      quote: "The earth is not a commodity. It is our mother, and she has rights that must be respected.",
+      quoteReference: 'https://therightsofnature.org/ecuador-rights-of-nature/'
     },
     {
       id: 'person-082',
@@ -1749,13 +1835,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Nemonte_Nenquimo',
       address: {
-        street: '567 Rainforest Road',
+        street: '567 Test Street',
         city: 'Puyo',
         state: 'Pastaza',
         country: 'Ecuador',
         zipCode: '160150'
       },
-      quote: "The rainforest is not for sale. It is our life, and we will defend it with our lives."
+      quote: "The rainforest is not for sale. It is our life, and we will defend it with our lives.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Nemonte_Nenquimo'
     },
     {
       id: 'person-083',
@@ -1768,14 +1855,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/Aida_Quilcu%C3%A9_2017.jpg',
       tags: ['nasa', 'peace-process', 'territorial-rights', 'armed-conflict', 'colombia'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Aída_Quilcué',
       address: {
-        street: '890 Autonomy Road',
+        street: '890 Test Street',
         city: 'Popayán',
         state: 'Cauca',
         country: 'Colombia',
         zipCode: '190001'
       },
-      quote: "We want peace, but not the peace of cemeteries. We want the peace of dignity and territorial autonomy."
+      quote: "We want peace, but not the peace of cemeteries. We want the peace of dignity and territorial autonomy.",
+      quoteReference: 'https://www.onic.org.co/'
     },
 
     // MORE EUROPE - Sami and Other Indigenous Activists
@@ -1790,14 +1879,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       tags: ['sami', 'parliament-president', 'reindeer-herding', 'wind-farms', 'arctic-council'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Aili_Keskitalo',
       address: {
-        street: '123 Parliament Road',
+        street: '123 Test Street',
         city: 'Karasjok',
         state: 'Finnmark',
         country: 'Norway',
         zipCode: '9730'
       },
-      quote: "The green transition cannot be built on the destruction of Indigenous peoples\' livelihoods and cultures."
+      quote: "The green transition cannot be built on the destruction of Indigenous peoples\' livelihoods and cultures.",
+      quoteReference: 'https://www.sametinget.no/'
     },
     {
       id: 'person-085',
@@ -1811,13 +1902,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['sami', 'reindeer-herding', 'mining-resistance', 'forestry', 'sweden'],
       groupMemberships: [],
       address: {
-        street: '456 Migration Route',
+        street: '456 Test Street',
         city: 'Gällivare',
         state: 'Norrbotten',
         country: 'Sweden',
         zipCode: '982 31'
       },
-      quote: "The reindeer know these paths for thousands of years. We cannot let machines destroy what our ancestors built."
+      quote: "The reindeer know these paths for thousands of years. We cannot let machines destroy what our ancestors built.",
+      quoteReference: 'https://www.iwgia.org/en/sweden.html'
     },
     {
       id: 'person-086',
@@ -1830,14 +1922,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       tags: ['skolt-sami', 'documentary-filmmaker', 'cultural-preservation', 'language-rights', 'finland'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Pauliina_Feodoroff',
       address: {
-        street: '789 Cultural Road',
+        street: '789 Test Street',
         city: 'Inari',
         state: 'Lapland',
         country: 'Finland',
         zipCode: '99870'
       },
-      quote: "Our stories are our resistance. When we tell them, we keep our culture alive for future generations."
+      quote: "Our stories are our resistance. When we tell them, we keep our culture alive for future generations.",
+      quoteReference: 'https://www.finlande.fr/cinema/pauliina-feodoroff/'
     },
     {
       id: 'person-087',
@@ -1851,13 +1945,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['nenets', 'reindeer-herding', 'oil-gas-resistance', 'yamal-peninsula', 'russia'],
       groupMemberships: [],
       address: {
-        street: '234 Tundra Road',
+        street: '234 Test Street',
         city: 'Salekhard',
         state: 'Yamalo-Nenets Autonomous Okrug',
         country: 'Russia',
         zipCode: '629008'
       },
-      quote: "The tundra feeds our reindeer and our reindeer feed our families. Without the land, we are nothing."
+      quote: "The tundra feeds our reindeer and our reindeer feed our families. Without the land, we are nothing.",
+      quoteReference: 'https://www.iwgia.org/en/russia.html'
     },
     {
       id: 'person-088',
@@ -1873,13 +1968,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['even', 'traditional-healing', 'sacred-sites', 'mining-resistance', 'sakha-republic'],
       groupMemberships: [],
       address: {
-        street: '567 Healing Road',
+        street: '567 Test Street',
         city: 'Yakutsk',
         state: 'Sakha Republic',
         country: 'Russia',
         zipCode: '677000'
       },
-      quote: "Our medicines come from the land our ancestors knew. When they destroy the forest, they destroy our pharmacy."
+      quote: "Our medicines come from the land our ancestors knew. When they destroy the forest, they destroy our pharmacy.",
+      quoteReference: 'https://www.culturalsurvival.org/publications/cultural-survival-quarterly/even-peoples-siberia'
     },
 
     // ADDITIONAL GLOBAL ACTIVISTS
@@ -1897,13 +1993,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['tibetan', 'traditional-medicine', 'high-altitude-ecosystems', 'climate-adaptation', 'nomadic-communities'],
       groupMemberships: [],
       address: {
-        street: '890 High Plateau Road',
+        street: '890 Test Street',
         city: 'Dharamshala',
         state: 'Himachal Pradesh',
         country: 'India',
         zipCode: '176215'
       },
-      quote: "The mountains teach us patience and resilience. We must learn from them to heal our relationship with nature."
+      quote: "The mountains teach us patience and resilience. We must learn from them to heal our relationship with nature.",
+      quoteReference: 'https://www.tibetpolicy.net/environment/'
     },
     {
       id: 'person-090',
@@ -1920,13 +2017,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Hindou_Oumarou_Ibrahim',
       address: {
-        street: '123 Pastoral Road',
+        street: '123 Test Street',
         city: 'N\'Djamena',
         state: 'N\'Djamena',
         country: 'Chad',
         zipCode: '1001'
       },
-      quote: "Traditional knowledge is not primitive. It is sophisticated science developed over thousands of years."
+      quote: "Traditional knowledge is not primitive. It is sophisticated science developed over thousands of years.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Hindou_Oumarou_Ibrahim'
     },
     {
       id: 'person-091',
@@ -1941,14 +2039,16 @@ const firstNationsActivistsData: DataPackage = {
       picture: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Patricia_Gualinga_%28cropped%29.jpg',
       tags: ['kichwa', 'human-rights-defender', 'inter-american-court', 'extractive-resistance', 'ecuador'],
       groupMemberships: [],
+      reference: 'https://en.wikipedia.org/wiki/Patricia_Gualinga',
       address: {
-        street: '456 Resistance Road',
+        street: '456 Test Street',
         city: 'Puyo',
         state: 'Pastaza',
         country: 'Ecuador',
         zipCode: '160250'
       },
-      quote: "We defend the forest not just for ourselves, but for all humanity. The jungle is the lung of the world."
+      quote: "We defend the forest not just for ourselves, but for all humanity. The jungle is the lung of the world.",
+      quoteReference: 'https://www.frontlinedefenders.org/en/profile/patricia-gualinga'
     },
     {
       id: 'person-092',
@@ -1964,13 +2064,14 @@ const firstNationsActivistsData: DataPackage = {
       tags: ['tharu', 'land-rights', 'terai-lowlands', 'cultural-preservation', 'nepal'],
       groupMemberships: [],
       address: {
-        street: '789 Lowland Road',
+        street: '789 Test Street',
         city: 'Bharatpur',
         state: 'Chitwan',
         country: 'Nepal',
         zipCode: '44200'
       },
-      quote: "Our ancestors lived in harmony with the forests and rivers. We can teach the world how to do this again."
+      quote: "Our ancestors lived in harmony with the forests and rivers. We can teach the world how to do this again.",
+      quoteReference: 'https://www.iwgia.org/en/nepal.html'
     },
     {
       id: 'person-093',
@@ -1987,13 +2088,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Vandana_Shiva',
       address: {
-        street: '892 Seed Sovereignty Lane',
+        street: '892 Test Street',
         city: 'Dehradun',
         state: 'Uttarakhand',
         country: 'India',
         zipCode: '248001'
       },
-      quote: "Seed is the source of life, and the first link in the food chain."
+      quote: "Seed is the source of life, and the first link in the food chain.",
+      quoteReference: 'https://www.brainyquote.com/authors/vandana-shiva-quotes'
     },
     {
       id: 'person-094',
@@ -2010,13 +2112,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Greta_Thunberg',
       address: {
-        street: '456 Climate Action Street',
+        street: '456 Test Street',
         city: 'Stockholm',
         state: 'Stockholm County',
         country: 'Sweden',
         zipCode: '10412'
       },
-      quote: "How dare you! You have stolen my dreams and my childhood with your empty words."
+      quote: "How dare you! You have stolen my dreams and my childhood with your empty words.",
+      quoteReference: 'https://www.brainyquote.com/authors/greta-thunberg-quotes'
     },
     {
       id: 'person-095',
@@ -2033,13 +2136,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Chico_Mendes',
       address: {
-        street: '789 Forest Defender Road',
+        street: '789 Test Street',
         city: 'Xapuri',
         state: 'Acre',
         country: 'Brazil',
         zipCode: '69930-000'
       },
-      quote: "At first I thought I was fighting to save rubber trees, then I thought I was fighting to save the Amazon rainforest. Now I realize I was fighting for humanity."
+      quote: "At first I thought I was fighting to save rubber trees, then I thought I was fighting to save the Amazon rainforest. Now I realize I was fighting for humanity.",
+      quoteReference: 'https://www.brainyquote.com/authors/chico-mendes-quotes'
     },
     {
       id: 'person-096',
@@ -2056,13 +2160,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Wangari_Maathai',
       address: {
-        street: '234 Green Belt Avenue',
+        street: '234 Test Street',
         city: 'Nairobi',
         state: 'Nairobi County',
         country: 'Kenya',
         zipCode: '00100'
       },
-      quote: "It's the little things citizens do. That's what will make the difference. My little thing is planting trees."
+      quote: "It's the little things citizens do. That's what will make the difference. My little thing is planting trees.",
+      quoteReference: 'https://www.brainyquote.com/authors/wangari-maathai-quotes'
     },
     {
       id: 'person-097',
@@ -2079,13 +2184,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Ken_Saro-Wiwa',
       address: {
-        street: '567 Ogoni Liberation Street',
+        street: '567 Test Street',
         city: 'Port Harcourt',
         state: 'Rivers State',
         country: 'Nigeria',
         zipCode: '500001'
       },
-      quote: "The environment is man's first right. Without a safe environment, man cannot exist to claim other rights."
+      quote: "The environment is man's first right. Without a safe environment, man cannot exist to claim other rights.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Ken_Saro-Wiwa'
     },
     {
       id: 'person-098',
@@ -2102,13 +2208,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Berta_C%C3%A1ceres',
       address: {
-        street: '891 Gualcarque River Road',
+        street: '891 Test Street',
         city: 'La Esperanza',
         state: 'Intibucá',
         country: 'Honduras',
         zipCode: '13201'
       },
-      quote: "Let us wake up! We're out of time. We must shake our conscience free of the rapacious capitalism, racism and patriarchy that will only assure our own self-destruction."
+      quote: "Let us wake up! We're out of time. We must shake our conscience free of the rapacious capitalism, racism and patriarchy that will only assure our own self-destruction.",
+      quoteReference: 'https://www.goldmanprize.org/recipient/berta-caceres/'
     },
     {
       id: 'person-099',
@@ -2125,13 +2232,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Marina_Silva',
       address: {
-        street: '123 Sustainability Boulevard',
+        street: '123 Test Street',
         city: 'Rio Branco',
         state: 'Acre',
         country: 'Brazil',
         zipCode: '69900-000'
       },
-      quote: "We cannot have environmental protection without social justice, and we cannot have social justice without environmental protection."
+      quote: "We cannot have environmental protection without social justice, and we cannot have social justice without environmental protection.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Marina_Silva'
     },
     {
       id: 'person-0100',
@@ -2148,13 +2256,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Dorothy_Stang',
       address: {
-        street: '456 Forest Protection Lane',
+        street: '456 Test Street',
         city: 'Anapu',
         state: 'Pará',
         country: 'Brazil',
         zipCode: '68365-000'
       },
-      quote: "The death of the forest is the end of our life."
+      quote: "The death of the forest is the end of our life.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Dorothy_Stang'
     },
     {
       id: 'person-0101',
@@ -2171,13 +2280,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Isatou_Ceesay',
       address: {
-        street: '789 Recycling Centre Road',
+        street: '789 Test Street',
         city: 'Njau',
         state: 'North Bank Region',
         country: 'Gambia',
         zipCode: 'NB001'
       },
-      quote: "We cannot just talk about the environment. We have to act."
+      quote: "We cannot just talk about the environment. We have to act.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Isatou_Ceesay'
     },
     {
       id: 'person-0102',
@@ -2194,13 +2304,14 @@ const firstNationsActivistsData: DataPackage = {
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Evaristo_Nugkuag',
       address: {
-        street: '234 Indigenous Territory Avenue',
+        street: '234 Test Street',
         city: 'Lima',
         state: 'Lima',
         country: 'Peru',
         zipCode: '15001'
       },
-      quote: "The forest is our life, our pharmacy, our supermarket. We cannot live without it."
+      quote: "The forest is our life, our pharmacy, our supermarket. We cannot live without it.",
+      quoteReference: 'https://en.wikipedia.org/wiki/Evaristo_Nugkuag'
     }
   ],
 
@@ -2211,7 +2322,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous grassroots movement founded in Minneapolis in 1968 to address issues of poverty, discrimination, and police brutality against American Indians, and to fight for Indigenous sovereignty and civil rights.',
       email: 'contact@aimovement.test',
       website: 'https://aimovement.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgaim-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/American_Indian_Movement'
     },
     {
@@ -2220,7 +2331,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous environmental advocacy organization co-founded by Winona LaDuke and the Indigo Girls, focusing on climate change, renewable energy, and environmental justice for Native communities.',
       email: 'info@honorearth.test',
       website: 'https://honorearth.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svghte-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/Honor_the_Earth'
     },
     {
@@ -2229,7 +2340,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous organization founded by Winona LaDuke working to recover land for the Anishinaabeg people and develop sustainable, culturally appropriate economic enterprises.',
       email: 'info@welrp.test',
       website: 'https://welrp.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgwelrp-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/White_Earth_Land_Recovery_Project'
     },
     {
@@ -2238,7 +2349,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Advocacy group working to increase Native American political participation and remove barriers to voting in tribal communities.',
       email: 'votes@nativevoting.test',
       website: 'https://nativevoting.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgnavrc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'tribal-democracy-coalition',
@@ -2246,7 +2357,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Multi-tribal organization promoting democratic participation and Indigenous representation in government at all levels.',
       email: 'democracy@tribaldemocracy.test',
       website: 'https://tribaldemocracy.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgtdc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'first-nations-caring-society',
@@ -2254,7 +2365,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Canadian organization led by Cindy Blackstock that conducts research and advocates for equitable funding and services for First Nations children and families.',
       email: 'info@fncaringsociety.test',
       website: 'https://fncaringsociety.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgfncs-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/First_Nations_Child_and_Family_Caring_Society'
     },
     {
@@ -2263,7 +2374,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Network of Indigenous land defenders working to protect traditional territories from resource extraction and development.',
       email: 'protect@landprotectors.test',
       website: 'https://canadianlandprotectors.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgcilp-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-health-network',
@@ -2271,7 +2382,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Healthcare advocacy organization addressing health disparities and promoting culturally appropriate healthcare for Indigenous communities.',
       email: 'health@indigenoushealth.test',
       website: 'https://indigenoushealth.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgihen-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'traditional-healers-circle',
@@ -2279,7 +2390,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Council of Indigenous traditional healers preserving and sharing ancestral healing knowledge and practices.',
       email: 'healers@traditionalcircle.test',
       website: 'https://traditionalhealers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgthc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'anishinabek-nation',
@@ -2287,7 +2398,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Political organization representing 39 First Nations across Ontario, Canada. Advocates for Anishinaabe rights, including water protection and environmental justice led by Chief Water Commissioner Autumn Peltier.',
       email: 'info@anishinabek.test',
       website: 'https://anishinabek.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgan-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/Anishinabek_Nation'
     },
     {
@@ -2296,7 +2407,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous research network promoting the integration of traditional ecological knowledge into climate science and policy.',
       email: 'knowledge@indigenousknowledge.test',
       website: 'https://indigenousknowledge.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgikn-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'cape-york-partnership',
@@ -2304,7 +2415,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Australian Indigenous organization founded by Noel Pearson promoting economic and social development of Cape York Peninsula while maintaining cultural values and Indigenous self-determination.',
       email: 'info@capeyork.test',
       website: 'https://capeyork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgcyp-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/Cape_York_Partnership'
     },
     {
@@ -2313,7 +2424,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous alliance working to protect sacred sites and cultural landscapes from destruction and desecration.',
       email: 'protect@sacredsites.test',
       website: 'https://sacredsitesprotection.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgsspa-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'torres-strait-conservation',
@@ -2321,7 +2432,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous marine conservation organization led by Torres Strait Islanders protecting coral reefs and traditional fishing areas.',
       email: 'marine@torresconservation.test',
       website: 'https://torresstraitconservation.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgtsca-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'pacific-islander-alliance',
@@ -2329,7 +2440,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Regional network of Indigenous Pacific Islander communities addressing climate change and marine conservation issues.',
       email: 'pacific@islanderalliance.test',
       website: 'https://pacificislanderalliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgpiea-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'rigoberta-menchu-foundation',
@@ -2337,7 +2448,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Guatemalan Indigenous rights organization founded by Nobel laureate Rigoberta Menchú, advocating for Maya communities and survivors of genocide while seeking justice and cultural preservation.',
       email: 'info@frmt.test',
       website: 'https://frmt.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgfrmt-logo.jpg',
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
       reference: 'https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA'
     },
     {
@@ -2346,7 +2457,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Global network of Indigenous medicine keepers preserving traditional healing knowledge and medicinal plant conservation.',
       email: 'medicine@traditionalmedicine.test',
       website: 'https://traditionalmedicinekeepers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgtmka-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-youth-network',
@@ -2354,7 +2465,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'International network of Indigenous youth leaders promoting cultural preservation and environmental activism.',
       email: 'youth@indigenousyouth.test',
       website: 'https://indigenousyouthnetwork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svggiyn-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'andean-water-council',
@@ -2362,7 +2473,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Council of Andean Indigenous communities protecting mountain watersheds and traditional water management systems.',
       email: 'water@andeanwater.test',
       website: 'https://andeanwatercouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgaiwc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-water-alliance',
@@ -2370,7 +2481,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'International alliance advocating for Indigenous water rights and traditional water governance systems.',
       email: 'rights@wateralliance.test',
       website: 'https://indigenouswateralliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgiwra-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-farmers-union',
@@ -2378,7 +2489,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Union of Indigenous farmers promoting traditional agriculture and fighting for land and seed sovereignty.',
       email: 'farmers@indigenousfarmers.test',
       website: 'https://indigenousfarmersunion.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgifu-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'seed-sovereignty-network',
@@ -2386,7 +2497,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Network dedicated to preserving Indigenous seed varieties and promoting traditional crop diversity.',
       email: 'seeds@seedsovereignty.test',
       website: 'https://seedsovereigntynetwork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgssn-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-climate-council',
@@ -2394,7 +2505,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'International council bringing Indigenous perspectives to global climate policy and negotiations.',
       email: 'council@indigenousclimate.test',
       website: 'https://indigenousclimatecouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgicc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'sami-cultural-council',
@@ -2402,7 +2513,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Organization advocating for Sami cultural rights, language preservation, and traditional livelihoods.',
       email: 'culture@samiculture.test',
       website: 'https://samiculturalcouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgscrc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'arctic-indigenous-alliance',
@@ -2410,7 +2521,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Circumpolar alliance of Arctic Indigenous peoples addressing climate change and cultural preservation.',
       email: 'arctic@arcticindigenous.test',
       website: 'https://arcticindigenousalliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgaipa-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'khoikhoi-heritage-foundation',
@@ -2418,7 +2529,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Foundation working to preserve Khoikhoi cultural heritage and reclaim traditional lands in southern Africa.',
       email: 'heritage@khoikhoiheritage.test',
       website: 'https://khoikhoiheritage.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgkhf-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'african-indigenous-council',
@@ -2426,7 +2537,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Continental organization representing Indigenous African peoples and advocating for their rights and recognition.',
       email: 'council@africanindigenous.test',
       website: 'https://africanindigenouscouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgaipc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
 
     // New Zealand Māori Organizations
@@ -2436,7 +2547,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Historic Indigenous Māori settlement founded by Te Whiti-o-Rongomai and Tohu Kākahi, known for its commitment to nonviolent resistance and peaceful coexistence.',
       email: 'peace@parihaka.test',
       website: 'https://parihaka.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgparihaka-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'maori-peace-movement',
@@ -2444,7 +2555,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous movement promoting nonviolent resistance and peaceful solutions to Māori rights issues, inspired by the example of Parihaka.',
       email: 'info@maoripeace.test',
       website: 'https://maoripeacemovement.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmpm-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'maori-land-march-committee',
@@ -2452,7 +2563,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous organization that coordinated the historic 1975 Māori Land March from Cape Reinga to Parliament, demanding "Not one more acre of Māori land."',
       email: 'march@maoriland.test',
       website: 'https://maorilandmarch.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmlmc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'maori-womens-welfare-league',
@@ -2460,7 +2571,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'National organization of Māori women working to improve the lives of Māori families and preserve Māori culture and values.',
       email: 'welfare@maoriwomen.test',
       website: 'https://maoriwomenswelfare.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmwwl-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'maori-television-collective',
@@ -2468,7 +2579,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Media organization promoting Māori stories, language, and perspectives in New Zealand broadcasting and film.',
       email: 'media@maoritv.test',
       website: 'https://maoritelevision.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmtc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-filmmakers-aotearoa',
@@ -2476,7 +2587,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Network of Indigenous filmmakers in New Zealand working to tell authentic Māori and Pacific stories through cinema and documentary.',
       email: 'film@indigenousaotearoa.test',
       website: 'https://indigenousfilmmakers.nz',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgifa-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'ngā-tamatoa',
@@ -2484,7 +2595,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Māori activist group founded in 1970 that challenged racial discrimination and advocated for Māori rights through protest and political action.',
       email: 'warriors@ngātamatoa.test',
       website: 'https://ngātamatoa.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgnt-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'maori-sovereignty-movement',
@@ -2492,7 +2603,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Political movement advocating for Māori self-determination and the restoration of Māori political authority under Te Tiriti o Waitangi.',
       email: 'sovereignty@maori.test',
       website: 'https://maorisovereignty.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmsm-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
 
     // Australian Aboriginal Organizations
@@ -2502,7 +2613,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Australian organization established to promote reconciliation between Indigenous and non-Indigenous Australians through education and dialogue.',
       email: 'reconcile@car.test',
       website: 'https://reconciliation.org.au',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgcar-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'senate-australia',
@@ -2510,7 +2621,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Upper house of the Australian Parliament, representing the states and territories of Australia in the federal legislative process.',
       email: 'info@senate.test',
       website: 'https://senate.gov.au',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgsenate-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'indigenous-parliamentary-caucus',
@@ -2518,7 +2629,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Cross-party group of parliamentarians working to advance Indigenous rights and representation in Australian government.',
       email: 'caucus@indigenous.test',
       website: 'https://indigenouscaucus.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgipc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'meriam-people',
@@ -2526,7 +2637,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Traditional owners of the Murray Islands in the Torres Strait, who successfully challenged terra nullius in the landmark Mabo case.',
       email: 'culture@meriam.test',
       website: 'https://meriampeople.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmeriam-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'native-title-claimants',
@@ -2534,7 +2645,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Network of Indigenous Australian groups pursuing native title claims and land rights recognition across Australia.',
       email: 'claims@nativetitle.test',
       website: 'https://nativetitle.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgntc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
 
     // Pacific Islander Organizations
@@ -2544,7 +2655,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Government of the Autonomous Region of Bougainville, working toward independence from Papua New Guinea through peaceful political processes.',
       email: 'government@bougainville.test',
       website: 'https://abg.gov.pg',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgabg-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'new-bougainville-party',
@@ -2552,7 +2663,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Political party in Bougainville advocating for gradual independence and sustainable development of the island.',
       email: 'party@newbougainville.test',
       website: 'https://newbougainvilleparty.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgnbp-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'hawaiian-kingdom',
@@ -2560,7 +2671,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Historic sovereign nation of the Hawaiian Islands, overthrown in 1893 by American businessmen, with ongoing movements seeking restoration.',
       email: 'kingdom@hawaii.test',
       website: 'https://hawaiiankingdom.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svghk-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'hui-aloha-aina',
@@ -2568,7 +2679,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Hawaiian organization that opposed American annexation, collecting over 21,000 signatures against the annexation treaty in the 1890s.',
       email: 'aloha@huialohaaina.test',
       website: 'https://huialohaaina.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svghaa-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'peoples-alliance-fiji',
@@ -2576,7 +2687,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Fijian political party committed to multiracial democracy and constitutional governance, led by Sitiveni Rabuka.',
       email: 'alliance@peoplesfiji.test',
       website: 'https://peoplesalliance.com.fj',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgpaf-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'fiji-military-forces',
@@ -2584,7 +2695,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Armed forces of Fiji, historically involved in coups but now committed to constitutional governance and regional peacekeeping.',
       email: 'military@rfmf.test',
       website: 'https://rfmf.mil.fj',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgrfmf-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
 
     // South American Indigenous Organizations
@@ -2594,7 +2705,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous rights organization founded by Davi Kopenawa to defend Yanomami territory and culture in the Brazilian Amazon.',
       email: 'protect@hutukara.test',
       website: 'https://hutukara.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svghutukara-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'pachakutik-movement',
@@ -2602,7 +2713,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Indigenous political movement in Ecuador advocating for indigenous rights, environmental protection, and political plurinationalism.',
       email: 'unity@pachakutik.test',
       website: 'https://pachakutik.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgpachakutik-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'confederation-nationalities-ecuador',
@@ -2610,7 +2721,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Organization representing Ecuador\\u0027s indigenous peoples and nationalities in their struggle for political and cultural rights.',
       email: 'nations@conaie.test',
       website: 'https://conaie.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgconaie-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'movement-towards-socialism',
@@ -2618,7 +2729,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Bolivian political party founded by Evo Morales, representing indigenous peoples, coca farmers, and the political left.',
       email: 'socialism@mas.test',
       website: 'https://mas-ipsp.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgmas-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'confederation-coca-producers',
@@ -2626,7 +2737,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Union representing coca farmers in Bolivia, defending traditional coca cultivation and opposing forced eradication programs.',
       email: 'coca@cocaleros.test',
       website: 'https://cocaproducers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgccp-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'fenmucarinap',
@@ -2634,7 +2745,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'National Federation of Female Peasants, Artisans, Indigenous, Native and Salaried Workers of Peru, fighting for women\\u0027s and indigenous rights.',
       email: 'women@fenmucarinap.test',
       website: 'https://fenmucarinap.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgfenmucarinap-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'andean-womens-federation',
@@ -2642,7 +2753,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Regional organization advocating for indigenous women\\u0027s rights across the Andean countries of South America.',
       email: 'andean@womensrights.test',
       website: 'https://andeanwomen.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgawf-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
 
     // Sami Organizations
@@ -2652,7 +2763,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Pan-Saami organization representing Sami people across Norway, Sweden, Finland, and Russia in their struggle for indigenous rights.',
       email: 'council@saamicouncil.test',
       website: 'https://saamicouncil.net',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgsc-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'swedish-sami-parliament',
@@ -2660,7 +2771,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Representative body for Sami people in Sweden, working on issues affecting Sami language, culture, and traditional livelihoods.',
       email: 'parliament@sametinget.test',
       website: 'https://sametinget.se',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgssp-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'union-saami-people-sweden',
@@ -2668,7 +2779,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Advocacy organization defending Sami land rights and traditional reindeer herding practices in Sweden.',
       email: 'union@samernas.test',
       website: 'https://sapmi.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgusps-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'sami-rights-movement',
@@ -2676,7 +2787,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Grassroots movement advocating for Sami self-determination and protection of traditional territories across the Arctic.',
       email: 'rights@samirights.test',
       website: 'https://samirights.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgsrm-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'alta-action-group',
@@ -2684,7 +2795,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Environmental and indigenous rights group that protested the Alta Dam project in Norway during the late 1970s and early 1980s.',
       email: 'action@altaaction.test',
       website: 'https://altaaction.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgaag-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'national-coalition-racism-sports',
@@ -2692,7 +2803,7 @@ const firstNationsActivistsData: DataPackage = {
       about: 'Coalition working to eliminate offensive Native American caricatures, logos, and nicknames from sports teams and media representations.',
       email: 'coalition@antiracismsports.test',
       website: 'https://antiracismsports.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svgncrsm-logo.jpg'
+      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg'
     },
     {
       id: 'us-congress-native-caucus',

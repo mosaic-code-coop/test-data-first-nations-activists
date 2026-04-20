@@ -1,6 +1,6 @@
 {
   "name": "first-nations-activists-data",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Test data package containing first nations activists from around the world",
   "main": "dist/index.js",
   "type": "module",
@@ -9,8 +9,19 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:image": "vitest run --config vitest.image.config.ts",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
     "dev": "tsx src/index.ts",
-    "generate-diversity": "node scripts/generate-diversity-report.js"
+    "generate-diversity": "node scripts/generate-diversity-report.js",
+    "fetch-references": "npx tsx node_modules/test-data-factory/scripts/fetch-references.ts ./src/index.ts ./references",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "release:patch": "npm run changelog && git add CHANGELOG.md && git commit -m \"chore: update changelog\" && npm version patch && git push --follow-tags && npm run build && npm publish",
+    "release:minor": "npm run changelog && git add CHANGELOG.md && git commit -m \"chore: update changelog\" && npm version minor && git push --follow-tags && npm run build && npm publish",
+    "release:major": "npm run changelog && git add CHANGELOG.md && git commit -m \"chore: update changelog\" && npm version major && git push --follow-tags && npm run build && npm publish",
+    "release:dry": "npm run changelog -- --dry-run"
   },
   "keywords": [
     "test-data",
@@ -20,13 +31,29 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosaic-sunrise/test-data-first-nations-activists.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mosaic-sunrise/test-data-first-nations-activists/issues"
+  },
+  "homepage": "https://github.com/mosaic-sunrise/test-data-first-nations-activists#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
+    "conventional-changelog-cli": "^5.0.0",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.3",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0",
+    "typescript-eslint": "^8.58.2",
     "vitest": "^1.0.0"
   },
   "peerDependencies": {
     "test-data-factory": "file:../test-data-api"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }

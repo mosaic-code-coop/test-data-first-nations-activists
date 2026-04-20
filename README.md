@@ -5,6 +5,7 @@
 **This dataset contains names, images, and biographical information of deceased Indigenous persons.**
 
 In keeping with Indigenous cultural protocols and values, we acknowledge that:
+
 - Many Indigenous communities have specific cultural practices regarding the sharing of information about deceased persons
 - Some communities may prefer that names, images, or stories of deceased ancestors not be shared publicly
 - Each Indigenous culture has unique protocols around honoring and remembering those who have passed on
@@ -21,7 +22,7 @@ This dataset contains biographical information about First Nations, Indigenous, 
 
 ## Historical Accuracy
 
-All entries in this dataset are based on real people and documented historical events. If any of these errors contain factual errors, please let us know, or, ideally, create a Pull Request with a fix.
+All entries in this dataset are based on real people and documented historical events. If any of these entries contain factual errors, please let us know, or, ideally, create a Pull Request with a fix.
 
 ### Required Cultural Acknowledgment
 
@@ -30,6 +31,7 @@ All entries in this dataset are based on real people and documented historical e
 ## Contributing
 
 When adding new entries:
+
 - Verify information through multiple historical sources
 - Consult with relevant Indigenous communities when possible
 - Follow cultural protocols for discussing deceased persons

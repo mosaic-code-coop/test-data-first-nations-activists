@@ -1,4 +1,4 @@
-import { validateDataPackage } from 'test-data-factory';
+import { validateDataPackage } from '@mosaic-code/test-data-factory';
 import firstNationsActivistsData from './index.js';
 
 validateDataPackage(firstNationsActivistsData, {

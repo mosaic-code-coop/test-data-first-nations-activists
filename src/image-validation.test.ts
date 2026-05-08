@@ -1,4 +1,4 @@
-import { validateImageUrls } from 'test-data-factory';
+import { validateImageUrls } from '@mosaic-code/test-data-factory';
 import dataPackage from './index.js';
 
 validateImageUrls(dataPackage, {

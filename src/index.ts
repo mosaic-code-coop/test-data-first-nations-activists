@@ -1,4 +1,4 @@
-import type { DataPackage } from 'test-data-factory/dist/types.js';
+import type { DataPackage } from '@mosaic-code/test-data-factory/dist/types.js';
 
 const firstNationsActivistsData: DataPackage = {
   metadata: {

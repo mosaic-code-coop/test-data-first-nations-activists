@@ -86,7 +86,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Cindy Blackstock has dedicated her career to protecting Indigenous children from systemic discrimination. A Gitxsan social worker and advocate, she challenged the Canadian government in court over underfunding of child welfare services on reserves, exposing decades of institutional neglect that violated Indigenous children\\u0027s human rights.',
       email: 'cindy.blackstock@fncaringsociety.test',
       phone: '+1-555-0104',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['child-welfare', 'human-rights', 'gitxsan', 'social-work'],
       groupMemberships: ['first-nations-caring-society'],
       reference: 'https://en.wikipedia.org/wiki/Cindy_Blackstock',
@@ -133,7 +133,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Autumn Peltier has devoted her young life to protecting the waters that sustain all life. An Anishinaabe water protector from Wikwemikong Unceded Territory, she began speaking out about water crises affecting Indigenous communities when she was just eight years old. Following in the footsteps of her great-aunt Josephine Mandamin, a respected water walker, Peltier has addressed the United Nations General Assembly and other international forums about the sacred relationship between Indigenous peoples and water. Her advocacy has brought global attention to the water crises facing many First Nations communities across Canada.',
       email: 'autumn.peltier@anishinabek.test',
       phone: '+1-555-0106',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['water-rights', 'youth-activism', 'anishinaabe', 'united-nations'],
       groupMemberships: ['anishinabek-nation', 'honor-the-earth'],
       reference: 'https://en.wikipedia.org/wiki/Autumn_Peltier',
@@ -181,7 +181,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Ocean Wave Torres has dedicated her life to protecting the marine ecosystems that sustain her people. A Torres Strait Islander marine conservation advocate, she works to safeguard coral reefs and traditional fishing grounds from the devastating impacts of climate change. Her advocacy bridges Indigenous knowledge systems with modern conservation science, demonstrating that traditional ecological wisdom is essential for environmental protection. Torres fights tirelessly to ensure that rising sea levels and ocean acidification do not destroy the islands and waters that have sustained her ancestors for thousands of years.',
       email: 'ocean.wave@torresstraitmarine.test',
       phone: '+61-555-0108',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'marine-conservation',
         'coral-reefs',
@@ -249,7 +249,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Mary Brave Bird lived through one of the most intense moments of Native American resistance when she gave birth to her son during the 1973 occupation of Wounded Knee. A Lakota activist and member of AIM, she faced federal agents and military forces while bringing new life into a community under siege. Her experience became a powerful symbol of Indigenous women\\u0027s strength and the continuation of Native life despite government attempts at suppression. Brave Bird later wrote about her experiences in powerful memoirs that documented both the brutality of government boarding schools and the fierce resistance of her generation.',
       email: 'mary.bravebird@aim.test',
       phone: '+1-555-0110',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['civil-rights', 'aim', 'lakota', 'wounded-knee', 'author'],
       groupMemberships: ['american-indian-movement'],
       reference: 'https://en.wikipedia.org/wiki/Mary_Brave_Bird',
@@ -741,7 +741,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'The Navajo Code Talkers served as communications specialists in the U.S. Marine Corps during World War II, using their native language to transmit military messages that Japanese cryptographers never broke. Recruited from the same communities that federal boarding schools had punished for speaking Navajo, these Marines transformed a language the government had tried to eradicate into an invaluable military asset. Beyond the Navajo, Code Talkers from the Choctaw, Cherokee, Lakota, and other nations served in both World Wars, though their contributions went unrecognized for decades due to military secrecy. Their service highlighted a painful irony: Indigenous peoples defending a nation that continued to deny them full citizenship and systematically attacked their cultures.',
       email: 'codetalkers@navajo.test',
       phone: '+1-555-0131',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['navajo', 'code-talkers', 'world-war-ii', 'marines'],
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Code_talker',
@@ -973,7 +973,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Te Whiti-o-Rongomai established Parihaka as a beacon of peaceful resistance when the New Zealand government sought to crush Māori independence through force. This Taranaki leader and his people practiced nonviolent resistance against colonial land confiscation, welcoming government troops with children offering food even as their village was invaded in 1881. His philosophy of passive resistance influenced Mahatma Gandhi and demonstrated that Indigenous peoples could resist colonization through spiritual strength rather than violence. Te Whiti proved that moral authority could challenge military might, though the cost was the destruction of his thriving community.',
       email: 'te.whiti@parihaka.test',
       phone: '+64-555-0141',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['maori', 'parihaka', 'nonviolent-resistance', 'taranaki', 'spiritual-leader'],
       groupMemberships: ['parihaka-settlement', 'maori-peace-movement'],
       reference: 'https://en.wikipedia.org/wiki/Te_Whiti_o_Rongomai',
@@ -1018,7 +1018,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Tainui Stephens spent decades ensuring that Māori stories reached television screens and cinema audiences, refusing to let his people remain invisible in their own country. This Te Rarawa filmmaker and producer worked on groundbreaking programs from Koha to Waka Huia, creating a permanent space for Māori voices in New Zealand media. His documentaries about the New Zealand Wars and Māori Battalion brought Indigenous perspectives to national conversations about history and identity. Stephens understood that controlling the narrative was essential to cultural survival, making him a storyteller whose work preserved whakapapa for future generations.',
       email: 'tainui.stephens@maorimedia.test',
       phone: '+64-555-0143',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['maori', 'filmmaker', 'te-rarawa', 'television', 'storyteller'],
       groupMemberships: ['maori-television-collective', 'indigenous-filmmakers-aotearoa'],
       address: {
@@ -1307,7 +1307,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Lars-Anders Baer has spent decades fighting what he calls "windmill colonialism," challenging Sweden\\u0027s failure to properly consult Sami communities about industrial development affecting their traditional reindeer herding territories. This former president of the Swedish Sami Parliament and current vice-president of the Saami Council represents the 80,000 Sami people scattered across Norway, Sweden, Finland, and Russia in their ongoing struggle for land rights and cultural preservation. His leadership of the Union of Saami People in Sweden has focused on protecting reindeer migration routes from mining, wind farms, and other development projects that threaten traditional livelihoods. Baer argues that Sweden must confront its colonial past and recognize Sami rights to their ancestral lands, just as other settler states have been forced to acknowledge Indigenous sovereignty.',
       email: 'lars.baer@saamicouncil.test',
       phone: '+46-555-0155',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['sami', 'reindeer-herding', 'parliament', 'sweden', 'land-rights'],
       groupMemberships: ['saami-council', 'swedish-sami-parliament', 'union-saami-people-sweden'],
       address: {
@@ -1352,7 +1352,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Anthony Phillip Williams serves as the national coordinator of the Khoisan Liberation and Mass Movement in South Africa. He left his career as a pastor and business consultant to become a full-time activist for Khoikhoi land rights and cultural preservation. Williams argues that land is a prerequisite for cultural identity, asking 'How can our culture survive if we have no place where to practice it?' His work focuses on securing recognition of the Khoikhoi as South Africa's First Nations and addressing the ongoing legacy of colonial dispossession.",
       email: 'anthony.williams@khoisanliberation.test',
       phone: '+27-55-501-0157',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['khoikhoi', 'land-rights', 'cultural-preservation', 'south-africa', 'first-nations'],
       groupMemberships: [],
       address: {
@@ -1374,7 +1374,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Stanley Peterson serves on the National Khoi & San Council and was a key negotiator in the historic Rooibos case that resulted in the world's first industry-wide benefit-sharing agreement between Indigenous peoples and a commercial industry. After nine years of negotiations and advocacy, this groundbreaking agreement established a precedent for Indigenous intellectual property rights related to traditional plant knowledge. Peterson's work demonstrates how persistent advocacy can transform centuries of exploitation into models of equitable partnership. His efforts have inspired similar benefit-sharing initiatives across Africa.",
       email: 'stanley.peterson@khoisancouncil.test',
       phone: '+27-55-502-0158',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['san', 'traditional-knowledge', 'benefit-sharing', 'rooibos', 'intellectual-property'],
       groupMemberships: [],
       address: {
@@ -1420,7 +1420,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Joseph Oleshangay is a Maasai human rights lawyer with the Legal and Human Rights Center who became a vocal critic of forced relocations in Tanzania's Ngorongoro Conservation Area. His legal advocacy exposed government violations of Indigenous rights and international law, making him a target of intimidation and harassment. In March 2024, Oleshangay was forced to flee Tanzania to Kenya, fearing for his safety after his criticism of the NCA relocations intensified government pressure. His courage in speaking truth to power exemplifies the personal risks faced by Indigenous rights defenders across Africa.",
       email: 'joseph.oleshangay@lhrc.test',
       phone: '+254-555-0160',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['maasai', 'human-rights-lawyer', 'ngorongoro', 'forced-relocation', 'legal-advocacy'],
       groupMemberships: [],
       address: {
@@ -1441,7 +1441,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Dismas Partalala is a Maasai grassroots conservationist based in the Loliondo district of Tanzania who has spent over two decades securing land rights for the Hadzabe community, one of the last remaining hunter-gatherer peoples in Africa. His work protects the Yaeda Valley forests where the Hadzabe have lived sustainably for centuries, depending on plants for food and medicine near the Ngorongoro Crater. Partalala's advocacy bridges traditional Maasai pastoralism and Hadzabe hunting-gathering practices, demonstrating how different Indigenous groups can support each other. His efforts preserve not only land but entire ways of life that represent humanity's oldest relationships with the natural world.",
       email: 'dismas.partalala@loliondo.test',
       phone: '+255-555-0161',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'maasai',
         'hadzabe-support',
@@ -1469,7 +1469,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Toroxa Breda teaches Khoikhoi language in Supusupu and leads language revitalization efforts during the UN International Decade of Indigenous Languages. As one of the few fluent speakers of Khoikhoi dialects, Breda works tirelessly to document and teach the language to younger generations who were forbidden from speaking it during apartheid. Her work with the Supusupu Khoikhoi First Language Project represents a race against time to preserve linguistic diversity. Breda argues that language carries the soul of a people, and without it, cultural identity cannot survive.',
       email: 'toroxa.breda@khoisanlanguage.test',
       phone: '+27-55-503-0162',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['khoikhoi', 'language-revitalization', 'supusupu', 'cultural-identity', 'education'],
       groupMemberships: [],
       address: {
@@ -1490,7 +1490,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Jumanda Gakelebone advocates for San communities in Botswana's Central Kalahari Game Reserve, fighting against forced relocations that began in the 1990s. As a traditional leader of the Gana and Gwi San peoples, Gakelebone has challenged government claims that the relocations were voluntary, documenting how communities were cut off from water and basic services to force them to leave. His testimony in international courts helped establish that the relocations violated constitutional rights. Gakelebone continues to support San families who wish to return to their ancestral lands while maintaining their traditional hunting and gathering practices.",
       email: 'jumanda.gakelebone@kalaharisurvival.test',
       phone: '+267-555-0163',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['san', 'kalahari', 'forced-relocation', 'traditional-leader', 'hunting-gathering'],
       groupMemberships: [],
       address: {
@@ -1512,7 +1512,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Helena !Kheisis is a Nama traditional healer and activist in Namibia who advocates for the protection of sacred sites and traditional medicine practices. She leads efforts to document traditional healing knowledge while fighting against mining operations that threaten sacred mountains and medicinal plant habitats. !Kheisis bridges traditional leadership roles with modern advocacy, serving on community conservancy boards that manage natural resources according to both traditional law and contemporary conservation science. Her work ensures that Nama cultural practices remain central to land management decisions in her region.',
       email: 'helena.kheisis@namahealing.test',
       phone: '+264-555-0164',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['nama', 'traditional-healing', 'sacred-sites', 'mining-resistance', 'conservancy'],
       groupMemberships: [],
       address: {
@@ -1606,7 +1606,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Tulasi Munda dedicated her life to education and started an informal school in 1964 in Odisha's iron ore mining area to educate children from local Adivasi communities who would otherwise have ended up as child laborers in the mines. For over five decades, she has provided education to thousands of tribal children, ensuring they have alternatives to dangerous mining work. Munda's grassroots approach to education combines traditional Adivasi knowledge with formal learning, helping children maintain their cultural identity while gaining skills for the modern world. Her work demonstrates how education can be a form of resistance against exploitation and marginalization.",
       email: 'tulasi.munda@tribalEducation.test',
       phone: '+91-555-0168',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['adivasi', 'education', 'child-labor', 'odisha', 'mining-resistance'],
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Tulasi_Munda',
@@ -1628,7 +1628,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: 'Kaori Tahara is an Ainu rights activist and educator who teaches Ainu history at Tokyo University, highlighting the ongoing challenges faced by the Ainu community despite recent government recognition. She emphasizes how "Ainu people were officially forbidden to speak their language and were forced to take Japanese names," and documents how discrimination persists today. Tahara\'s academic work provides crucial documentation of Ainu experiences while her activism pushes for meaningful implementation of Indigenous rights. Her dual role as scholar and advocate ensures that Ainu voices remain central to discussions of Japanese Indigenous rights.',
       email: 'kaori.tahara@ainustudies.test',
       phone: '+81-555-0169',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['ainu', 'academic-activism', 'language-rights', 'discrimination', 'tokyo'],
       groupMemberships: [],
       address: {
@@ -1728,7 +1728,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Ruth Liloqula advocates for Indigenous women's rights and traditional governance systems in the Solomon Islands, where customary land tenure covers over 87% of the country. She works with rural communities to strengthen traditional decision-making processes while ensuring women's voices are heard in land and resource management. Liloqula's approach recognizes that Indigenous governance systems can adapt to contemporary challenges while maintaining their cultural integrity. Her work demonstrates how traditional leaders can address modern issues like logging, mining, and climate change through Indigenous knowledge systems.",
       email: 'ruth.liloqula@solomonwomen.test',
       phone: '+677-555-0173',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'melanesian',
         'women-rights',
@@ -1756,7 +1756,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "David Tong is a climate activist and traditional leader from Kiribati who advocates for the rights of climate refugees and the preservation of Pacific Island cultures threatened by sea level rise. As his nation faces the possibility of becoming uninhabitable due to climate change, Tong works to ensure that I-Kiribati people maintain their cultural identity and rights even if forced to relocate. His advocacy combines traditional navigation knowledge with modern climate science to document environmental changes. Tong's work highlights how climate change represents cultural genocide for Pacific Island peoples.",
       email: 'david.tong@kiribaticlimate.test',
       phone: '+686-555-0174',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'i-kiribati',
         'climate-refugee',
@@ -1807,7 +1807,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Mere Ratunabuabua advocates for Indigenous Fijian women's rights and traditional ecological knowledge in climate adaptation strategies. She works with rural communities to document and preserve traditional farming and fishing practices that have sustained Pacific Island communities for generations. Ratunabuabua's advocacy emphasizes how Indigenous women hold critical knowledge for climate resilience but are often excluded from formal climate planning processes. Her work bridges traditional iTaukei governance systems with contemporary environmental policy, ensuring that climate solutions honor Indigenous knowledge and practices.",
       email: 'mere.ratunabuabua@fijiwomen.test',
       phone: '+679-555-0176',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['fijian', 'traditional-knowledge', 'climate-adaptation', 'women-rights', 'itaukei'],
       groupMemberships: [],
       address: {
@@ -1888,7 +1888,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Betiana Colhuan is a Mapuche leader leading efforts to reclaim national park land considered sacred to her people, including areas that hold deep spiritual significance for traditional healing practices. Since childhood, she was trained by Mapuche elders to become a machi, a spiritual leader and healer, becoming the first to earn this title on the Argentinian side of the Andes Mountains in nearly 100 years. Colhuan's work bridges spiritual leadership with land rights activism, arguing that sacred sites are essential for maintaining Indigenous cultural and healing practices. Her efforts demonstrate how traditional authority can guide contemporary struggles for territorial sovereignty.",
       email: 'betiana.colhuan@machimapuche.test',
       phone: '+54-555-0179',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['mapuche', 'machi', 'sacred-sites', 'traditional-healing', 'argentina'],
       groupMemberships: [],
       address: {
@@ -2014,7 +2014,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Aili Keskitalo serves as President of the Sami Parliament of Norway and has been a leading voice in Arctic Indigenous rights and reindeer herding protection. She has advocated against wind farm developments on traditional Sami lands, arguing that the green energy transition should not come at the expense of Indigenous peoples' rights. Keskitalo's leadership spans from local reindeer herding issues to international Arctic Council forums where she advocates for Indigenous perspectives on climate change and sustainable development. Her work demonstrates how traditional leaders can influence both national policies and international agreements.",
       email: 'aili.keskitalo@samiparlament.test',
       phone: '+47-555-0184',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['sami', 'parliament-president', 'reindeer-herding', 'wind-farms', 'arctic-council'],
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Aili_Keskitalo',
@@ -2037,7 +2037,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Lars-Anders Baer is a Sami reindeer herder and activist from Sweden who has challenged mining operations and forestry practices that threaten traditional grazing lands. He represents the Sirges Sami village in legal battles against the state and private companies over land use rights that affect seasonal reindeer migration routes. Baer's activism combines traditional ecological knowledge with legal advocacy, documenting how industrial development disrupts reindeer behavior and Sami livelihoods. His work highlights the ongoing colonization of Sami territories through resource extraction and the need for effective Indigenous consent mechanisms.",
       email: 'lars.baer@sirgessami.test',
       phone: '+46-555-0185',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['sami', 'reindeer-herding', 'mining-resistance', 'forestry', 'sweden'],
       groupMemberships: [],
       address: {
@@ -2059,7 +2059,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Pauliina Feodoroff is a Skolt Sami documentary filmmaker and cultural activist from Finland who documents traditional knowledge and advocates for Sami language preservation. Her films capture the lived experiences of Sami communities facing cultural assimilation and environmental threats to traditional livelihoods. Feodoroff's work bridges art and activism, using storytelling to preserve cultural knowledge while advocating for Indigenous rights. Her documentaries have brought international attention to how climate change and development pressures affect Arctic Indigenous communities, demonstrating the power of Indigenous media to shape global conversations.",
       email: 'pauliina.feodoroff@skoltmedia.test',
       phone: '+358-555-0186',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'skolt-sami',
         'documentary-filmmaker',
@@ -2088,7 +2088,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Dmitri Berezhkov advocates for Nenets reindeer herders' rights in the Russian Arctic, where oil and gas development threatens traditional nomadic practices on the Yamal Peninsula. He documents how industrial development disrupts migration routes that Nenets families have used for centuries, forcing herders to adapt to shrinking territories and changing climate conditions. Berezhkov's work operating within Russia's restrictive political environment demonstrates the courage required for Indigenous activism under authoritarian governments. His advocacy focuses on preserving traditional knowledge and ensuring Nenets communities benefit from resource development on their territories.",
       email: 'dmitri.berezhkov@nenetsrights.test',
       phone: '+7-555-0187',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['nenets', 'reindeer-herding', 'oil-gas-resistance', 'yamal-peninsula', 'russia'],
       groupMemberships: [],
       address: {
@@ -2111,7 +2111,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Galina Diatchkova is an Even traditional healer and cultural preservation activist from the Sakha Republic who advocates for the protection of sacred sites and traditional medicine practices threatened by gold mining operations. She leads efforts to document traditional healing knowledge while challenging Russian federal policies that undermine Indigenous land rights. Diatchkova's work demonstrates how Indigenous women maintain cultural continuity in the face of state assimilation policies and industrial development. Her advocacy bridges traditional authority structures with contemporary human rights frameworks, working within Russia's constraints to protect Indigenous knowledge systems.",
       email: 'galina.diatchkova@evenhealing.test',
       phone: '+7-555-0188',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['even', 'traditional-healing', 'sacred-sites', 'mining-resistance', 'sakha-republic'],
       groupMemberships: [],
       address: {
@@ -2137,7 +2137,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Tshering Dolma is a Tibetan environmental activist and traditional medicine practitioner who advocates for the protection of high-altitude ecosystems and traditional Tibetan healing practices. She works with nomadic communities to document climate change impacts on traditional grazing patterns and medicinal plant availability. Dolma's activism combines environmental science with traditional ecological knowledge, demonstrating how Indigenous knowledge can inform climate adaptation strategies. Her work bridges Tibetan Buddhist concepts of environmental stewardship with contemporary conservation efforts, showing how spiritual traditions can guide environmental activism.",
       email: 'tshering.dolma@tibetanhealing.test',
       phone: '+91-555-0189',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: [
         'tibetan',
         'traditional-medicine',
@@ -2221,7 +2221,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Phoolman Chaudhary is a Tharu Indigenous rights activist from Nepal who advocates for the rights of Indigenous peoples in the Terai lowlands and works to preserve traditional Tharu culture and language. She leads efforts to secure land rights for Tharu communities who have faced displacement from the creation of national parks and commercial agriculture expansion. Chaudhary's work addresses how conservation policies can marginalize Indigenous peoples while fighting for models that recognize Indigenous land stewardship. Her advocacy demonstrates how Indigenous women can challenge both feudal and modern forms of oppression.",
       email: 'phoolman.chaudhary@tharuRights.test',
       phone: '+977-555-0192',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['tharu', 'land-rights', 'terai-lowlands', 'cultural-preservation', 'nepal'],
       groupMemberships: [],
       address: {
@@ -2436,7 +2436,7 @@ const firstNationsActivistsData: DataPackage = {
       bio: "Isatou Ceesay transformed plastic waste into economic opportunity for women in rural Gambia. Known as the 'Queen of Recycling,' she organized women to collect and upcycle plastic bags that were polluting their communities and killing livestock. Her initiative not only cleaned up the environment but provided income for hundreds of women through handicraft production. Ceesay's approach demonstrates how environmental solutions can emerge from grassroots organizing and traditional knowledge systems.",
       email: 'isatou.ceesay@womenrecycling.test',
       phone: '+220-555-0201',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       tags: ['recycling', 'women-empowerment', 'gambia', 'environmental', 'waste-management'],
       groupMemberships: [],
       reference: 'https://en.wikipedia.org/wiki/Isatou_Ceesay',
@@ -2484,7 +2484,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous grassroots movement founded in Minneapolis in 1968 to address issues of poverty, discrimination, and police brutality against American Indians, and to fight for Indigenous sovereignty and civil rights.',
       email: 'contact@aimovement.test',
       website: 'https://aimovement.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/American_Indian_Movement',
     },
     {
@@ -2494,7 +2494,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous environmental advocacy organization co-founded by Winona LaDuke and the Indigo Girls, focusing on climate change, renewable energy, and environmental justice for Native communities.',
       email: 'info@honorearth.test',
       website: 'https://honorearth.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/Honor_the_Earth',
     },
     {
@@ -2504,7 +2504,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous organization founded by Winona LaDuke working to recover land for the Anishinaabeg people and develop sustainable, culturally appropriate economic enterprises.',
       email: 'info@welrp.test',
       website: 'https://welrp.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/White_Earth_Land_Recovery_Project',
     },
     {
@@ -2514,7 +2514,7 @@ const firstNationsActivistsData: DataPackage = {
         'Advocacy group working to increase Native American political participation and remove barriers to voting in tribal communities.',
       email: 'votes@nativevoting.test',
       website: 'https://nativevoting.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'tribal-democracy-coalition',
@@ -2523,7 +2523,7 @@ const firstNationsActivistsData: DataPackage = {
         'Multi-tribal organization promoting democratic participation and Indigenous representation in government at all levels.',
       email: 'democracy@tribaldemocracy.test',
       website: 'https://tribaldemocracy.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'first-nations-caring-society',
@@ -2532,7 +2532,7 @@ const firstNationsActivistsData: DataPackage = {
         'Canadian organization led by Cindy Blackstock that conducts research and advocates for equitable funding and services for First Nations children and families.',
       email: 'info@fncaringsociety.test',
       website: 'https://fncaringsociety.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/First_Nations_Child_and_Family_Caring_Society',
     },
     {
@@ -2542,7 +2542,7 @@ const firstNationsActivistsData: DataPackage = {
         'Network of Indigenous land defenders working to protect traditional territories from resource extraction and development.',
       email: 'protect@landprotectors.test',
       website: 'https://canadianlandprotectors.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-health-network',
@@ -2551,7 +2551,7 @@ const firstNationsActivistsData: DataPackage = {
         'Healthcare advocacy organization addressing health disparities and promoting culturally appropriate healthcare for Indigenous communities.',
       email: 'health@indigenoushealth.test',
       website: 'https://indigenoushealth.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'traditional-healers-circle',
@@ -2560,7 +2560,7 @@ const firstNationsActivistsData: DataPackage = {
         'Council of Indigenous traditional healers preserving and sharing ancestral healing knowledge and practices.',
       email: 'healers@traditionalcircle.test',
       website: 'https://traditionalhealers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'anishinabek-nation',
@@ -2569,7 +2569,7 @@ const firstNationsActivistsData: DataPackage = {
         'Political organization representing 39 First Nations across Ontario, Canada. Advocates for Anishinaabe rights, including water protection and environmental justice led by Chief Water Commissioner Autumn Peltier.',
       email: 'info@anishinabek.test',
       website: 'https://anishinabek.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/Anishinabek_Nation',
     },
     {
@@ -2579,7 +2579,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous research network promoting the integration of traditional ecological knowledge into climate science and policy.',
       email: 'knowledge@indigenousknowledge.test',
       website: 'https://indigenousknowledge.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'cape-york-partnership',
@@ -2588,7 +2588,7 @@ const firstNationsActivistsData: DataPackage = {
         'Australian Indigenous organization founded by Noel Pearson promoting economic and social development of Cape York Peninsula while maintaining cultural values and Indigenous self-determination.',
       email: 'info@capeyork.test',
       website: 'https://capeyork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/Cape_York_Partnership',
     },
     {
@@ -2598,7 +2598,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous alliance working to protect sacred sites and cultural landscapes from destruction and desecration.',
       email: 'protect@sacredsites.test',
       website: 'https://sacredsitesprotection.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'torres-strait-conservation',
@@ -2607,7 +2607,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous marine conservation organization led by Torres Strait Islanders protecting coral reefs and traditional fishing areas.',
       email: 'marine@torresconservation.test',
       website: 'https://torresstraitconservation.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'pacific-islander-alliance',
@@ -2616,7 +2616,7 @@ const firstNationsActivistsData: DataPackage = {
         'Regional network of Indigenous Pacific Islander communities addressing climate change and marine conservation issues.',
       email: 'pacific@islanderalliance.test',
       website: 'https://pacificislanderalliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'rigoberta-menchu-foundation',
@@ -2625,7 +2625,7 @@ const firstNationsActivistsData: DataPackage = {
         'Guatemalan Indigenous rights organization founded by Nobel laureate Rigoberta Menchú, advocating for Maya communities and survivors of genocide while seeking justice and cultural preservation.',
       email: 'info@frmt.test',
       website: 'https://frmt.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
       reference: 'https://en.wikipedia.org/wiki/Rigoberta_Mench%C3%BA',
     },
     {
@@ -2635,7 +2635,7 @@ const firstNationsActivistsData: DataPackage = {
         'Global network of Indigenous medicine keepers preserving traditional healing knowledge and medicinal plant conservation.',
       email: 'medicine@traditionalmedicine.test',
       website: 'https://traditionalmedicinekeepers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-youth-network',
@@ -2644,7 +2644,7 @@ const firstNationsActivistsData: DataPackage = {
         'International network of Indigenous youth leaders promoting cultural preservation and environmental activism.',
       email: 'youth@indigenousyouth.test',
       website: 'https://indigenousyouthnetwork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'andean-water-council',
@@ -2653,7 +2653,7 @@ const firstNationsActivistsData: DataPackage = {
         'Council of Andean Indigenous communities protecting mountain watersheds and traditional water management systems.',
       email: 'water@andeanwater.test',
       website: 'https://andeanwatercouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-water-alliance',
@@ -2662,7 +2662,7 @@ const firstNationsActivistsData: DataPackage = {
         'International alliance advocating for Indigenous water rights and traditional water governance systems.',
       email: 'rights@wateralliance.test',
       website: 'https://indigenouswateralliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-farmers-union',
@@ -2671,7 +2671,7 @@ const firstNationsActivistsData: DataPackage = {
         'Union of Indigenous farmers promoting traditional agriculture and fighting for land and seed sovereignty.',
       email: 'farmers@indigenousfarmers.test',
       website: 'https://indigenousfarmersunion.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'seed-sovereignty-network',
@@ -2680,7 +2680,7 @@ const firstNationsActivistsData: DataPackage = {
         'Network dedicated to preserving Indigenous seed varieties and promoting traditional crop diversity.',
       email: 'seeds@seedsovereignty.test',
       website: 'https://seedsovereigntynetwork.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-climate-council',
@@ -2689,7 +2689,7 @@ const firstNationsActivistsData: DataPackage = {
         'International council bringing Indigenous perspectives to global climate policy and negotiations.',
       email: 'council@indigenousclimate.test',
       website: 'https://indigenousclimatecouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'sami-cultural-council',
@@ -2698,7 +2698,7 @@ const firstNationsActivistsData: DataPackage = {
         'Organization advocating for Sami cultural rights, language preservation, and traditional livelihoods.',
       email: 'culture@samiculture.test',
       website: 'https://samiculturalcouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'arctic-indigenous-alliance',
@@ -2707,7 +2707,7 @@ const firstNationsActivistsData: DataPackage = {
         'Circumpolar alliance of Arctic Indigenous peoples addressing climate change and cultural preservation.',
       email: 'arctic@arcticindigenous.test',
       website: 'https://arcticindigenousalliance.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'khoikhoi-heritage-foundation',
@@ -2716,7 +2716,7 @@ const firstNationsActivistsData: DataPackage = {
         'Foundation working to preserve Khoikhoi cultural heritage and reclaim traditional lands in southern Africa.',
       email: 'heritage@khoikhoiheritage.test',
       website: 'https://khoikhoiheritage.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'african-indigenous-council',
@@ -2725,7 +2725,7 @@ const firstNationsActivistsData: DataPackage = {
         'Continental organization representing Indigenous African peoples and advocating for their rights and recognition.',
       email: 'council@africanindigenous.test',
       website: 'https://africanindigenouscouncil.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
 
     // New Zealand Māori Organizations
@@ -2736,7 +2736,7 @@ const firstNationsActivistsData: DataPackage = {
         'Historic Indigenous Māori settlement founded by Te Whiti-o-Rongomai and Tohu Kākahi, known for its commitment to nonviolent resistance and peaceful coexistence.',
       email: 'peace@parihaka.test',
       website: 'https://parihaka.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'maori-peace-movement',
@@ -2745,7 +2745,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous movement promoting nonviolent resistance and peaceful solutions to Māori rights issues, inspired by the example of Parihaka.',
       email: 'info@maoripeace.test',
       website: 'https://maoripeacemovement.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'maori-land-march-committee',
@@ -2754,7 +2754,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous organization that coordinated the historic 1975 Māori Land March from Cape Reinga to Parliament, demanding "Not one more acre of Māori land."',
       email: 'march@maoriland.test',
       website: 'https://maorilandmarch.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'maori-womens-welfare-league',
@@ -2763,7 +2763,7 @@ const firstNationsActivistsData: DataPackage = {
         'National organization of Māori women working to improve the lives of Māori families and preserve Māori culture and values.',
       email: 'welfare@maoriwomen.test',
       website: 'https://maoriwomenswelfare.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'maori-television-collective',
@@ -2772,7 +2772,7 @@ const firstNationsActivistsData: DataPackage = {
         'Media organization promoting Māori stories, language, and perspectives in New Zealand broadcasting and film.',
       email: 'media@maoritv.test',
       website: 'https://maoritelevision.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-filmmakers-aotearoa',
@@ -2781,7 +2781,7 @@ const firstNationsActivistsData: DataPackage = {
         'Network of Indigenous filmmakers in New Zealand working to tell authentic Māori and Pacific stories through cinema and documentary.',
       email: 'film@indigenousaotearoa.test',
       website: 'https://indigenousfilmmakers.nz',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'ngā-tamatoa',
@@ -2790,7 +2790,7 @@ const firstNationsActivistsData: DataPackage = {
         'Māori activist group founded in 1970 that challenged racial discrimination and advocated for Māori rights through protest and political action.',
       email: 'warriors@ngātamatoa.test',
       website: 'https://ngātamatoa.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'maori-sovereignty-movement',
@@ -2799,7 +2799,7 @@ const firstNationsActivistsData: DataPackage = {
         'Political movement advocating for Māori self-determination and the restoration of Māori political authority under Te Tiriti o Waitangi.',
       email: 'sovereignty@maori.test',
       website: 'https://maorisovereignty.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
 
     // Australian Aboriginal Organizations
@@ -2810,7 +2810,7 @@ const firstNationsActivistsData: DataPackage = {
         'Australian organization established to promote reconciliation between Indigenous and non-Indigenous Australians through education and dialogue.',
       email: 'reconcile@car.test',
       website: 'https://reconciliation.org.au',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'senate-australia',
@@ -2819,7 +2819,7 @@ const firstNationsActivistsData: DataPackage = {
         'Upper house of the Australian Parliament, representing the states and territories of Australia in the federal legislative process.',
       email: 'info@senate.test',
       website: 'https://senate.gov.au',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-parliamentary-caucus',
@@ -2828,7 +2828,7 @@ const firstNationsActivistsData: DataPackage = {
         'Cross-party group of parliamentarians working to advance Indigenous rights and representation in Australian government.',
       email: 'caucus@indigenous.test',
       website: 'https://indigenouscaucus.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'meriam-people',
@@ -2837,7 +2837,7 @@ const firstNationsActivistsData: DataPackage = {
         'Traditional owners of the Murray Islands in the Torres Strait, who successfully challenged terra nullius in the landmark Mabo case.',
       email: 'culture@meriam.test',
       website: 'https://meriampeople.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'native-title-claimants',
@@ -2846,7 +2846,7 @@ const firstNationsActivistsData: DataPackage = {
         'Network of Indigenous Australian groups pursuing native title claims and land rights recognition across Australia.',
       email: 'claims@nativetitle.test',
       website: 'https://nativetitle.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
 
     // Pacific Islander Organizations
@@ -2857,7 +2857,7 @@ const firstNationsActivistsData: DataPackage = {
         'Government of the Autonomous Region of Bougainville, working toward independence from Papua New Guinea through peaceful political processes.',
       email: 'government@bougainville.test',
       website: 'https://abg.gov.pg',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'new-bougainville-party',
@@ -2866,7 +2866,7 @@ const firstNationsActivistsData: DataPackage = {
         'Political party in Bougainville advocating for gradual independence and sustainable development of the island.',
       email: 'party@newbougainville.test',
       website: 'https://newbougainvilleparty.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'hawaiian-kingdom',
@@ -2875,7 +2875,7 @@ const firstNationsActivistsData: DataPackage = {
         'Historic sovereign nation of the Hawaiian Islands, overthrown in 1893 by American businessmen, with ongoing movements seeking restoration.',
       email: 'kingdom@hawaii.test',
       website: 'https://hawaiiankingdom.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'hui-aloha-aina',
@@ -2884,7 +2884,7 @@ const firstNationsActivistsData: DataPackage = {
         'Hawaiian organization that opposed American annexation, collecting over 21,000 signatures against the annexation treaty in the 1890s.',
       email: 'aloha@huialohaaina.test',
       website: 'https://huialohaaina.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'peoples-alliance-fiji',
@@ -2893,7 +2893,7 @@ const firstNationsActivistsData: DataPackage = {
         'Fijian political party committed to multiracial democracy and constitutional governance, led by Sitiveni Rabuka.',
       email: 'alliance@peoplesfiji.test',
       website: 'https://peoplesalliance.com.fj',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'fiji-military-forces',
@@ -2902,7 +2902,7 @@ const firstNationsActivistsData: DataPackage = {
         'Armed forces of Fiji, historically involved in coups but now committed to constitutional governance and regional peacekeeping.',
       email: 'military@rfmf.test',
       website: 'https://rfmf.mil.fj',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
 
     // South American Indigenous Organizations
@@ -2913,7 +2913,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous rights organization founded by Davi Kopenawa to defend Yanomami territory and culture in the Brazilian Amazon.',
       email: 'protect@hutukara.test',
       website: 'https://hutukara.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'pachakutik-movement',
@@ -2922,7 +2922,7 @@ const firstNationsActivistsData: DataPackage = {
         'Indigenous political movement in Ecuador advocating for indigenous rights, environmental protection, and political plurinationalism.',
       email: 'unity@pachakutik.test',
       website: 'https://pachakutik.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'confederation-nationalities-ecuador',
@@ -2931,7 +2931,7 @@ const firstNationsActivistsData: DataPackage = {
         'Organization representing Ecuador\\u0027s indigenous peoples and nationalities in their struggle for political and cultural rights.',
       email: 'nations@conaie.test',
       website: 'https://conaie.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'movement-towards-socialism',
@@ -2940,7 +2940,7 @@ const firstNationsActivistsData: DataPackage = {
         'Bolivian political party founded by Evo Morales, representing indigenous peoples, coca farmers, and the political left.',
       email: 'socialism@mas.test',
       website: 'https://mas-ipsp.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'confederation-coca-producers',
@@ -2949,7 +2949,7 @@ const firstNationsActivistsData: DataPackage = {
         'Union representing coca farmers in Bolivia, defending traditional coca cultivation and opposing forced eradication programs.',
       email: 'coca@cocaleros.test',
       website: 'https://cocaproducers.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'fenmucarinap',
@@ -2958,7 +2958,7 @@ const firstNationsActivistsData: DataPackage = {
         'National Federation of Female Peasants, Artisans, Indigenous, Native and Salaried Workers of Peru, fighting for women\\u0027s and indigenous rights.',
       email: 'women@fenmucarinap.test',
       website: 'https://fenmucarinap.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'andean-womens-federation',
@@ -2967,7 +2967,7 @@ const firstNationsActivistsData: DataPackage = {
         'Regional organization advocating for indigenous women\\u0027s rights across the Andean countries of South America.',
       email: 'andean@womensrights.test',
       website: 'https://andeanwomen.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
 
     // Sami Organizations
@@ -2978,7 +2978,7 @@ const firstNationsActivistsData: DataPackage = {
         'Pan-Saami organization representing Sami people across Norway, Sweden, Finland, and Russia in their struggle for indigenous rights.',
       email: 'council@saamicouncil.test',
       website: 'https://saamicouncil.net',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'swedish-sami-parliament',
@@ -2987,7 +2987,7 @@ const firstNationsActivistsData: DataPackage = {
         'Representative body for Sami people in Sweden, working on issues affecting Sami language, culture, and traditional livelihoods.',
       email: 'parliament@sametinget.test',
       website: 'https://sametinget.se',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'union-saami-people-sweden',
@@ -2996,7 +2996,7 @@ const firstNationsActivistsData: DataPackage = {
         'Advocacy organization defending Sami land rights and traditional reindeer herding practices in Sweden.',
       email: 'union@samernas.test',
       website: 'https://sapmi.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'sami-rights-movement',
@@ -3005,7 +3005,7 @@ const firstNationsActivistsData: DataPackage = {
         'Grassroots movement advocating for Sami self-determination and protection of traditional territories across the Arctic.',
       email: 'rights@samirights.test',
       website: 'https://samirights.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'alta-action-group',
@@ -3014,7 +3014,7 @@ const firstNationsActivistsData: DataPackage = {
         'Environmental and indigenous rights group that protested the Alta Dam project in Norway during the late 1970s and early 1980s.',
       email: 'action@altaaction.test',
       website: 'https://altaaction.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'national-coalition-racism-sports',
@@ -3023,7 +3023,7 @@ const firstNationsActivistsData: DataPackage = {
         'Coalition working to eliminate offensive Native American caricatures, logos, and nicknames from sports teams and media representations.',
       email: 'coalition@antiracismsports.test',
       website: 'https://antiracismsports.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'us-congress-native-caucus',
@@ -3032,7 +3032,7 @@ const firstNationsActivistsData: DataPackage = {
         'Bipartisan caucus in the U.S. Congress working to advance Native American interests and address issues affecting tribal communities.',
       email: 'caucus@nativecongress.test',
       website: 'https://nativecongress.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
     {
       id: 'indigenous-musicians-collective',
@@ -3041,7 +3041,7 @@ const firstNationsActivistsData: DataPackage = {
         'Network of Indigenous musicians and artists preserving and promoting traditional music while creating contemporary Indigenous art.',
       email: 'collective@indigenousmusic.test',
       website: 'https://indigenousmusic.test',
-      picture: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Person_icon_BLACK-01.svg',
+      picture: null,
     },
   ],
 

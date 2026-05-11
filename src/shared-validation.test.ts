@@ -10,7 +10,6 @@ validateDataPackage(firstNationsActivistsData, {
   minBioLength: 100,
   containsFirstNationsPeople: true,
   acknowledgeDeceasedFirstNations: true,
-  validateImageUrls: false, // Disabled due to timeout issues with some URLs
   validateReferenceUrls: false, // Disabled due to timeout issues with some URLs
   httpTimeout: 30000,
 });

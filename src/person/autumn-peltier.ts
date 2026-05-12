@@ -5,7 +5,7 @@ export default {
   fullName: "Autumn Peltier",
   dateOfBirth: new Date("2004-09-27T00:00:00.000Z"),
   pronouns: "she/her",
-  bio: "Autumn Peltier has devoted her young life to protecting the waters that sustain all life. An Anishinaabe water protector from Wikwemikong Unceded Territory, she began speaking out about water crises affecting Indigenous communities when she was just eight years old. Following in the footsteps of her great-aunt Josephine Mandamin, a respected water walker, Peltier has addressed the United Nations General Assembly and other international forums about the sacred relationship between Indigenous peoples and water. Her advocacy has brought global attention to the water crises facing many First Nations communities across Canada.",
+  bio: "Autumn Peltier has spent over a decade protecting the waters that sustain all life. An Anishinaabe water protector from Wikwemikong Unceded Territory, she began speaking out about water crises affecting Indigenous communities when she was eight years old. Following in the footsteps of her great-aunt Josephine Mandamin, a respected water walker, Peltier has addressed the United Nations General Assembly and other international forums about the sacred relationship between Indigenous peoples and water. Her advocacy has brought global attention to the water crises facing many First Nations communities across Canada.",
   email: "autumn.peltier@anishinabek.test",
   phone: "+1-555-0106",
   picture: null,

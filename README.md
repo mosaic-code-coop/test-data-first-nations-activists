@@ -1,5 +1,42 @@
 # First Nations Activists Dataset
 
+Real biographies of First Nations, Indigenous, Aboriginal, and tribal activists from around the world — packaged as test data for use in demos, fixtures, and test suites.
+
+**Please read the [Cultural Notice](#-important-cultural-notice) before using this dataset.**
+
+## Quickstart
+
+```bash
+npm install first-nations-activists-data @mosaic-code/test-data-factory
+```
+
+```typescript
+import DataFactory from '@mosaic-code/test-data-factory';
+import firstNationsActivistsData from 'first-nations-activists-data';
+
+// The acknowledgment should come from a deliberate user opt-in, not be
+// hardcoded. In CI/tests an env var works; in a UI, surface a
+// confirmation prompt and pass its result. Without this set to true, the
+// factory loads no data — your test suite still runs, just without this
+// dataset included.
+const factory = new DataFactory(firstNationsActivistsData, {
+  acknowledgeDeceasedFirstNations: process.env.ACKNOWLEDGE_FIRST_NATIONS === 'true',
+});
+
+// Three random people for your test
+const users = factory.getPeople(3);
+
+// A specific person by id
+const winona = factory.getPerson('winona-laduke');
+
+// People in a particular group
+const aim = factory.getPeopleInGroup('american-indian-movement');
+```
+
+For deterministic output across test runs, call `factory.setSeed(<number>)` first.
+
+See the [framework README](https://github.com/mosaic-sunrise/test-data-api#readme) for the full DataFactory API.
+
 ## ⚠️ Important Cultural Notice
 
 **This dataset contains names, images, and biographical information of deceased Indigenous persons.**

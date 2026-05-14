@@ -58,7 +58,7 @@
     "vitest": "^1.0.0"
   },
   "peerDependencies": {
-    "@mosaic-code/test-data-factory": "file:../test-data-api"
+    "@mosaic-code/test-data-factory": "^0.1.0"
   },
   "files": [
     "dist"

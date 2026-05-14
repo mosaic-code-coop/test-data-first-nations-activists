@@ -10,9 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Bump version 1.0.0 → 0.1.0 in preparation for npm publication.
-- `peerDependencies["@mosaic-code/test-data-factory"]` will be retargeted
-  from `file:../test-data-api` to `^0.1.0` once
-  `@mosaic-code/test-data-factory@0.1.0` is on the npm registry.
+- `peerDependencies["@mosaic-code/test-data-factory"]` retargeted from
+  `file:../test-data-api` to `^0.1.0` (published on npm registry).
 - Untrack `dist/` from git; rely on `npm run build`.
 - `src/image-validation.test.ts` imports `validateImageUrls` from the
   `@mosaic-code/test-data-factory` package name (was a relative path into a sibling repo).

@@ -1,7 +1,7 @@
 # Bio Writing Specification — First Nations Activists
 
 This package follows the shared bio writing spec from `test-data-factory`. See
-[`BIO_WRITING_SPEC.md`](https://github.com/mosaic-sunrise/test-data-api/blob/main/BIO_WRITING_SPEC.md)
+[`BIO_WRITING_SPEC.md`](https://github.com/mosaic-code-coop/test-data-api/blob/main/BIO_WRITING_SPEC.md)
 in that repo for the generic guidance (Should Be / Should NOT Be / Tone).
 
 The sections below are package-specific addenda.

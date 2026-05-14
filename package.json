@@ -37,12 +37,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mosaic-sunrise/test-data-first-nations-activists.git"
+    "url": "git+https://github.com/mosaic-code-coop/test-data-first-nations-activists.git"
   },
   "bugs": {
-    "url": "https://github.com/mosaic-sunrise/test-data-first-nations-activists/issues"
+    "url": "https://github.com/mosaic-code-coop/test-data-first-nations-activists/issues"
   },
-  "homepage": "https://github.com/mosaic-sunrise/test-data-first-nations-activists#readme",
+  "homepage": "https://github.com/mosaic-code-coop/test-data-first-nations-activists#readme",
   "devDependencies": {
     "@types/node": "^20.0.0",
     "conventional-changelog-cli": "^5.0.0",

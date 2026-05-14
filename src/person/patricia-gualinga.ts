@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "patricia-gualinga",
@@ -9,22 +9,16 @@ export default {
   email: "patricia.gualinga@kichwarights.test",
   phone: "+593-555-0191",
   picture: "https://upload.wikimedia.org/wikipedia/commons/8/87/Patricia_Gualinga_%28cropped%29.jpg",
-  tags: [
-    "Kichwa",
-    "Human-Rights-Defender",
-    "Inter-American-Court",
-    "Extractive-Resistance",
-    "Ecuador",
-  ],
+  tags: ["Kichwa", "Human-Rights-Defender", "Inter-American-Court", "Extractive-Resistance", "Ecuador"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Patricia_Gualinga",
   address: {
-  street: "456 Test Street",
-  city: "Puyo",
-  state: "Pastaza",
-  country: "Ecuador",
-  zipCode: "160250",
-},
+    street: "456 Test Street",
+    city: "Puyo",
+    state: "Pastaza",
+    country: "Ecuador",
+    zipCode: "160250",
+  },
   quote: "We defend the forest not just for ourselves, but for all humanity. The jungle is the lung of the world.",
   quoteReference: "https://www.frontlinedefenders.org/en/profile/patricia-gualinga",
 } satisfies Person;

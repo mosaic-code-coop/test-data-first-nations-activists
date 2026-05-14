@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "mary-brave-bird",
@@ -9,24 +9,17 @@ export default {
   email: "mary.bravebird@aim.test",
   phone: "+1-555-0110",
   picture: null,
-  tags: [
-    "Civil-Rights",
-    "AIM",
-    "Lakota",
-    "Wounded-Knee",
-    "Author",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-  ],
+  tags: ["Civil-Rights", "AIM", "Lakota", "Wounded-Knee", "Author"],
+  groupMemberships: ["american-indian-movement"],
   reference: "https://en.wikipedia.org/wiki/Mary_Brave_Bird",
   address: {
-  street: "1111 Test Street",
-  city: "Mission",
-  state: "South Dakota",
-  country: "United States",
-  zipCode: "57555",
-},
-  quote: "I could not help noticing the great role women played in Pueblo society. Women owned the houses and actually built them.",
+    street: "1111 Test Street",
+    city: "Mission",
+    state: "South Dakota",
+    country: "United States",
+    zipCode: "57555",
+  },
+  quote:
+    "I could not help noticing the great role women played in Pueblo society. Women owned the houses and actually built them.",
   quoteReference: "https://en.wikipedia.org/wiki/Mary_Brave_Bird",
 } satisfies Person;

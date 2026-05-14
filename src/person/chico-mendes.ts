@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "chico-mendes",
@@ -9,22 +9,17 @@ export default {
   email: "chico.mendes@rubbertappers.test",
   phone: "+55-555-0195",
   picture: "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chico_Mendes_in_1988.jpg",
-  tags: [
-    "Amazon",
-    "Environmental",
-    "Rubber-Tappers",
-    "Brazil",
-    "Forest-Protection",
-  ],
+  tags: ["Amazon", "Environmental", "Rubber-Tappers", "Brazil", "Forest-Protection"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Chico_Mendes",
   address: {
-  street: "789 Test Street",
-  city: "Xapuri",
-  state: "Acre",
-  country: "Brazil",
-  zipCode: "69930-000",
-},
-  quote: "At first I thought I was fighting to save rubber trees, then I thought I was fighting to save the Amazon rainforest. Now I realize I was fighting for humanity.",
+    street: "789 Test Street",
+    city: "Xapuri",
+    state: "Acre",
+    country: "Brazil",
+    zipCode: "69930-000",
+  },
+  quote:
+    "At first I thought I was fighting to save rubber trees, then I thought I was fighting to save the Amazon rainforest. Now I realize I was fighting for humanity.",
   quoteReference: "https://www.brainyquote.com/authors/chico-mendes-quotes",
 } satisfies Person;

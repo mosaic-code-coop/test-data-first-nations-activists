@@ -1,4 +1,4 @@
-import type { Group } from '@mosaic-code/test-data-factory';
+import type { Group } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "indigenous-farmers-union",

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "toroxa-breda",
@@ -9,21 +9,15 @@ export default {
   email: "toroxa.breda@khoisanlanguage.test",
   phone: "+27-55-503-0162",
   picture: null,
-  tags: [
-    "Khoikhoi",
-    "Language-Revitalization",
-    "Supusupu",
-    "Cultural-Identity",
-    "Education",
-  ],
+  tags: ["Khoikhoi", "Language-Revitalization", "Supusupu", "Cultural-Identity", "Education"],
   groupMemberships: [],
   address: {
-  street: "567 Test Street",
-  city: "Upington",
-  state: "Northern Cape",
-  country: "South Africa",
-  zipCode: "8800",
-},
+    street: "567 Test Street",
+    city: "Upington",
+    state: "Northern Cape",
+    country: "South Africa",
+    zipCode: "8800",
+  },
   quote: "Language carries the soul of a people. When we lose our words, we lose ourselves.",
   quoteReference: "https://www.un.org/en/observances/decade-indigenous-languages",
 } satisfies Person;

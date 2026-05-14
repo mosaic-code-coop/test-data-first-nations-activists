@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "te-whiti-o-rongomai",
@@ -9,25 +9,17 @@ export default {
   email: "te.whiti@parihaka.test",
   phone: "+64-555-0141",
   picture: null,
-  tags: [
-    "Maori",
-    "Parihaka",
-    "Nonviolent-Resistance",
-    "Taranaki",
-    "Spiritual-Leader",
-  ],
-  groupMemberships: [
-    "parihaka-settlement",
-    "maori-peace-movement",
-  ],
+  tags: ["Maori", "Parihaka", "Nonviolent-Resistance", "Taranaki", "Spiritual-Leader"],
+  groupMemberships: ["parihaka-settlement", "maori-peace-movement"],
   reference: "https://en.wikipedia.org/wiki/Te_Whiti_o_Rongomai",
   address: {
-  street: "123 Test Street",
-  city: "Parihaka",
-  state: "Taranaki",
-  country: "New Zealand",
-  zipCode: "4374",
-},
-  quote: "Though some, in darkness of heart, seeing their land ravished, might wish to take arms and kill the aggressors, I say it must not be.",
+    street: "123 Test Street",
+    city: "Parihaka",
+    state: "Taranaki",
+    country: "New Zealand",
+    zipCode: "4374",
+  },
+  quote:
+    "Though some, in darkness of heart, seeing their land ravished, might wish to take arms and kill the aggressors, I say it must not be.",
   quoteReference: "https://en.wikipedia.org/wiki/Te_Whiti_o_Rongomai",
 } satisfies Person;

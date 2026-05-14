@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ada-deer",
@@ -9,21 +9,16 @@ export default {
   email: "ada.deer@bia.test",
   phone: "+1-555-0122",
   picture: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Ada_E._Deer.jpg",
-  tags: [
-    "Menominee",
-    "BIA",
-    "Termination-Restoration",
-    "Federal-Recognition",
-  ],
+  tags: ["Menominee", "BIA", "Termination-Restoration", "Federal-Recognition"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ada_Deer",
   address: {
-  street: "2323 Test Street",
-  city: "Keshena",
-  state: "Wisconsin",
-  country: "United States",
-  zipCode: "54135",
-},
+    street: "2323 Test Street",
+    city: "Keshena",
+    state: "Wisconsin",
+    country: "United States",
+    zipCode: "54135",
+  },
   quote: "My proudest moments have not been winning this or that award, but making a difference.",
   quoteReference: "https://en.wikipedia.org/wiki/Ada_Deer",
 } satisfies Person;

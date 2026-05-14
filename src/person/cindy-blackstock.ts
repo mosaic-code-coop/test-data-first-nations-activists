@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "cindy-blackstock",
@@ -9,23 +9,17 @@ export default {
   email: "cindy.blackstock@fncaringsociety.test",
   phone: "+1-555-0104",
   picture: null,
-  tags: [
-    "Child-Welfare",
-    "Human-Rights",
-    "Gitxsan",
-    "Social-Work",
-  ],
-  groupMemberships: [
-    "first-nations-caring-society",
-  ],
+  tags: ["Child-Welfare", "Human-Rights", "Gitxsan", "Social-Work"],
+  groupMemberships: ["first-nations-caring-society"],
   reference: "https://en.wikipedia.org/wiki/Cindy_Blackstock",
   address: {
-  street: "321 Test Street",
-  city: "Ottawa",
-  state: "Ontario",
-  country: "Canada",
-  zipCode: "K1P 6L1",
-},
-  quote: "Every child is sacred and deserves the best that we can give them. When we prioritize their well-being, we honor our responsibilities as human beings.",
+    street: "321 Test Street",
+    city: "Ottawa",
+    state: "Ontario",
+    country: "Canada",
+    zipCode: "K1P 6L1",
+  },
+  quote:
+    "Every child is sacred and deserves the best that we can give them. When we prioritize their well-being, we honor our responsibilities as human beings.",
   quoteReference: "https://fncaringsociety.com/who-we-are",
 } satisfies Person;

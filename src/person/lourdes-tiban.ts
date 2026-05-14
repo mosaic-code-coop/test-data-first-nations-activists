@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "lourdes-tiban",
@@ -9,22 +9,16 @@ export default {
   email: "lourdes.tiban@kichwalaw.test",
   phone: "+593-555-0181",
   picture: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Lourdes_Tib%C3%A1n_in_Feb_2012.jpg",
-  tags: [
-    "Kichwa",
-    "Lawyer",
-    "Congress-Member",
-    "Rights-Of-Nature",
-    "Ecuador",
-  ],
+  tags: ["Kichwa", "Lawyer", "Congress-Member", "Rights-Of-Nature", "Ecuador"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Lourdes_Tib%C3%A1n",
   address: {
-  street: "234 Test Street",
-  city: "Quito",
-  state: "Pichincha",
-  country: "Ecuador",
-  zipCode: "170150",
-},
+    street: "234 Test Street",
+    city: "Quito",
+    state: "Pichincha",
+    country: "Ecuador",
+    zipCode: "170150",
+  },
   quote: "The earth is not a commodity. It is our mother, and she has rights that must be respected.",
   quoteReference: "https://therightsofnature.org/ecuador-rights-of-nature/",
 } satisfies Person;

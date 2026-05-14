@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "edward-loure",
@@ -9,22 +9,16 @@ export default {
   email: "edward.loure@maasailand.test",
   phone: "+255-555-0159",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Edward_Loure.jpg",
-  tags: [
-    "Maasai",
-    "Land-Titling",
-    "Conservation",
-    "Goldman-Prize",
-    "Pastoralism",
-  ],
+  tags: ["Maasai", "Land-Titling", "Conservation", "Goldman-Prize", "Pastoralism"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Edward_Loure",
   address: {
-  street: "456 Test Street",
-  city: "Arusha",
-  state: "Arusha Region",
-  country: "Tanzania",
-  zipCode: "23101",
-},
+    street: "456 Test Street",
+    city: "Arusha",
+    state: "Arusha Region",
+    country: "Tanzania",
+    zipCode: "23101",
+  },
   quote: "Land is life. When you protect the land, you protect the people and the wildlife together.",
   quoteReference: "https://en.wikipedia.org/wiki/Edward_Loure",
 } satisfies Person;

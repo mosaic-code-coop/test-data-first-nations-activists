@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "vandana-shiva",
@@ -9,22 +9,16 @@ export default {
   email: "vandana.shiva@navdanya.test",
   phone: "+91-555-0193",
   picture: "https://upload.wikimedia.org/wikipedia/commons/9/98/Dr._Vandana_Shiva_DS.jpg",
-  tags: [
-    "Seed-Sovereignty",
-    "Biodiversity",
-    "Agriculture",
-    "India",
-    "Environmental",
-  ],
+  tags: ["Seed-Sovereignty", "Biodiversity", "Agriculture", "India", "Environmental"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Vandana_Shiva",
   address: {
-  street: "892 Test Street",
-  city: "Dehradun",
-  state: "Uttarakhand",
-  country: "India",
-  zipCode: "248001",
-},
+    street: "892 Test Street",
+    city: "Dehradun",
+    state: "Uttarakhand",
+    country: "India",
+    zipCode: "248001",
+  },
   quote: "Seed is the source of life, and the first link in the food chain.",
   quoteReference: "https://www.brainyquote.com/authors/vandana-shiva-quotes",
 } satisfies Person;

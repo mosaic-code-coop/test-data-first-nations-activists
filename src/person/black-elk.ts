@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "black-elk",
@@ -9,21 +9,17 @@ export default {
   email: "black.elk@oglala.test",
   phone: "+1-555-0140",
   picture: "https://upload.wikimedia.org/wikipedia/commons/9/98/Black_Elk.jpg",
-  tags: [
-    "Oglala-Lakota",
-    "Holy-Man",
-    "Vision",
-    "Spiritual-Teacher",
-  ],
+  tags: ["Oglala-Lakota", "Holy-Man", "Vision", "Spiritual-Teacher"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Black_Elk",
   address: {
-  street: "4040 Test Street",
-  city: "Pine Ridge",
-  state: "South Dakota",
-  country: "United States",
-  zipCode: "57770",
-},
-  quote: "Peace comes within the souls of men when they realize their relationship, their oneness, with the universe and all its powers.",
+    street: "4040 Test Street",
+    city: "Pine Ridge",
+    state: "South Dakota",
+    country: "United States",
+    zipCode: "57770",
+  },
+  quote:
+    "Peace comes within the souls of men when they realize their relationship, their oneness, with the universe and all its powers.",
   quoteReference: "https://quotesanity.com/best-quotes-from-black-elk-speaks/",
 } satisfies Person;

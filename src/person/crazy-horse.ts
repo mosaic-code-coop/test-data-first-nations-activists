@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "crazy-horse",
@@ -9,21 +9,16 @@ export default {
   email: "crazy.horse@oglala.test",
   phone: "+1-555-0134",
   picture: "https://upload.wikimedia.org/wikipedia/en/7/7b/Crazy_Horse_drawing.jpg",
-  tags: [
-    "Oglala-Lakota",
-    "War-Leader",
-    "Little-Bighorn",
-    "Never-Surrender",
-  ],
+  tags: ["Oglala-Lakota", "War-Leader", "Little-Bighorn", "Never-Surrender"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Crazy_Horse",
   address: {
-  street: "3434 Test Street",
-  city: "Pine Ridge",
-  state: "South Dakota",
-  country: "United States",
-  zipCode: "57770",
-},
+    street: "3434 Test Street",
+    city: "Pine Ridge",
+    state: "South Dakota",
+    country: "United States",
+    zipCode: "57770",
+  },
   quote: "One does not sell the earth upon which the people walk.",
   quoteReference: "https://www.goodreads.com/quotes/7442429-one-does-not-sell-the-earth-upon-which-the-people",
 } satisfies Person;

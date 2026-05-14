@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "c-k-janu",
@@ -9,22 +9,16 @@ export default {
   email: "ck.janu@adivasisabha.test",
   phone: "+91-555-0167",
   picture: "https://upload.wikimedia.org/wikipedia/commons/0/0e/CK_janu.jpg",
-  tags: [
-    "Adivasi",
-    "Land-Rights",
-    "Kerala",
-    "Political-Activism",
-    "Tribal-Welfare",
-  ],
+  tags: ["Adivasi", "Land-Rights", "Kerala", "Political-Activism", "Tribal-Welfare"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/C._K._Janu",
   address: {
-  street: "123 Test Street",
-  city: "Kalpetta",
-  state: "Kerala",
-  country: "India",
-  zipCode: "673121",
-},
+    street: "123 Test Street",
+    city: "Kalpetta",
+    state: "Kerala",
+    country: "India",
+    zipCode: "673121",
+  },
   quote: "Land is not just soil to us. It is our identity, our culture, our very existence.",
   quoteReference: "https://en.wikipedia.org/wiki/C._K._Janu",
 } satisfies Person;

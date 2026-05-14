@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "sarah-winnemucca",
@@ -9,21 +9,16 @@ export default {
   email: "sarah.winnemucca@paiute.test",
   phone: "+1-555-0132",
   picture: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Sarah_Winnemucca.jpg",
-  tags: [
-    "Northern-Paiute",
-    "Interpreter",
-    "Author",
-    "Peace-Advocate",
-  ],
+  tags: ["Northern-Paiute", "Interpreter", "Author", "Peace-Advocate"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Sarah_Winnemucca",
   address: {
-  street: "3232 Test Street",
-  city: "Nixon",
-  state: "Nevada",
-  country: "United States",
-  zipCode: "89424",
-},
+    street: "3232 Test Street",
+    city: "Nixon",
+    state: "Nevada",
+    country: "United States",
+    zipCode: "89424",
+  },
   quote: "If women could go into your Congress, I think justice would soon be done to the Indians.",
   quoteReference: "https://en.wikipedia.org/wiki/Sarah_Winnemucca",
 } satisfies Person;

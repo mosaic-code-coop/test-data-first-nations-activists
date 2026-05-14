@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "sitting-bull",
@@ -9,21 +9,16 @@ export default {
   email: "sitting.bull@lakota.test",
   phone: "+1-555-0133",
   picture: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sitting_Bull_by_D_F_Barry_ca_1883_Dakota_Territory.jpg",
-  tags: [
-    "Hunkpapa-Lakota",
-    "Holy-Man",
-    "Little-Bighorn",
-    "Resistance",
-  ],
+  tags: ["Hunkpapa-Lakota", "Holy-Man", "Little-Bighorn", "Resistance"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Sitting_Bull",
   address: {
-  street: "3333 Test Street",
-  city: "Fort Yates",
-  state: "North Dakota",
-  country: "United States",
-  zipCode: "58538",
-},
+    street: "3333 Test Street",
+    city: "Fort Yates",
+    state: "North Dakota",
+    country: "United States",
+    zipCode: "58538",
+  },
   quote: "I wish it to be remembered that I was the last man of my tribe to surrender my rifle.",
   quoteReference: "https://en.wikipedia.org/wiki/Sitting_Bull",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "tecumseh",
@@ -9,21 +9,16 @@ export default {
   email: "tecumseh@shawnee.test",
   phone: "+1-555-0135",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Tecumseh02.jpg",
-  tags: [
-    "Shawnee",
-    "Confederacy",
-    "Pan-Indian",
-    "War-Of-1812",
-  ],
+  tags: ["Shawnee", "Confederacy", "Pan-Indian", "War-Of-1812"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Tecumseh",
   address: {
-  street: "3535 Test Street",
-  city: "Chillicothe",
-  state: "Ohio",
-  country: "United States",
-  zipCode: "45601",
-},
+    street: "3535 Test Street",
+    city: "Chillicothe",
+    state: "Ohio",
+    country: "United States",
+    zipCode: "45601",
+  },
   quote: "When you rise in the morning, give thanks for the light, for your life, for your strength.",
   quoteReference: "https://poemanalysis.com/chief-tecumseh/live-your-life/",
 } satisfies Person;

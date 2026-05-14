@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "dennis-banks",
@@ -9,25 +9,17 @@ export default {
   email: "dennis.banks@aim.test",
   phone: "+1-555-0102",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/70/Dennis_Banks_%288673602267%29_%28cropped%29.jpg",
-  tags: [
-    "Civil-Rights",
-    "AIM",
-    "Anishinaabe",
-    "Wounded-Knee",
-    "Activism",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-    "honor-the-earth",
-  ],
+  tags: ["Civil-Rights", "AIM", "Anishinaabe", "Wounded-Knee", "Activism"],
+  groupMemberships: ["american-indian-movement", "honor-the-earth"],
   reference: "https://en.wikipedia.org/wiki/Dennis_Banks",
   address: {
-  street: "456 Test Street",
-  city: "Minneapolis",
-  state: "Minnesota",
-  country: "United States",
-  zipCode: "55404",
-},
-  quote: "We have to use our culture, we have to use our spirituality, and we have to use our ceremonies to heal ourselves and to heal the Earth.",
+    street: "456 Test Street",
+    city: "Minneapolis",
+    state: "Minnesota",
+    country: "United States",
+    zipCode: "55404",
+  },
+  quote:
+    "We have to use our culture, we have to use our spirituality, and we have to use our ceremonies to heal ourselves and to heal the Earth.",
   quoteReference: "https://www.brainyquote.com/authors/dennis-banks-quotes",
 } satisfies Person;

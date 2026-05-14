@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "suzan-shown-harjo",
@@ -9,21 +9,16 @@ export default {
   email: "suzan.harjo@nmai.test",
   phone: "+1-555-0115",
   picture: "https://upload.wikimedia.org/wikipedia/commons/6/62/Suzan_shown_harjo_09.jpg",
-  tags: [
-    "Policy",
-    "Cheyenne",
-    "Muscogee",
-    "Repatriation",
-  ],
+  tags: ["Policy", "Cheyenne", "Muscogee", "Repatriation"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Suzan_Shown_Harjo",
   address: {
-  street: "1616 Test Street",
-  city: "Washington",
-  state: "District of Columbia",
-  country: "United States",
-  zipCode: "20002",
-},
+    street: "1616 Test Street",
+    city: "Washington",
+    state: "District of Columbia",
+    country: "United States",
+    zipCode: "20002",
+  },
   quote: "Our ancestors are not artifacts. They are human beings who deserve to rest in peace.",
   quoteReference: "https://en.wikipedia.org/wiki/Suzan_Shown_Harjo",
 } satisfies Person;

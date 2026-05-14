@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "sitiveni-rabuka",
@@ -9,25 +9,17 @@ export default {
   email: "sitiveni.rabuka@fiji.test",
   phone: "+679-555-0150",
   picture: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sitiveni_Rabuka_PIF_2023.jpg",
-  tags: [
-    "Fijian",
-    "Military",
-    "Prime-Minister",
-    "Coups",
-    "Reconciliation",
-  ],
-  groupMemberships: [
-    "peoples-alliance-fiji",
-    "fiji-military-forces",
-  ],
+  tags: ["Fijian", "Military", "Prime-Minister", "Coups", "Reconciliation"],
+  groupMemberships: ["peoples-alliance-fiji", "fiji-military-forces"],
   reference: "https://en.wikipedia.org/wiki/Sitiveni_Rabuka",
   address: {
-  street: "444 Test Street",
-  city: "Suva",
-  state: "Central Division",
-  country: "Fiji",
-  zipCode: "FJ",
-},
-  quote: "There is hope: even I changed to team up with my former adversaries to implement a more equitable Constitution.",
+    street: "444 Test Street",
+    city: "Suva",
+    state: "Central Division",
+    country: "Fiji",
+    zipCode: "FJ",
+  },
+  quote:
+    "There is hope: even I changed to team up with my former adversaries to implement a more equitable Constitution.",
   quoteReference: "https://en.wikipedia.org/wiki/Sitiveni_Rabuka",
 } satisfies Person;

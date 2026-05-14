@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "leonard-peltier",
@@ -9,23 +9,17 @@ export default {
   email: "leonard.peltier@freeleonard.test",
   phone: "+1-555-0105",
   picture: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Leonard_Peltier_mug_shot_%28cropped%29.jpg",
-  tags: [
-    "Political-Prisoner",
-    "AIM",
-    "Civil-Rights",
-    "Clemency",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-  ],
+  tags: ["Political-Prisoner", "AIM", "Civil-Rights", "Clemency"],
+  groupMemberships: ["american-indian-movement"],
   reference: "https://en.wikipedia.org/wiki/Leonard_Peltier",
   address: {
-  street: "555 Test Street",
-  city: "Belcourt",
-  state: "North Dakota",
-  country: "United States",
-  zipCode: "58316",
-},
-  quote: "I am innocent. But I am also a victim of the persecution and harassment that has been inflicted upon Indian people.",
+    street: "555 Test Street",
+    city: "Belcourt",
+    state: "North Dakota",
+    country: "United States",
+    zipCode: "58316",
+  },
+  quote:
+    "I am innocent. But I am also a victim of the persecution and harassment that has been inflicted upon Indian people.",
   quoteReference: "https://www.whoisleonardpeltier.info/",
 } satisfies Person;

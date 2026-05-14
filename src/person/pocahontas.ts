@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "pocahontas",
@@ -9,21 +9,16 @@ export default {
   email: "pocahontas@powhatan.test",
   phone: "+1-555-0138",
   picture: "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pocahontas_by_Simon_van_de_Passe_%281616%29.png",
-  tags: [
-    "Powhatan",
-    "Diplomat",
-    "Cultural-Bridge",
-    "Jamestown",
-  ],
+  tags: ["Powhatan", "Diplomat", "Cultural-Bridge", "Jamestown"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Pocahontas",
   address: {
-  street: "3838 Test Street",
-  city: "Jamestown",
-  state: "Virginia",
-  country: "United States",
-  zipCode: "23081",
-},
+    street: "3838 Test Street",
+    city: "Jamestown",
+    state: "Virginia",
+    country: "United States",
+    zipCode: "23081",
+  },
   quote: "Come not into our country to destroy us, but to teach us good things.",
   quoteReference: "https://en.wikipedia.org/wiki/Pocahontas",
 } satisfies Person;

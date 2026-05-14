@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "winona-laduke",
@@ -9,25 +9,17 @@ export default {
   email: "winona.laduke@honorearth.test",
   phone: "+1-555-0101",
   picture: "https://upload.wikimedia.org/wikipedia/commons/4/4b/Eric_Janus_and_Winona_LaDuke_%283x4_cropped%29.jpg",
-  tags: [
-    "Environmental",
-    "Renewable-Energy",
-    "Anishinaabe",
-    "Green-Party",
-    "Food-Sovereignty",
-  ],
-  groupMemberships: [
-    "honor-the-earth",
-    "white-earth-land-recovery",
-  ],
+  tags: ["Environmental", "Renewable-Energy", "Anishinaabe", "Green-Party", "Food-Sovereignty"],
+  groupMemberships: ["honor-the-earth", "white-earth-land-recovery"],
   reference: "https://en.wikipedia.org/wiki/Winona_LaDuke",
   address: {
-  street: "123 Test Street",
-  city: "Callaway",
-  state: "Minnesota",
-  country: "United States",
-  zipCode: "56521",
-},
-  quote: "What we need is to think about the next seven generations. We need to think about the future we are creating for our children and our children's children.",
+    street: "123 Test Street",
+    city: "Callaway",
+    state: "Minnesota",
+    country: "United States",
+    zipCode: "56521",
+  },
+  quote:
+    "What we need is to think about the next seven generations. We need to think about the future we are creating for our children and our children's children.",
   quoteReference: "https://www.azquotes.com/author/19248-Winona_LaDuke",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "john-trudell",
@@ -9,25 +9,17 @@ export default {
   email: "john.trudell@aim.test",
   phone: "+1-555-0116",
   picture: "https://upload.wikimedia.org/wikipedia/commons/e/e4/John_Trudell_1997-09-24_61232-37.jpg",
-  tags: [
-    "Poet",
-    "Santee-Dakota",
-    "AIM",
-    "Musician",
-    "Spokesman",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-    "indigenous-musicians-collective",
-  ],
+  tags: ["Poet", "Santee-Dakota", "AIM", "Musician", "Spokesman"],
+  groupMemberships: ["american-indian-movement", "indigenous-musicians-collective"],
   reference: "https://en.wikipedia.org/wiki/John_Trudell",
   address: {
-  street: "1717 Test Street",
-  city: "Santa Fe",
-  state: "New Mexico",
-  country: "United States",
-  zipCode: "87501",
-},
-  quote: "We are not Indians and we are not Native Americans. We are older than both concepts. We are the people, we are the human beings.",
+    street: "1717 Test Street",
+    city: "Santa Fe",
+    state: "New Mexico",
+    country: "United States",
+    zipCode: "87501",
+  },
+  quote:
+    "We are not Indians and we are not Native Americans. We are older than both concepts. We are the people, we are the human beings.",
   quoteReference: "https://www.brainyquote.com/authors/john-trudell-quotes",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "wilma-mankiller",
@@ -9,21 +9,17 @@ export default {
   email: "wilma.mankiller@cherokee.test",
   phone: "+1-555-0125",
   picture: "https://upload.wikimedia.org/wikipedia/commons/0/06/Wilma_Mankiller_1998.jpg",
-  tags: [
-    "Cherokee",
-    "Chief",
-    "First-Woman-Chief",
-    "Tribal-Development",
-  ],
+  tags: ["Cherokee", "Chief", "First-Woman-Chief", "Tribal-Development"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Wilma_Mankiller",
   address: {
-  street: "2525 Test Street",
-  city: "Tahlequah",
-  state: "Oklahoma",
-  country: "United States",
-  zipCode: "74464",
-},
-  quote: "Prior to my election, young Cherokee girls would never have thought that they might grow up and become chief.",
+    street: "2525 Test Street",
+    city: "Tahlequah",
+    state: "Oklahoma",
+    country: "United States",
+    zipCode: "74464",
+  },
+  quote:
+    "Prior to my election, young Cherokee girls would never have thought that they might grow up and become chief.",
   quoteReference: "https://www.brainyquote.com/authors/wilma-mankiller-quotes",
 } satisfies Person;

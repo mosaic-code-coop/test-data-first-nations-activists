@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "evaristo-nugkuag",
@@ -9,22 +9,16 @@ export default {
   email: "evaristo.nugkuag@aidesep.test",
   phone: "+51-555-0202",
   picture: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Evaristo_Nugkuag%2C_2010_%28cropped%29.jpg",
-  tags: [
-    "Aguaruna",
-    "Amazon",
-    "Indigenous-Rights",
-    "Peru",
-    "Territorial-Defense",
-  ],
+  tags: ["Aguaruna", "Amazon", "Indigenous-Rights", "Peru", "Territorial-Defense"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Evaristo_Nugkuag",
   address: {
-  street: "234 Test Street",
-  city: "Lima",
-  state: "Lima",
-  country: "Peru",
-  zipCode: "15001",
-},
+    street: "234 Test Street",
+    city: "Lima",
+    state: "Lima",
+    country: "Peru",
+    zipCode: "15001",
+  },
   quote: "The forest is our life, our pharmacy, our supermarket. We cannot live without it.",
   quoteReference: "https://en.wikipedia.org/wiki/Evaristo_Nugkuag",
 } satisfies Person;

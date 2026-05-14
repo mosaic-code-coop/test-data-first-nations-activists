@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "wangari-maathai",
@@ -9,22 +9,16 @@ export default {
   email: "wangari.maathai@greenbelt.test",
   phone: "+254-555-0196",
   picture: "https://upload.wikimedia.org/wikipedia/commons/d/da/Wangari_Maathai_in_2001.jpg",
-  tags: [
-    "Environmental",
-    "Women-Empowerment",
-    "Kenya",
-    "Reforestation",
-    "Nobel-Laureate",
-  ],
+  tags: ["Environmental", "Women-Empowerment", "Kenya", "Reforestation", "Nobel-Laureate"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Wangari_Maathai",
   address: {
-  street: "234 Test Street",
-  city: "Nairobi",
-  state: "Nairobi County",
-  country: "Kenya",
-  zipCode: "00100",
-},
+    street: "234 Test Street",
+    city: "Nairobi",
+    state: "Nairobi County",
+    country: "Kenya",
+    zipCode: "00100",
+  },
   quote: "It's the little things citizens do. That's what will make the difference. My little thing is planting trees.",
   quoteReference: "https://www.brainyquote.com/authors/wangari-maathai-quotes",
 } satisfies Person;

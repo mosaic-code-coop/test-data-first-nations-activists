@@ -4,4 +4,5 @@ package-lock.json
 CHANGELOG.md
 .claude/
 .github/
+.trash/
 references/

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "betiana-colhuan",
@@ -9,21 +9,15 @@ export default {
   email: "betiana.colhuan@machimapuche.test",
   phone: "+54-555-0179",
   picture: null,
-  tags: [
-    "Mapuche",
-    "Machi",
-    "Sacred-Sites",
-    "Traditional-Healing",
-    "Argentina",
-  ],
+  tags: ["Mapuche", "Machi", "Sacred-Sites", "Traditional-Healing", "Argentina"],
   groupMemberships: [],
   address: {
-  street: "456 Test Street",
-  city: "San Carlos de Bariloche",
-  state: "Río Negro",
-  country: "Argentina",
-  zipCode: "8400",
-},
+    street: "456 Test Street",
+    city: "San Carlos de Bariloche",
+    state: "Río Negro",
+    country: "Argentina",
+    zipCode: "8400",
+  },
   quote: "These mountains are not just landscape. They are our pharmacy, our university, our temple.",
   quoteReference: "https://www.theguardian.com/environment/2020/oct/16/mapuche-spiritual-leader-patagonia-land-rights",
 } satisfies Person;

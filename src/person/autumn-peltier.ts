@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "autumn-peltier",
@@ -9,24 +9,16 @@ export default {
   email: "autumn.peltier@anishinabek.test",
   phone: "+1-555-0106",
   picture: null,
-  tags: [
-    "Water-Rights",
-    "Youth-Activism",
-    "Anishinaabe",
-    "United-Nations",
-  ],
-  groupMemberships: [
-    "anishinabek-nation",
-    "honor-the-earth",
-  ],
+  tags: ["Water-Rights", "Youth-Activism", "Anishinaabe", "United-Nations"],
+  groupMemberships: ["anishinabek-nation", "honor-the-earth"],
   reference: "https://en.wikipedia.org/wiki/Autumn_Peltier",
   address: {
-  street: "777 Test Street",
-  city: "Manitoulin Island",
-  state: "Ontario",
-  country: "Canada",
-  zipCode: "P0P 1M0",
-},
+    street: "777 Test Street",
+    city: "Manitoulin Island",
+    state: "Ontario",
+    country: "Canada",
+    zipCode: "P0P 1M0",
+  },
   quote: "We can't eat money or drink oil. The future of our people depends on the protection of water.",
   quoteReference: "https://en.wikipedia.org/wiki/Autumn_Peltier",
 } satisfies Person;

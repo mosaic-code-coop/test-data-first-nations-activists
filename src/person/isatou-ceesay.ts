@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "isatou-ceesay",
@@ -9,22 +9,16 @@ export default {
   email: "isatou.ceesay@womenrecycling.test",
   phone: "+220-555-0201",
   picture: null,
-  tags: [
-    "Recycling",
-    "Women-Empowerment",
-    "Gambia",
-    "Environmental",
-    "Waste-Management",
-  ],
+  tags: ["Recycling", "Women-Empowerment", "Gambia", "Environmental", "Waste-Management"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Isatou_Ceesay",
   address: {
-  street: "789 Test Street",
-  city: "Njau",
-  state: "North Bank Region",
-  country: "Gambia",
-  zipCode: "NB001",
-},
+    street: "789 Test Street",
+    city: "Njau",
+    state: "North Bank Region",
+    country: "Gambia",
+    zipCode: "NB001",
+  },
   quote: "We cannot just talk about the environment. We have to act.",
   quoteReference: "https://en.wikipedia.org/wiki/Isatou_Ceesay",
 } satisfies Person;

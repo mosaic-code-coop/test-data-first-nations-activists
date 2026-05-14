@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "nina-pacari",
@@ -9,25 +9,17 @@ export default {
   email: "nina.pacari@kichwa.test",
   phone: "+593-555-0152",
   picture: "https://upload.wikimedia.org/wikipedia/commons/f/f1/Nina_pacari_RADIO_CENTRO.png",
-  tags: [
-    "Kichwa",
-    "Lawyer",
-    "Foreign-Minister",
-    "Constitutional-Law",
-    "Pachakutik",
-  ],
-  groupMemberships: [
-    "pachakutik-movement",
-    "confederation-nationalities-ecuador",
-  ],
+  tags: ["Kichwa", "Lawyer", "Foreign-Minister", "Constitutional-Law", "Pachakutik"],
+  groupMemberships: ["pachakutik-movement", "confederation-nationalities-ecuador"],
   reference: "https://en.wikipedia.org/wiki/Nina_Pacari",
   address: {
-  street: "666 Test Street",
-  city: "Quito",
-  state: "Pichincha",
-  country: "Ecuador",
-  zipCode: "170150",
-},
-  quote: "Indigenous populations are not ethnic minorities, but distinct nationalities with their own language, history and territory.",
+    street: "666 Test Street",
+    city: "Quito",
+    state: "Pichincha",
+    country: "Ecuador",
+    zipCode: "170150",
+  },
+  quote:
+    "Indigenous populations are not ethnic minorities, but distinct nationalities with their own language, history and territory.",
   quoteReference: "https://en.wikipedia.org/wiki/Nina_Pacari",
 } satisfies Person;

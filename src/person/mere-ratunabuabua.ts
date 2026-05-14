@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "mere-ratunabuabua",
@@ -9,21 +9,16 @@ export default {
   email: "mere.ratunabuabua@fijiwomen.test",
   phone: "+679-555-0176",
   picture: null,
-  tags: [
-    "Fijian",
-    "Traditional-Knowledge",
-    "Climate-Adaptation",
-    "Women-Rights",
-    "Itaukei",
-  ],
+  tags: ["Fijian", "Traditional-Knowledge", "Climate-Adaptation", "Women-Rights", "Itaukei"],
   groupMemberships: [],
   address: {
-  street: "567 Test Street",
-  city: "Suva",
-  state: "Central Division",
-  country: "Fiji",
-  zipCode: "10001",
-},
-  quote: "Our grandmothers knew how to read the sea and sky. We must honor this knowledge in our fight against climate change.",
+    street: "567 Test Street",
+    city: "Suva",
+    state: "Central Division",
+    country: "Fiji",
+    zipCode: "10001",
+  },
+  quote:
+    "Our grandmothers knew how to read the sea and sky. We must honor this knowledge in our fight against climate change.",
   quoteReference: "https://www.pacificclimatewarriors.org/",
 } satisfies Person;

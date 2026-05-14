@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "phoolman-chaudhary",
@@ -9,21 +9,15 @@ export default {
   email: "phoolman.chaudhary@tharuRights.test",
   phone: "+977-555-0192",
   picture: null,
-  tags: [
-    "Tharu",
-    "Land-Rights",
-    "Terai-Lowlands",
-    "Cultural-Preservation",
-    "Nepal",
-  ],
+  tags: ["Tharu", "Land-Rights", "Terai-Lowlands", "Cultural-Preservation", "Nepal"],
   groupMemberships: [],
   address: {
-  street: "789 Test Street",
-  city: "Bharatpur",
-  state: "Chitwan",
-  country: "Nepal",
-  zipCode: "44200",
-},
+    street: "789 Test Street",
+    city: "Bharatpur",
+    state: "Chitwan",
+    country: "Nepal",
+    zipCode: "44200",
+  },
   quote: "Our ancestors lived in harmony with the forests and rivers. We can teach the world how to do this again.",
   quoteReference: "https://www.iwgia.org/en/nepal.html",
 } satisfies Person;

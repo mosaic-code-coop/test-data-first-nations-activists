@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "sequoyah",
@@ -9,21 +9,16 @@ export default {
   email: "sequoyah@cherokee.test",
   phone: "+1-555-0139",
   picture: "https://upload.wikimedia.org/wikipedia/commons/a/af/Henry_Inman_-_Sequoyah_-_Google_Art_Project.jpg",
-  tags: [
-    "Cherokee",
-    "Syllabary",
-    "Inventor",
-    "Literacy",
-  ],
+  tags: ["Cherokee", "Syllabary", "Inventor", "Literacy"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Sequoyah",
   address: {
-  street: "3939 Test Street",
-  city: "Sallisaw",
-  state: "Oklahoma",
-  country: "United States",
-  zipCode: "74955",
-},
+    street: "3939 Test Street",
+    city: "Sallisaw",
+    state: "Oklahoma",
+    country: "United States",
+    zipCode: "74955",
+  },
   quote: "All I accomplished was to design a system by which the Cherokee language could be put into writing.",
   quoteReference: "https://en.wikipedia.org/wiki/Sequoyah",
 } satisfies Person;

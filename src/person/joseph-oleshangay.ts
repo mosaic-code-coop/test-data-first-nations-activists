@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "joseph-oleshangay",
@@ -9,21 +9,15 @@ export default {
   email: "joseph.oleshangay@lhrc.test",
   phone: "+254-555-0160",
   picture: null,
-  tags: [
-    "Maasai",
-    "Human-Rights-Lawyer",
-    "Ngorongoro",
-    "Forced-Relocation",
-    "Legal-Advocacy",
-  ],
+  tags: ["Maasai", "Human-Rights-Lawyer", "Ngorongoro", "Forced-Relocation", "Legal-Advocacy"],
   groupMemberships: [],
   address: {
-  street: "123 Test Street",
-  city: "Nairobi",
-  state: "Nairobi County",
-  country: "Kenya",
-  zipCode: "00100",
-},
+    street: "123 Test Street",
+    city: "Nairobi",
+    state: "Nairobi County",
+    country: "Kenya",
+    zipCode: "00100",
+  },
   quote: "Speaking for our people's rights should not make us refugees in our own region.",
   quoteReference: "https://www.culturalsurvival.org/news/maasai-lawyer-forced-flee-tanzania",
 } satisfies Person;

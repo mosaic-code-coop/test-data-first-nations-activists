@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "sharice-davids",
@@ -9,24 +9,16 @@ export default {
   email: "sharice.davids@congress.test",
   phone: "+1-555-0112",
   picture: "https://upload.wikimedia.org/wikipedia/commons/8/81/Sharice_Davids.jpg",
-  tags: [
-    "Congress",
-    "Ho-Chunk",
-    "Politics",
-    "Lawyer",
-    "LGBTQ",
-  ],
-  groupMemberships: [
-    "us-congress-native-caucus",
-  ],
+  tags: ["Congress", "Ho-Chunk", "Politics", "Lawyer", "LGBTQ"],
+  groupMemberships: ["us-congress-native-caucus"],
   reference: "https://en.wikipedia.org/wiki/Sharice_Davids",
   address: {
-  street: "1313 Test Street",
-  city: "Olathe",
-  state: "Kansas",
-  country: "United States",
-  zipCode: "66061",
-},
+    street: "1313 Test Street",
+    city: "Olathe",
+    state: "Kansas",
+    country: "United States",
+    zipCode: "66061",
+  },
   quote: "As a woman and a Native American, I know how to stand up and fight for equity.",
   quoteReference: "https://www.brainyquote.com/authors/sharice-davids-quotes",
 } satisfies Person;

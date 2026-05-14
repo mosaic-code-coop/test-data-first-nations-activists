@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "charlene-teters",
@@ -9,23 +9,16 @@ export default {
   email: "charlene.teters@spokane.test",
   phone: "+1-555-0111",
   picture: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Charlene_Teters_-_Senate_Hearing_on_05_May_2011.jpg",
-  tags: [
-    "Artist",
-    "Anti-Racism",
-    "Spokane",
-    "Mascot-Activism",
-  ],
-  groupMemberships: [
-    "national-coalition-racism-sports",
-  ],
+  tags: ["Artist", "Anti-Racism", "Spokane", "Mascot-Activism"],
+  groupMemberships: ["national-coalition-racism-sports"],
   reference: "https://en.wikipedia.org/wiki/Charlene_Teters",
   address: {
-  street: "1212 Test Street",
-  city: "Spokane",
-  state: "Washington",
-  country: "United States",
-  zipCode: "99201",
-},
+    street: "1212 Test Street",
+    city: "Spokane",
+    state: "Washington",
+    country: "United States",
+    zipCode: "99201",
+  },
   quote: "My art was a vehicle to make my voice bigger.",
   quoteReference: "https://en.wikipedia.org/wiki/Charlene_Teters",
 } satisfies Person;

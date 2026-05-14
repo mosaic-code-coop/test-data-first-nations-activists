@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "lourdes-huanca-atencio",
@@ -9,25 +9,16 @@ export default {
   email: "lourdes.huanca@fenmucarinap.test",
   phone: "+51-555-0154",
   picture: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Lourdes_Huanca_Atencio.jpg",
-  tags: [
-    "Aymara",
-    "Peasant-Rights",
-    "Womens-Rights",
-    "Peru",
-    "Fenmucarinap",
-  ],
-  groupMemberships: [
-    "fenmucarinap",
-    "andean-womens-federation",
-  ],
+  tags: ["Aymara", "Peasant-Rights", "Womens-Rights", "Peru", "Fenmucarinap"],
+  groupMemberships: ["fenmucarinap", "andean-womens-federation"],
   reference: "https://en.wikipedia.org/wiki/Lourdes_Huanca_Atencio",
   address: {
-  street: "888 Test Street",
-  city: "Cusco",
-  state: "Cusco Region",
-  country: "Peru",
-  zipCode: "08000",
-},
+    street: "888 Test Street",
+    city: "Cusco",
+    state: "Cusco Region",
+    country: "Peru",
+    zipCode: "08000",
+  },
   quote: "Our demands are now political. We can no longer even walk freely under this dictatorial regime of terror.",
   quoteReference: "https://en.wikipedia.org/wiki/Lourdes_Huanca_Atencio",
 } satisfies Person;

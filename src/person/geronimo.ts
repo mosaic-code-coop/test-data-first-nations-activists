@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "geronimo",
@@ -9,21 +9,16 @@ export default {
   email: "geronimo@apache.test",
   phone: "+1-555-0136",
   picture: "https://upload.wikimedia.org/wikipedia/commons/5/54/GeronimoRinehart.jpg",
-  tags: [
-    "Apache",
-    "Medicine-Man",
-    "Warrior",
-    "Last-Resistance",
-  ],
+  tags: ["Apache", "Medicine-Man", "Warrior", "Last-Resistance"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Geronimo",
   address: {
-  street: "3636 Test Street",
-  city: "Fort Sill",
-  state: "Oklahoma",
-  country: "United States",
-  zipCode: "73503",
-},
+    street: "3636 Test Street",
+    city: "Fort Sill",
+    state: "Oklahoma",
+    country: "United States",
+    zipCode: "73503",
+  },
   quote: "I cannot think that we are useless or God would not have created us.",
   quoteReference: "https://en.wikiquote.org/wiki/Geronimo",
 } satisfies Person;

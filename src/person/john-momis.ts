@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "john-momis",
@@ -9,25 +9,16 @@ export default {
   email: "john.momis@bougainville.test",
   phone: "+675-555-0148",
   picture: "https://upload.wikimedia.org/wikipedia/commons/b/be/John_Momis_ArawaHospital03_%28cropped%29.jpg",
-  tags: [
-    "Bougainvillean",
-    "Independence",
-    "President",
-    "Constitutional-Law",
-    "Referendum",
-  ],
-  groupMemberships: [
-    "autonomous-bougainville-government",
-    "new-bougainville-party",
-  ],
+  tags: ["Bougainvillean", "Independence", "President", "Constitutional-Law", "Referendum"],
+  groupMemberships: ["autonomous-bougainville-government", "new-bougainville-party"],
   reference: "https://en.wikipedia.org/wiki/John_Momis",
   address: {
-  street: "222 Test Street",
-  city: "Buka",
-  state: "Bougainville",
-  country: "Papua New Guinea",
-  zipCode: "613",
-},
+    street: "222 Test Street",
+    city: "Buka",
+    state: "Bougainville",
+    country: "Papua New Guinea",
+    zipCode: "613",
+  },
   quote: "At least psychologically, we feel liberated.",
   quoteReference: "https://en.wikipedia.org/wiki/John_Momis",
 } satisfies Person;

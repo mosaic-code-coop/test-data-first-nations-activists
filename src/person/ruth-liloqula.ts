@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ruth-liloqula",
@@ -9,21 +9,15 @@ export default {
   email: "ruth.liloqula@solomonwomen.test",
   phone: "+677-555-0173",
   picture: null,
-  tags: [
-    "Melanesian",
-    "Women-Rights",
-    "Customary-Land",
-    "Traditional-Governance",
-    "Solomon-Islands",
-  ],
+  tags: ["Melanesian", "Women-Rights", "Customary-Land", "Traditional-Governance", "Solomon-Islands"],
   groupMemberships: [],
   address: {
-  street: "456 Test Street",
-  city: "Honiara",
-  state: "Guadalcanal Province",
-  country: "Solomon Islands",
-  zipCode: "10001",
-},
+    street: "456 Test Street",
+    city: "Honiara",
+    state: "Guadalcanal Province",
+    country: "Solomon Islands",
+    zipCode: "10001",
+  },
   quote: "Our custom is not backward. It is wisdom that has sustained us for thousands of years.",
   quoteReference: "https://www.pacificwomen.org/our-stories",
 } satisfies Person;

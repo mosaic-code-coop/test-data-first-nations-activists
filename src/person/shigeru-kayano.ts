@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "shigeru-kayano",
@@ -9,22 +9,16 @@ export default {
   email: "memory.kayano@ainuheritage.test",
   phone: "+81-555-0170",
   picture: "https://upload.wikimedia.org/wikipedia/en/d/d9/Shigeru_Kayano.jpg",
-  tags: [
-    "Ainu",
-    "Language-Preservation",
-    "Politics",
-    "Folklorist",
-    "Diet-Member",
-  ],
+  tags: ["Ainu", "Language-Preservation", "Politics", "Folklorist", "Diet-Member"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Shigeru_Kayano",
   address: {
-  street: "234 Test Street",
-  city: "Nibutani",
-  state: "Hokkaido",
-  country: "Japan",
-  zipCode: "055-0101",
-},
+    street: "234 Test Street",
+    city: "Nibutani",
+    state: "Hokkaido",
+    country: "Japan",
+    zipCode: "055-0101",
+  },
   quote: "If we lose our language, we lose our soul. I will not let that happen to my people.",
   quoteReference: "https://en.wikipedia.org/wiki/Shigeru_Kayano",
 } satisfies Person;

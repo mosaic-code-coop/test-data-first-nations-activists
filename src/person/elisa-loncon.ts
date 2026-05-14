@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "elisa-loncon",
@@ -9,22 +9,17 @@ export default {
   email: "elisa.loncon@mapucheducation.test",
   phone: "+56-555-0178",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Elisa_Loncon_Antileo.jpg",
-  tags: [
-    "Mapuche",
-    "Constitutional-Convention",
-    "Language-Rights",
-    "Intercultural-Education",
-    "Plurinational",
-  ],
+  tags: ["Mapuche", "Constitutional-Convention", "Language-Rights", "Intercultural-Education", "Plurinational"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Elisa_Loncón",
   address: {
-  street: "123 Test Street",
-  city: "Santiago",
-  state: "Santiago Metropolitan",
-  country: "Chile",
-  zipCode: "8320000",
-},
-  quote: "Indigenous peoples can continue to be Indigenous with our languages and philosophy, exercising our rights in a plural society.",
+    street: "123 Test Street",
+    city: "Santiago",
+    state: "Santiago Metropolitan",
+    country: "Chile",
+    zipCode: "8320000",
+  },
+  quote:
+    "Indigenous peoples can continue to be Indigenous with our languages and philosophy, exercising our rights in a plural society.",
   quoteReference: "https://en.wikipedia.org/wiki/Elisa_Loncón",
 } satisfies Person;

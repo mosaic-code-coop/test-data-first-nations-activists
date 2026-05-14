@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "eddie-mabo",
@@ -9,25 +9,16 @@ export default {
   email: "eddie.mabo@nativetitle.test",
   phone: "+61-555-0147",
   picture: "https://upload.wikimedia.org/wikipedia/en/a/ad/EddieMaboportrait.gif",
-  tags: [
-    "Torres-Strait-Islander",
-    "Native-Title",
-    "Land-Rights",
-    "Mer-Island",
-    "Legal-Victory",
-  ],
-  groupMemberships: [
-    "meriam-people",
-    "native-title-claimants",
-  ],
+  tags: ["Torres-Strait-Islander", "Native-Title", "Land-Rights", "Mer-Island", "Legal-Victory"],
+  groupMemberships: ["meriam-people", "native-title-claimants"],
   reference: "https://en.wikipedia.org/wiki/Eddie_Mabo",
   address: {
-  street: "111 Test Street",
-  city: "Murray Island",
-  state: "Queensland",
-  country: "Australia",
-  zipCode: "4875",
-},
+    street: "111 Test Street",
+    city: "Murray Island",
+    state: "Queensland",
+    country: "Australia",
+    zipCode: "4875",
+  },
   quote: "This land has been ours for thousands of years. We just want recognition of that fact.",
   quoteReference: "https://en.wikipedia.org/wiki/Eddie_Mabo",
 } satisfies Person;

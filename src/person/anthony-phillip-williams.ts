@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "anthony-phillip-williams",
@@ -9,21 +9,16 @@ export default {
   email: "anthony.williams@khoisanliberation.test",
   phone: "+27-55-501-0157",
   picture: null,
-  tags: [
-    "Khoikhoi",
-    "Land-Rights",
-    "Cultural-Preservation",
-    "South-Africa",
-    "First-Nations",
-  ],
+  tags: ["Khoikhoi", "Land-Rights", "Cultural-Preservation", "South-Africa", "First-Nations"],
   groupMemberships: [],
   address: {
-  street: "789 Test Street",
-  city: "Cape Town",
-  state: "Western Cape",
-  country: "South Africa",
-  zipCode: "8001",
-},
-  quote: "How can our culture survive if we have no place where to practice it? Land is a prerequisite for cultural identity.",
+    street: "789 Test Street",
+    city: "Cape Town",
+    state: "Western Cape",
+    country: "South Africa",
+    zipCode: "8001",
+  },
+  quote:
+    "How can our culture survive if we have no place where to practice it? Land is a prerequisite for cultural identity.",
   quoteReference: "https://mg.co.za/article/2022-06-24-khoisan-land-rights-activist/",
 } satisfies Person;

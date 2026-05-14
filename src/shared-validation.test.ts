@@ -1,8 +1,8 @@
-import { validateDataPackage } from '@mosaic-code/test-data-factory';
-import firstNationsActivistsData from './index.js';
+import { validateDataPackage } from "@mosaic-code/test-data-factory";
+import firstNationsActivistsData from "./index.js";
 
 validateDataPackage(firstNationsActivistsData, {
-  datasetName: 'First Nations Activists Dataset',
+  datasetName: "First Nations Activists Dataset",
   minBirthYear: 1500, // Historical activists
   maxBirthYear: 2010,
   requireDateOfBirth: false,

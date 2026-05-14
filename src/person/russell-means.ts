@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "russell-means",
@@ -9,24 +9,16 @@ export default {
   email: "russell.means@aim.test",
   phone: "+1-555-0103",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c6/RussellMeans1987.jpg",
-  tags: [
-    "Civil-Rights",
-    "AIM",
-    "Oglala-Lakota",
-    "Wounded-Knee",
-    "Actor",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-  ],
+  tags: ["Civil-Rights", "AIM", "Oglala-Lakota", "Wounded-Knee", "Actor"],
+  groupMemberships: ["american-indian-movement"],
   reference: "https://en.wikipedia.org/wiki/Russell_Means",
   address: {
-  street: "789 Test Street",
-  city: "Porcupine",
-  state: "South Dakota",
-  country: "United States",
-  zipCode: "57772",
-},
+    street: "789 Test Street",
+    city: "Porcupine",
+    state: "South Dakota",
+    country: "United States",
+    zipCode: "57772",
+  },
   quote: "The only way Indians will survive is by taking political power.",
   quoteReference: "https://www.brainyquote.com/authors/russell-means-quotes",
 } satisfies Person;

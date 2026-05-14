@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "queen-liliuokalani",
@@ -9,25 +9,16 @@ export default {
   email: "liliuokalani@hawaiiankingdom.test",
   phone: "+1-808-555-0149",
   picture: "https://upload.wikimedia.org/wikipedia/commons/6/64/Liliuokalani%2C_c._1891.jpg",
-  tags: [
-    "Hawaiian",
-    "Queen",
-    "Sovereignty",
-    "Musician",
-    "Monarchy",
-  ],
-  groupMemberships: [
-    "hawaiian-kingdom",
-    "hui-aloha-aina",
-  ],
+  tags: ["Hawaiian", "Queen", "Sovereignty", "Musician", "Monarchy"],
+  groupMemberships: ["hawaiian-kingdom", "hui-aloha-aina"],
   reference: "https://en.wikipedia.org/wiki/Liliuokalani",
   address: {
-  street: "333 Test Street",
-  city: "Honolulu",
-  state: "Hawaii",
-  country: "United States",
-  zipCode: "96813",
-},
+    street: "333 Test Street",
+    city: "Honolulu",
+    state: "Hawaii",
+    country: "United States",
+    zipCode: "96813",
+  },
   quote: "Hawaii for the Hawaiians. The voice of the people is the voice of God.",
   quoteReference: "https://en.wikipedia.org/wiki/Liliuokalani",
 } satisfies Person;

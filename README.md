@@ -11,8 +11,8 @@ npm install @mosaic-code/first-nations-activists-data @mosaic-code/test-data-fac
 ```
 
 ```typescript
-import DataFactory from '@mosaic-code/test-data-factory';
-import firstNationsActivistsData from '@mosaic-code/first-nations-activists-data';
+import DataFactory from "@mosaic-code/test-data-factory";
+import firstNationsActivistsData from "@mosaic-code/first-nations-activists-data";
 
 // The acknowledgment should come from a deliberate user opt-in, not be
 // hardcoded. In CI/tests an env var works; in a UI, surface a
@@ -20,17 +20,17 @@ import firstNationsActivistsData from '@mosaic-code/first-nations-activists-data
 // factory loads no data — your test suite still runs, just without this
 // dataset included.
 const factory = new DataFactory(firstNationsActivistsData, {
-  acknowledgeDeceasedFirstNations: process.env.ACKNOWLEDGE_FIRST_NATIONS === 'true',
+  acknowledgeDeceasedFirstNations: process.env.ACKNOWLEDGE_FIRST_NATIONS === "true",
 });
 
 // Three random people for your test
 const users = factory.getPeople(3);
 
 // A specific person by id
-const winona = factory.getPerson('winona-laduke');
+const winona = factory.getPerson("winona-laduke");
 
 // People in a particular group
-const aim = factory.getPeopleInGroup('american-indian-movement');
+const aim = factory.getPeopleInGroup("american-indian-movement");
 ```
 
 For deterministic output across test runs, call `factory.setSeed(<number>)` first.

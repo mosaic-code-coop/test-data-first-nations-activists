@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "aili-keskitalo",
@@ -9,22 +9,16 @@ export default {
   email: "aili.keskitalo@samiparlament.test",
   phone: "+47-555-0184",
   picture: null,
-  tags: [
-    "Sami",
-    "Parliament-President",
-    "Reindeer-Herding",
-    "Wind-Farms",
-    "Arctic-Council",
-  ],
+  tags: ["Sami", "Parliament-President", "Reindeer-Herding", "Wind-Farms", "Arctic-Council"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Aili_Keskitalo",
   address: {
-  street: "123 Test Street",
-  city: "Karasjok",
-  state: "Finnmark",
-  country: "Norway",
-  zipCode: "9730",
-},
+    street: "123 Test Street",
+    city: "Karasjok",
+    state: "Finnmark",
+    country: "Norway",
+    zipCode: "9730",
+  },
   quote: "The green transition cannot be built on the destruction of Indigenous peoples' livelihoods and cultures.",
   quoteReference: "https://www.sametinget.no/",
 } satisfies Person;

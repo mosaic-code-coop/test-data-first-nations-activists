@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "chief-joseph",
@@ -9,21 +9,16 @@ export default {
   email: "chief.joseph@nezperce.test",
   phone: "+1-555-0137",
   picture: "https://upload.wikimedia.org/wikipedia/commons/5/59/Chief_Joseph_by_Edward_Sheriff_Curtis.jpg",
-  tags: [
-    "Nez-Perce",
-    "Chief",
-    "Retreat",
-    "Honor",
-  ],
+  tags: ["Nez-Perce", "Chief", "Retreat", "Honor"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Chief_Joseph",
   address: {
-  street: "3737 Test Street",
-  city: "Lapwai",
-  state: "Idaho",
-  country: "United States",
-  zipCode: "83540",
-},
+    street: "3737 Test Street",
+    city: "Lapwai",
+    state: "Idaho",
+    country: "United States",
+    zipCode: "83540",
+  },
   quote: "I will fight no more forever.",
   quoteReference: "https://www.loc.gov/item/today-in-history/october-05/",
 } satisfies Person;

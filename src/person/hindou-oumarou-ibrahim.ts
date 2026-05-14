@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "hindou-oumarou-ibrahim",
@@ -9,22 +9,16 @@ export default {
   email: "hindou.ibrahim@mbororo.test",
   phone: "+235-555-0190",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Hindou_Oumarou_Ibrahim.jpg",
-  tags: [
-    "Mbororo",
-    "Pastoralist",
-    "Climate-Adaptation",
-    "Traditional-Forecasting",
-    "Chad",
-  ],
+  tags: ["Mbororo", "Pastoralist", "Climate-Adaptation", "Traditional-Forecasting", "Chad"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Hindou_Oumarou_Ibrahim",
   address: {
-  street: "123 Test Street",
-  city: "N'Djamena",
-  state: "N'Djamena",
-  country: "Chad",
-  zipCode: "1001",
-},
+    street: "123 Test Street",
+    city: "N'Djamena",
+    state: "N'Djamena",
+    country: "Chad",
+    zipCode: "1001",
+  },
   quote: "Traditional knowledge is not primitive. It is sophisticated science developed over thousands of years.",
   quoteReference: "https://en.wikipedia.org/wiki/Hindou_Oumarou_Ibrahim",
 } satisfies Person;

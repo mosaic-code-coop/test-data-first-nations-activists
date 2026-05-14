@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "tulasi-munda",
@@ -9,22 +9,16 @@ export default {
   email: "tulasi.munda@tribalEducation.test",
   phone: "+91-555-0168",
   picture: null,
-  tags: [
-    "Adivasi",
-    "Education",
-    "Child-Labor",
-    "Odisha",
-    "Mining-Resistance",
-  ],
+  tags: ["Adivasi", "Education", "Child-Labor", "Odisha", "Mining-Resistance"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Tulasi_Munda",
   address: {
-  street: "567 Test Street",
-  city: "Keonjhar",
-  state: "Odisha",
-  country: "India",
-  zipCode: "758001",
-},
+    street: "567 Test Street",
+    city: "Keonjhar",
+    state: "Odisha",
+    country: "India",
+    zipCode: "758001",
+  },
   quote: "Education is the light that can free our children from the darkness of exploitation.",
   quoteReference: "https://en.wikipedia.org/wiki/Tulasi_Munda",
 } satisfies Person;

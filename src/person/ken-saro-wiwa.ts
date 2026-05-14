@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ken-saro-wiwa",
@@ -9,22 +9,16 @@ export default {
   email: "ken.saroviwa@ogoni.test",
   phone: "+234-555-0197",
   picture: "https://upload.wikimedia.org/wikipedia/en/2/2a/Ken_Saro-Wiwa.jpg",
-  tags: [
-    "Ogoni",
-    "Oil-Resistance",
-    "Nigeria",
-    "Environmental-Justice",
-    "Writer",
-  ],
+  tags: ["Ogoni", "Oil-Resistance", "Nigeria", "Environmental-Justice", "Writer"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa",
   address: {
-  street: "567 Test Street",
-  city: "Port Harcourt",
-  state: "Rivers State",
-  country: "Nigeria",
-  zipCode: "500001",
-},
+    street: "567 Test Street",
+    city: "Port Harcourt",
+    state: "Rivers State",
+    country: "Nigeria",
+    zipCode: "500001",
+  },
   quote: "The environment is man's first right. Without a safe environment, man cannot exist to claim other rights.",
   quoteReference: "https://en.wikipedia.org/wiki/Ken_Saro-Wiwa",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "dorothy-stang",
@@ -9,22 +9,16 @@ export default {
   email: "dorothy.stang@cpt.test",
   phone: "+55-555-0200",
   picture: "https://upload.wikimedia.org/wikipedia/en/8/8d/Dorothy_Stang.jpg",
-  tags: [
-    "Amazon-Defender",
-    "Nun",
-    "Land-Reform",
-    "Brazil",
-    "Environmental-Martyr",
-  ],
+  tags: ["Amazon-Defender", "Nun", "Land-Reform", "Brazil", "Environmental-Martyr"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Dorothy_Stang",
   address: {
-  street: "456 Test Street",
-  city: "Anapu",
-  state: "Pará",
-  country: "Brazil",
-  zipCode: "68365-000",
-},
+    street: "456 Test Street",
+    city: "Anapu",
+    state: "Pará",
+    country: "Brazil",
+    zipCode: "68365-000",
+  },
   quote: "The death of the forest is the end of our life.",
   quoteReference: "https://en.wikipedia.org/wiki/Dorothy_Stang",
 } satisfies Person;

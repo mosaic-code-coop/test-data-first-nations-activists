@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "soni-sori",
@@ -9,22 +9,16 @@ export default {
   email: "soni.sori@adivasisrights.test",
   phone: "+91-555-0165",
   picture: "https://upload.wikimedia.org/wikipedia/commons/5/59/Soni_Sori_at_Bhopal_Jan_Utsav_2017.jpg",
-  tags: [
-    "Adivasi",
-    "Human-Rights",
-    "Police-Brutality",
-    "Women-Rights",
-    "Chhattisgarh",
-  ],
+  tags: ["Adivasi", "Human-Rights", "Police-Brutality", "Women-Rights", "Chhattisgarh"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Soni_Sori",
   address: {
-  street: "456 Test Street",
-  city: "Jagdalpur",
-  state: "Chhattisgarh",
-  country: "India",
-  zipCode: "494001",
-},
+    street: "456 Test Street",
+    city: "Jagdalpur",
+    state: "Chhattisgarh",
+    country: "India",
+    zipCode: "494001",
+  },
   quote: "They can arrest my body, but they cannot arrest the truth or our people's struggle for justice.",
   quoteReference: "https://www.frontlinedefenders.org/en/profile/soni-sori",
 } satisfies Person;

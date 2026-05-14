@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "pauliina-feodoroff",
@@ -9,22 +9,16 @@ export default {
   email: "pauliina.feodoroff@skoltmedia.test",
   phone: "+358-555-0186",
   picture: null,
-  tags: [
-    "Skolt-Sami",
-    "Documentary-Filmmaker",
-    "Cultural-Preservation",
-    "Language-Rights",
-    "Finland",
-  ],
+  tags: ["Skolt-Sami", "Documentary-Filmmaker", "Cultural-Preservation", "Language-Rights", "Finland"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Pauliina_Feodoroff",
   address: {
-  street: "789 Test Street",
-  city: "Inari",
-  state: "Lapland",
-  country: "Finland",
-  zipCode: "99870",
-},
+    street: "789 Test Street",
+    city: "Inari",
+    state: "Lapland",
+    country: "Finland",
+    zipCode: "99870",
+  },
   quote: "Our stories are our resistance. When we tell them, we keep our culture alive for future generations.",
   quoteReference: "https://www.finlande.fr/cinema/pauliina-feodoroff/",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "moana-carcasses-kalosil",
@@ -9,22 +9,16 @@ export default {
   email: "moana.carcasses@vanuatugov.test",
   phone: "+678-555-0172",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Moana_Carcasses_Kalosil_2013_%28cropped%29.jpg",
-  tags: [
-    "Melanesian",
-    "Climate-Justice",
-    "Prime-Minister",
-    "Small-Islands",
-    "Vanuatu",
-  ],
+  tags: ["Melanesian", "Climate-Justice", "Prime-Minister", "Small-Islands", "Vanuatu"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Moana_Carcasses_Kalosil",
   address: {
-  street: "123 Test Street",
-  city: "Port Vila",
-  state: "Shefa Province",
-  country: "Vanuatu",
-  zipCode: "0001",
-},
+    street: "123 Test Street",
+    city: "Port Vila",
+    state: "Shefa Province",
+    country: "Vanuatu",
+    zipCode: "0001",
+  },
   quote: "The Pacific Ocean connects us all. When our islands disappear, humanity loses part of its soul.",
   quoteReference: "https://en.wikipedia.org/wiki/Moana_Carcasses_Kalosil",
 } satisfies Person;

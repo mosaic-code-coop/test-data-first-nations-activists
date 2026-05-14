@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "helena-kheisis",
@@ -9,21 +9,15 @@ export default {
   email: "helena.kheisis@namahealing.test",
   phone: "+264-555-0164",
   picture: null,
-  tags: [
-    "Nama",
-    "Traditional-Healing",
-    "Sacred-Sites",
-    "Mining-Resistance",
-    "Conservancy",
-  ],
+  tags: ["Nama", "Traditional-Healing", "Sacred-Sites", "Mining-Resistance", "Conservancy"],
   groupMemberships: [],
   address: {
-  street: "321 Test Street",
-  city: "Keetmanshoop",
-  state: "Karas Region",
-  country: "Namibia",
-  zipCode: "10005",
-},
+    street: "321 Test Street",
+    city: "Keetmanshoop",
+    state: "Karas Region",
+    country: "Namibia",
+    zipCode: "10005",
+  },
   quote: "The mountains hold our medicines and our ancestors. They cannot be replaced by mines.",
   quoteReference: "https://www.iwgia.org/en/namibia.html",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "berta-caceres",
@@ -9,22 +9,17 @@ export default {
   email: "berta.caceres@copinh.test",
   phone: "+504-555-0198",
   picture: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Berta_C%C3%A1ceres_%28cropped%29.jpg",
-  tags: [
-    "Lenca",
-    "Environmental-Defender",
-    "Honduras",
-    "Anti-Dam",
-    "Goldman-Prize",
-  ],
+  tags: ["Lenca", "Environmental-Defender", "Honduras", "Anti-Dam", "Goldman-Prize"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Berta_C%C3%A1ceres",
   address: {
-  street: "891 Test Street",
-  city: "La Esperanza",
-  state: "Intibucá",
-  country: "Honduras",
-  zipCode: "13201",
-},
-  quote: "Let us wake up! We're out of time. We must shake our conscience free of the rapacious capitalism, racism and patriarchy that will only assure our own self-destruction.",
+    street: "891 Test Street",
+    city: "La Esperanza",
+    state: "Intibucá",
+    country: "Honduras",
+    zipCode: "13201",
+  },
+  quote:
+    "Let us wake up! We're out of time. We must shake our conscience free of the rapacious capitalism, racism and patriarchy that will only assure our own self-destruction.",
   quoteReference: "https://www.goldmanprize.org/recipient/berta-caceres/",
 } satisfies Person;

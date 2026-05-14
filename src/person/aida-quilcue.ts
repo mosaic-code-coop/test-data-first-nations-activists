@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "aida-quilcue",
@@ -9,22 +9,16 @@ export default {
   email: "aida.quilcue@onicolombia.test",
   phone: "+57-555-0183",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c1/Aida_Quilcu%C3%A9_2017.jpg",
-  tags: [
-    "NASA",
-    "Peace-Process",
-    "Territorial-Rights",
-    "Armed-Conflict",
-    "Colombia",
-  ],
+  tags: ["NASA", "Peace-Process", "Territorial-Rights", "Armed-Conflict", "Colombia"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Aída_Quilcué",
   address: {
-  street: "890 Test Street",
-  city: "Popayán",
-  state: "Cauca",
-  country: "Colombia",
-  zipCode: "190001",
-},
+    street: "890 Test Street",
+    city: "Popayán",
+    state: "Cauca",
+    country: "Colombia",
+    zipCode: "190001",
+  },
   quote: "We want peace, but not the peace of cemeteries. We want the peace of dignity and territorial autonomy.",
   quoteReference: "https://www.onic.org.co/",
 } satisfies Person;

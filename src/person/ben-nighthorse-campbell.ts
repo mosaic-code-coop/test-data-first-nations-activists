@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ben-nighthorse-campbell",
@@ -9,21 +9,16 @@ export default {
   email: "ben.campbell@senate.test",
   phone: "+1-555-0123",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/75/BenNCampbell.jpg",
-  tags: [
-    "Northern-Cheyenne",
-    "Senator",
-    "Olympian",
-    "Jewelry-Maker",
-  ],
+  tags: ["Northern-Cheyenne", "Senator", "Olympian", "Jewelry-Maker"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ben_Nighthorse_Campbell",
   address: {
-  street: "2424 Test Street",
-  city: "Ignacio",
-  state: "Colorado",
-  country: "United States",
-  zipCode: "81137",
-},
+    street: "2424 Test Street",
+    city: "Ignacio",
+    state: "Colorado",
+    country: "United States",
+    zipCode: "81137",
+  },
   quote: "I have always been prouder of my Indian heritage than anything else in my life.",
   quoteReference: "https://www.brainyquote.com/authors/ben-nighthorse-campbell-quotes",
 } satisfies Person;

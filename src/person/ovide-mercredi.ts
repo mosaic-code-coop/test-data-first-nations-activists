@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ovide-mercredi",
@@ -9,21 +9,16 @@ export default {
   email: "ovide.mercredi@afn.test",
   phone: "+1-555-0114",
   picture: "https://upload.wikimedia.org/wikipedia/commons/8/86/Ovide_Mercredi.JPG",
-  tags: [
-    "Politics",
-    "Cree",
-    "Assembly-First-Nations",
-    "Grand-Chief",
-  ],
+  tags: ["Politics", "Cree", "Assembly-First-Nations", "Grand-Chief"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ovide_Mercredi",
   address: {
-  street: "1515 Test Street",
-  city: "Winnipeg",
-  state: "Manitoba",
-  country: "Canada",
-  zipCode: "R3B 0T6",
-},
+    street: "1515 Test Street",
+    city: "Winnipeg",
+    state: "Manitoba",
+    country: "Canada",
+    zipCode: "R3B 0T6",
+  },
   quote: "We want to be partners in this country, not wards of the state.",
   quoteReference: "https://en.wikipedia.org/wiki/Ovide_Mercredi",
 } satisfies Person;

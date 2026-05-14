@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "stanley-peterson",
@@ -9,21 +9,15 @@ export default {
   email: "stanley.peterson@khoisancouncil.test",
   phone: "+27-55-502-0158",
   picture: null,
-  tags: [
-    "San",
-    "Traditional-Knowledge",
-    "Benefit-Sharing",
-    "Rooibos",
-    "Intellectual-Property",
-  ],
+  tags: ["San", "Traditional-Knowledge", "Benefit-Sharing", "Rooibos", "Intellectual-Property"],
   groupMemberships: [],
   address: {
-  street: "234 Test Street",
-  city: "Clanwilliam",
-  state: "Western Cape",
-  country: "South Africa",
-  zipCode: "8135",
-},
+    street: "234 Test Street",
+    city: "Clanwilliam",
+    state: "Western Cape",
+    country: "South Africa",
+    zipCode: "8135",
+  },
   quote: "Traditional knowledge is not free for the taking. It belongs to our people and must benefit our communities.",
   quoteReference: "https://www.dailymaverick.co.za/article/2021-11-01-historic-rooibos-agreement/",
 } satisfies Person;

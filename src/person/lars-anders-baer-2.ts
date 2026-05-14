@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "lars-anders-baer-2",
@@ -9,21 +9,16 @@ export default {
   email: "lars.baer@sirgessami.test",
   phone: "+46-555-0185",
   picture: null,
-  tags: [
-    "Sami",
-    "Reindeer-Herding",
-    "Mining-Resistance",
-    "Forestry",
-    "Sweden",
-  ],
+  tags: ["Sami", "Reindeer-Herding", "Mining-Resistance", "Forestry", "Sweden"],
   groupMemberships: [],
   address: {
-  street: "456 Test Street",
-  city: "Gällivare",
-  state: "Norrbotten",
-  country: "Sweden",
-  zipCode: "982 31",
-},
-  quote: "The reindeer know these paths for thousands of years. We cannot let machines destroy what our ancestors built.",
+    street: "456 Test Street",
+    city: "Gällivare",
+    state: "Norrbotten",
+    country: "Sweden",
+    zipCode: "982 31",
+  },
+  quote:
+    "The reindeer know these paths for thousands of years. We cannot let machines destroy what our ancestors built.",
   quoteReference: "https://www.iwgia.org/en/sweden.html",
 } satisfies Person;

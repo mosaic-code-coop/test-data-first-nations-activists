@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "niillas-somby",
@@ -9,25 +9,16 @@ export default {
   email: "niillas.somby@samiactivist.test",
   phone: "+47-555-0156",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Niillas_Aslaksen_Somby.jpg",
-  tags: [
-    "Sami",
-    "Alta-Dam",
-    "Activist",
-    "Photographer",
-    "Hunger-Striker",
-  ],
-  groupMemberships: [
-    "sami-rights-movement",
-    "alta-action-group",
-  ],
+  tags: ["Sami", "Alta-Dam", "Activist", "Photographer", "Hunger-Striker"],
+  groupMemberships: ["sami-rights-movement", "alta-action-group"],
   reference: "https://en.wikipedia.org/wiki/Niillas_Somby",
   address: {
-  street: "100 Test Street",
-  city: "Alta",
-  state: "Finnmark",
-  country: "Norway",
-  zipCode: "9510",
-},
+    street: "100 Test Street",
+    city: "Alta",
+    state: "Finnmark",
+    country: "Norway",
+    zipCode: "9510",
+  },
   quote: "We are not terrorists! We are defending our land and our people's future.",
   quoteReference: "https://en.wikipedia.org/wiki/Niillas_Somby",
 } satisfies Person;

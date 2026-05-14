@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "n-scott-momaday",
@@ -9,21 +9,16 @@ export default {
   email: "scott.momaday@kiowa.test",
   phone: "+1-555-0127",
   picture: "https://upload.wikimedia.org/wikipedia/commons/4/4d/N_Scott_Momaday_George_W_Bush.jpg",
-  tags: [
-    "Kiowa",
-    "Pulitzer",
-    "Author",
-    "House-Made-Dawn",
-  ],
+  tags: ["Kiowa", "Pulitzer", "Author", "House-Made-Dawn"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/N._Scott_Momaday",
   address: {
-  street: "2727 Test Street",
-  city: "Lawton",
-  state: "Oklahoma",
-  country: "United States",
-  zipCode: "73501",
-},
+    street: "2727 Test Street",
+    city: "Lawton",
+    state: "Oklahoma",
+    country: "United States",
+    zipCode: "73501",
+  },
   quote: "We are what we imagine. Our very existence consists in our imagination of ourselves.",
   quoteReference: "https://www.brainyquote.com/authors/n-scott-momaday-quotes",
 } satisfies Person;

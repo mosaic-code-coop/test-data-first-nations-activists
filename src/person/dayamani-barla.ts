@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "dayamani-barla",
@@ -9,22 +9,16 @@ export default {
   email: "dayamani.barla@janhakpatrika.test",
   phone: "+91-555-0166",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Dayamani_Barla_in_ViBGYOR2012.jpg",
-  tags: [
-    "Adivasi",
-    "Journalism",
-    "Mining-Resistance",
-    "Jharkhand",
-    "Media-Activism",
-  ],
+  tags: ["Adivasi", "Journalism", "Mining-Resistance", "Jharkhand", "Media-Activism"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Dayamani_Barla",
   address: {
-  street: "789 Test Street",
-  city: "Ranchi",
-  state: "Jharkhand",
-  country: "India",
-  zipCode: "834001",
-},
+    street: "789 Test Street",
+    city: "Ranchi",
+    state: "Jharkhand",
+    country: "India",
+    zipCode: "834001",
+  },
   quote: "Our pen is our weapon. We will write the truth until the forests and our people are free.",
   quoteReference: "https://www.downtoearth.org.in/author/dayamani-barla-97",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "tshering-dolma",
@@ -9,21 +9,16 @@ export default {
   email: "tshering.dolma@tibetanhealing.test",
   phone: "+91-555-0189",
   picture: null,
-  tags: [
-    "Tibetan",
-    "Traditional-Medicine",
-    "High-Altitude-Ecosystems",
-    "Climate-Adaptation",
-    "Nomadic-Communities",
-  ],
+  tags: ["Tibetan", "Traditional-Medicine", "High-Altitude-Ecosystems", "Climate-Adaptation", "Nomadic-Communities"],
   groupMemberships: [],
   address: {
-  street: "890 Test Street",
-  city: "Dharamshala",
-  state: "Himachal Pradesh",
-  country: "India",
-  zipCode: "176215",
-},
-  quote: "The mountains teach us patience and resilience. We must learn from them to heal our relationship with nature.",
+    street: "890 Test Street",
+    city: "Dharamshala",
+    state: "Himachal Pradesh",
+    country: "India",
+    zipCode: "176215",
+  },
+  quote:
+    "The mountains teach us patience and resilience. We must learn from them to heal our relationship with nature.",
   quoteReference: "https://www.tibetpolicy.net/environment/",
 } satisfies Person;

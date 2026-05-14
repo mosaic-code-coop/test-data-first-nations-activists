@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ira-hayes",
@@ -9,21 +9,17 @@ export default {
   email: "ira.hayes@marines.test",
   phone: "+1-555-0130",
   picture: "https://upload.wikimedia.org/wikipedia/commons/7/76/Ira_Hayes.jpg",
-  tags: [
-    "Pima",
-    "Marine",
-    "Iwo-Jima",
-    "World-War-II",
-  ],
+  tags: ["Pima", "Marine", "Iwo-Jima", "World-War-II"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ira_Hayes",
   address: {
-  street: "3030 Test Street",
-  city: "Sacaton",
-  state: "Arizona",
-  country: "United States",
-  zipCode: "85147",
-},
-  quote: "I was sick. I guess I was about to crack up thinking about all my good buddies. They were better men than me and they're not coming back.",
+    street: "3030 Test Street",
+    city: "Sacaton",
+    state: "Arizona",
+    country: "United States",
+    zipCode: "85147",
+  },
+  quote:
+    "I was sick. I guess I was about to crack up thinking about all my good buddies. They were better men than me and they're not coming back.",
   quoteReference: "https://en.wikipedia.org/wiki/Ira_Hayes",
 } satisfies Person;

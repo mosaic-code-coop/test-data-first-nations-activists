@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "dismas-partalala",
@@ -9,21 +9,15 @@ export default {
   email: "dismas.partalala@loliondo.test",
   phone: "+255-555-0161",
   picture: null,
-  tags: [
-    "Maasai",
-    "Hadzabe-Support",
-    "Hunter-Gatherer",
-    "Yaeda-Valley",
-    "Traditional-Conservation",
-  ],
+  tags: ["Maasai", "Hadzabe-Support", "Hunter-Gatherer", "Yaeda-Valley", "Traditional-Conservation"],
   groupMemberships: [],
   address: {
-  street: "789 Test Street",
-  city: "Loliondo",
-  state: "Arusha Region",
-  country: "Tanzania",
-  zipCode: "23201",
-},
+    street: "789 Test Street",
+    city: "Loliondo",
+    state: "Arusha Region",
+    country: "Tanzania",
+    zipCode: "23201",
+  },
   quote: "The Hadzabe are our neighbors and teachers. Their ancient wisdom must be protected for all humanity.",
   quoteReference: "https://www.carbontan.com/about",
 } satisfies Person;

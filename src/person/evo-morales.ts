@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "evo-morales",
@@ -9,25 +9,16 @@ export default {
   email: "evo.morales@bolivia.test",
   phone: "+591-555-0153",
   picture: "https://upload.wikimedia.org/wikipedia/commons/5/58/Evo_Morales_Ayma_%28cropped_3%29.jpg",
-  tags: [
-    "Aymara",
-    "President",
-    "Coca-Farmers",
-    "Mas-Party",
-    "Bolivia",
-  ],
-  groupMemberships: [
-    "movement-towards-socialism",
-    "confederation-coca-producers",
-  ],
+  tags: ["Aymara", "President", "Coca-Farmers", "Mas-Party", "Bolivia"],
+  groupMemberships: ["movement-towards-socialism", "confederation-coca-producers"],
   reference: "https://en.wikipedia.org/wiki/Evo_Morales",
   address: {
-  street: "777 Test Street",
-  city: "La Paz",
-  state: "La Paz Department",
-  country: "Bolivia",
-  zipCode: "0000",
-},
+    street: "777 Test Street",
+    city: "La Paz",
+    state: "La Paz Department",
+    country: "Bolivia",
+    zipCode: "0000",
+  },
   quote: "Aymaras, Quechuas, and Mojeños, we are presidents.",
   quoteReference: "https://en.wikipedia.org/wiki/Evo_Morales",
 } satisfies Person;

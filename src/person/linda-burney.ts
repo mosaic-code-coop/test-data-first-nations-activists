@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "linda-burney",
@@ -9,21 +9,16 @@ export default {
   email: "linda.burney@parliament.test",
   phone: "+61-555-0146",
   picture: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Linda_Burney.jpg",
-  tags: [
-    "Wiradjuri",
-    "Parliament",
-    "Education",
-    "Minister",
-  ],
+  tags: ["Wiradjuri", "Parliament", "Education", "Minister"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Linda_Burney",
   address: {
-  street: "987 Test Street",
-  city: "Canberra",
-  state: "Australian Capital Territory",
-  country: "Australia",
-  zipCode: "2600",
-},
+    street: "987 Test Street",
+    city: "Canberra",
+    state: "Australian Capital Territory",
+    country: "Australia",
+    zipCode: "2600",
+  },
   quote: "As a woman and a mother, I know how to stand up and fight for equity.",
   quoteReference: "https://en.wikipedia.org/wiki/Linda_Burney",
 } satisfies Person;

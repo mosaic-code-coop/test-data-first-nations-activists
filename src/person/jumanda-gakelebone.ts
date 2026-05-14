@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "jumanda-gakelebone",
@@ -9,21 +9,15 @@ export default {
   email: "jumanda.gakelebone@kalaharisurvival.test",
   phone: "+267-555-0163",
   picture: null,
-  tags: [
-    "San",
-    "Kalahari",
-    "Forced-Relocation",
-    "Traditional-Leader",
-    "Hunting-Gathering",
-  ],
+  tags: ["San", "Kalahari", "Forced-Relocation", "Traditional-Leader", "Hunting-Gathering"],
   groupMemberships: [],
   address: {
-  street: "890 Test Street",
-  city: "Ghanzi",
-  state: "Ghanzi District",
-  country: "Botswana",
-  zipCode: "11041",
-},
+    street: "890 Test Street",
+    city: "Ghanzi",
+    state: "Ghanzi District",
+    country: "Botswana",
+    zipCode: "11041",
+  },
   quote: "The Kalahari is not empty land. It is our home, our church, our pharmacy, our everything.",
   quoteReference: "https://www.survivalinternational.org/tribes/bushmen",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "anna-mae-aquash",
@@ -9,23 +9,16 @@ export default {
   email: "annamae.aquash@aim.test",
   phone: "+1-555-0121",
   picture: "https://upload.wikimedia.org/wikipedia/en/a/aa/Anna_Mae_Pictou-Aquash.jpg",
-  tags: [
-    "Mikmaq",
-    "AIM",
-    "Civil-Rights",
-    "Martyr",
-  ],
-  groupMemberships: [
-    "american-indian-movement",
-  ],
+  tags: ["Mikmaq", "AIM", "Civil-Rights", "Martyr"],
+  groupMemberships: ["american-indian-movement"],
   reference: "https://en.wikipedia.org/wiki/Anna_Mae_Aquash",
   address: {
-  street: "2222 Test Street",
-  city: "Boston",
-  state: "Massachusetts",
-  country: "United States",
-  zipCode: "02101",
-},
+    street: "2222 Test Street",
+    city: "Boston",
+    state: "Massachusetts",
+    country: "United States",
+    zipCode: "02101",
+  },
   quote: "I will die, if necessary, as a proud Ojibway woman.",
   quoteReference: "https://en.wikipedia.org/wiki/Anna_Mae_Aquash",
 } satisfies Person;

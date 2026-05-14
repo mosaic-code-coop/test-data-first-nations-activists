@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ailton-krenak",
@@ -9,21 +9,17 @@ export default {
   email: "ailton.krenak@krenak.test",
   phone: "+55-555-0119",
   picture: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Ailton_Krenak_%285269420566%29_%28cropped%29.jpg",
-  tags: [
-    "Philosopher",
-    "Krenak",
-    "Environmental",
-    "Author",
-  ],
+  tags: ["Philosopher", "Krenak", "Environmental", "Author"],
   groupMemberships: [],
   reference: "https://en.wikipedia.org/wiki/Ailton_Krenak",
   address: {
-  street: "2020 Test Street",
-  city: "Resplendor",
-  state: "Minas Gerais",
-  country: "Brazil",
-  zipCode: "39737-000",
-},
-  quote: "We need to postpone the end of the world. Indigenous peoples have been postponing the end of the world since 1500.",
+    street: "2020 Test Street",
+    city: "Resplendor",
+    state: "Minas Gerais",
+    country: "Brazil",
+    zipCode: "39737-000",
+  },
+  quote:
+    "We need to postpone the end of the world. Indigenous peoples have been postponing the end of the world since 1500.",
   quoteReference: "https://en.wikipedia.org/wiki/Ailton_Krenak",
 } satisfies Person;

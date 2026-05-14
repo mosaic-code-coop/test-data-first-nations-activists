@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "galina-diatchkova",
@@ -9,21 +9,16 @@ export default {
   email: "galina.diatchkova@evenhealing.test",
   phone: "+7-555-0188",
   picture: null,
-  tags: [
-    "Even",
-    "Traditional-Healing",
-    "Sacred-Sites",
-    "Mining-Resistance",
-    "Sakha-Republic",
-  ],
+  tags: ["Even", "Traditional-Healing", "Sacred-Sites", "Mining-Resistance", "Sakha-Republic"],
   groupMemberships: [],
   address: {
-  street: "567 Test Street",
-  city: "Yakutsk",
-  state: "Sakha Republic",
-  country: "Russia",
-  zipCode: "677000",
-},
-  quote: "Our medicines come from the land our ancestors knew. When they destroy the forest, they destroy our pharmacy.",
+    street: "567 Test Street",
+    city: "Yakutsk",
+    state: "Sakha Republic",
+    country: "Russia",
+    zipCode: "677000",
+  },
+  quote:
+    "Our medicines come from the land our ancestors knew. When they destroy the forest, they destroy our pharmacy.",
   quoteReference: "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/even-peoples-siberia",
 } satisfies Person;

@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "tainui-stephens",
@@ -9,24 +9,15 @@ export default {
   email: "tainui.stephens@maorimedia.test",
   phone: "+64-555-0143",
   picture: null,
-  tags: [
-    "Maori",
-    "Filmmaker",
-    "Te-Rarawa",
-    "Television",
-    "Storyteller",
-  ],
-  groupMemberships: [
-    "maori-television-collective",
-    "indigenous-filmmakers-aotearoa",
-  ],
+  tags: ["Maori", "Filmmaker", "Te-Rarawa", "Television", "Storyteller"],
+  groupMemberships: ["maori-television-collective", "indigenous-filmmakers-aotearoa"],
   address: {
-  street: "789 Test Street",
-  city: "Auckland",
-  state: "Auckland",
-  country: "New Zealand",
-  zipCode: "1010",
-},
+    street: "789 Test Street",
+    city: "Auckland",
+    state: "Auckland",
+    country: "New Zealand",
+    zipCode: "1010",
+  },
   quote: "I prefer to call myself a storyteller who is fortunate to work in a fascinating and important industry.",
   quoteReference: "https://www.nzonscreen.com/person/tainui-stephens",
 } satisfies Person;

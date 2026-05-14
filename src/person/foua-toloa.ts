@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "foua-toloa",
@@ -9,21 +9,15 @@ export default {
   email: "foua.toloa@samoamarine.test",
   phone: "+685-555-0177",
   picture: "https://upload.wikimedia.org/wikipedia/commons/9/92/Foua_Toloa.jpg",
-  tags: [
-    "Samoan",
-    "Marine-Conservation",
-    "Customary-Tenure",
-    "Faa-Samoa",
-    "Traditional-Fishing",
-  ],
+  tags: ["Samoan", "Marine-Conservation", "Customary-Tenure", "Faa-Samoa", "Traditional-Fishing"],
   groupMemberships: [],
   address: {
-  street: "890 Test Street",
-  city: "Apia",
-  state: "Tuamasaga",
-  country: "Samoa",
-  zipCode: "10001",
-},
+    street: "890 Test Street",
+    city: "Apia",
+    state: "Tuamasaga",
+    country: "Samoa",
+    zipCode: "10001",
+  },
   quote: "The ocean is our ancestor. We do not own it, we belong to it.",
   quoteReference: "https://www.unep.org/news-and-stories/story/pacific-islands-front-lines-climate-change",
 } satisfies Person;

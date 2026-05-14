@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "dmitri-berezhkov",
@@ -9,21 +9,15 @@ export default {
   email: "dmitri.berezhkov@nenetsrights.test",
   phone: "+7-555-0187",
   picture: null,
-  tags: [
-    "Nenets",
-    "Reindeer-Herding",
-    "Oil-Gas-Resistance",
-    "Yamal-Peninsula",
-    "Russia",
-  ],
+  tags: ["Nenets", "Reindeer-Herding", "Oil-Gas-Resistance", "Yamal-Peninsula", "Russia"],
   groupMemberships: [],
   address: {
-  street: "234 Test Street",
-  city: "Salekhard",
-  state: "Yamalo-Nenets Autonomous Okrug",
-  country: "Russia",
-  zipCode: "629008",
-},
+    street: "234 Test Street",
+    city: "Salekhard",
+    state: "Yamalo-Nenets Autonomous Okrug",
+    country: "Russia",
+    zipCode: "629008",
+  },
   quote: "The tundra feeds our reindeer and our reindeer feed our families. Without the land, we are nothing.",
   quoteReference: "https://www.iwgia.org/en/russia.html",
 } satisfies Person;

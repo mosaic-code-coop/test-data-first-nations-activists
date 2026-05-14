@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "ocean-wave-torres",
@@ -9,15 +9,6 @@ export default {
   email: "ocean.wave@torresstraitmarine.test",
   phone: "+61-555-0108",
   picture: null,
-  tags: [
-    "Marine-Conservation",
-    "Coral-Reefs",
-    "Torres-Strait-Islander",
-    "Fishing-Rights",
-    "Australian",
-  ],
-  groupMemberships: [
-    "torres-strait-conservation",
-    "pacific-islander-alliance",
-  ],
+  tags: ["Marine-Conservation", "Coral-Reefs", "Torres-Strait-Islander", "Fishing-Rights", "Australian"],
+  groupMemberships: ["torres-strait-conservation", "pacific-islander-alliance"],
 } satisfies Person;

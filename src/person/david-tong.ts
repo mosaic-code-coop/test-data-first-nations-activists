@@ -1,4 +1,4 @@
-import type { Person } from '@mosaic-code/test-data-factory';
+import type { Person } from "@mosaic-code/test-data-factory";
 
 export default {
   id: "david-tong",
@@ -9,21 +9,16 @@ export default {
   email: "david.tong@kiribaticlimate.test",
   phone: "+686-555-0174",
   picture: null,
-  tags: [
-    "I-Kiribati",
-    "Climate-Refugee",
-    "Sea-Level-Rise",
-    "Cultural-Preservation",
-    "Navigation",
-  ],
+  tags: ["I-Kiribati", "Climate-Refugee", "Sea-Level-Rise", "Cultural-Preservation", "Navigation"],
   groupMemberships: [],
   address: {
-  street: "789 Test Street",
-  city: "South Tarawa",
-  state: "Gilbert Islands",
-  country: "Kiribati",
-  zipCode: "0001",
-},
-  quote: "When our islands disappear beneath the waves, where will our ancestors rest? This is not just climate change - it is cultural extinction.",
+    street: "789 Test Street",
+    city: "South Tarawa",
+    state: "Gilbert Islands",
+    country: "Kiribati",
+    zipCode: "0001",
+  },
+  quote:
+    "When our islands disappear beneath the waves, where will our ancestors rest? This is not just climate change - it is cultural extinction.",
   quoteReference: "https://www.climatechangenews.com/tag/kiribati/",
 } satisfies Person;
